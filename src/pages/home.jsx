@@ -1,6 +1,16 @@
+import HeroSection from "../components/hero-section";
+import MessageSection from "../components/message-section";
+import Navbar from "../components/navbar";
+import HeroVideo from "../components/ui/hero-video";
+
 const Home = () => {
   return (
-    <div className="text-8xl font-jakarta text-myGreen">Home</div>
+    <>
+      <Navbar />
+      <HeroSection />
+      <HeroVideo />
+      <MessageSection />
+    </>
   );
 };
 
