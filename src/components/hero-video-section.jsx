@@ -1,8 +1,8 @@
-import RightSidePattrens from '../../assets/img/rightside-pattrens.png';
-import LeftSidePattrens from '../../assets/img/leftside-pattrens.png';
-import MaxWidthWrapper from '../max-width-wrapper';
+import RightSidePattrens from '../assets/img/rightside-pattrens.png';
+import LeftSidePattrens from '../assets/img/leftside-pattrens.png';
+import MaxWidthWrapper from './max-width-wrapper';
 
-const HeroVideo = () => {
+const HeroVideoSection = () => {
   return (
     <div className="-mt-28 skew-0">
       <MaxWidthWrapper>
@@ -20,7 +20,7 @@ const HeroVideo = () => {
               Your browser does not support the video tag.
             </video>
           </div>
-          <div className="bg-myGreen flex justify-between items-center w-[85%] md:w-[50%] rounded-xl drop-shadow-xl -mt-11 p-4 lg:p-0">
+          <div className="bg-myPrimary flex justify-between items-center w-[85%] md:w-[50%] rounded-xl drop-shadow-xl -mt-11 p-4 lg:p-0">
             <img className='hidden lg:block' src={LeftSidePattrens} alt='Left-Side-Pattrens' />
             <div className='flex justify-center items-center gap-10 font-myFont text-myBlack'>
               <div>
@@ -44,4 +44,4 @@ const HeroVideo = () => {
   )
 }
 
-export default HeroVideo
+export default HeroVideoSection

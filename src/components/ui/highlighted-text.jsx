@@ -1,7 +1,7 @@
-const HighlightedText = () => {
+const HighlightedText = ({text}) => {
   return (
-    <div className="bg-myGreen -skew-x-12 rounded-xl inline-flex justify-self-start">
-      <p className="py-6 px-4 skew-x-12 text-myBlack">A Game Changing</p>
+    <div className="bg-myPrimary -skew-x-12 rounded-xl inline-flex justify-self-start">
+      <p className="p-4 skew-x-12 text-myBlack">{text}</p>
     </div>
   )
 }

@@ -31,20 +31,20 @@ const Navbar = () => {
               <a href="#">Contact</a>
             </div>
           </div>
-          <div className="bg-myGreen h-12 flex justify-center items-center rounded-full px-6 border-2 border-myGreen hover:bg-transparent transition-all duration-300 text-myBlack">
+          <div className="bg-myPrimary h-12 flex justify-center items-center rounded-full px-6 border-2 border-myPrimary hover:bg-transparent transition-all duration-300 text-myBlack">
             <p className="font-myFont font-bold">Contact Us</p>
           </div>
         </div>
         {/*Mobile*/}
         <div className="flex lg:hidden items-center justify-between px-3 h-[72px]">
           <img className="h-10 object-cover" src={LenobNavbarLogo} alt="Lenob-Navbar-Logo" />
-          <button onClick={()=>setToggleMenu(true)} className="h-10 w-10 flex justify-center items-center rounded-lg bg-myGreen">
+          <button onClick={()=>setToggleMenu(true)} className="h-10 w-10 flex justify-center items-center rounded-lg bg-myPrimary">
             <CgMenuRightAlt className="size-8"/>
           </button>
           </div>
           {
             toggleMenu ?
-              <div ref={menuRef} className="p-3 space-y-4 text-sm font-myFont font-bold absolute w-1/2 top-[72px] right-3 rounded-lg flex flex-col items-center drop-shadow-lg bg-myGreen">
+              <div ref={menuRef} className="p-3 space-y-4 text-sm font-myFont font-bold absolute w-1/2 top-[72px] right-3 rounded-lg flex flex-col items-center drop-shadow-lg bg-myPrimary">
                 <div>Home</div>
                 <div>Our Services</div>
                 <div className="flex items-center gap-2">

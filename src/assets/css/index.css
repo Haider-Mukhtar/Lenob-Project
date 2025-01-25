@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import "tailwindcss";
 
 @theme {
   --font-myFont: "Plus Jakarta Sans", serif;
+  --font-myNumberFont: "Azeret Mono", serif;
 
   --color-myBlack: #000000;
   --color-myDarkBackground: #222222;
-  --color-myMediumGray: #2A2A2A;
+  --color-myLigtBackground: #2A2A2A;
   --color-myLightGray: #333333;
   --color-myGrayText: #878C91;
+  --color-myYellowText: #E4A321;
   --color-myWhite: #FFFFFF;
-  --color-myGreen: #9DFF50;
+  --color-myPrimary: #9DFF50;
 }
