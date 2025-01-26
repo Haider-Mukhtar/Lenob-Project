@@ -6,6 +6,7 @@ import HeroVideoSection from "../components/hero-video-section";
 import StepsSection from "../components/steps-section";
 import GrowthSection from "../components/growth-section";
 import FamilyBusinessesSection from "../components/family-businesses-section";
+import TestimonialsSection from "../components/testimonials-section";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <GrowthSection />
       <StepsSection />
       <FamilyBusinessesSection />
+      <TestimonialsSection />
     </>
   );
 };

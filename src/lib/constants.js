@@ -8,11 +8,11 @@ import Step2 from "../assets/img/step-2.png";
 import Step3 from "../assets/img/step-3.png";
 import Step4 from "../assets/img/step-4.png";
 
-// import client1 from "../assets/img/client1.png";
-// import client2 from "../assets/img/client2.png";
-// import client3 from "../assets/img/client3.png";
-// import client4 from "../assets/img/client4.png";
-// import client5 from "../assets/img/client5.png";
+import client1 from "../assets/img/client-images/client1.png";
+import client2 from "../assets/img/client-images/client2.png";
+import client3 from "../assets/img/client-images/client3.png";
+import client4 from "../assets/img/client-images/client4.png";
+import client5 from "../assets/img/client-images/client5.png";
 
 // import videoClient1 from "../assets/img/videoClient1.png";
 
@@ -94,6 +94,54 @@ export const familyData = [
     solution: "Our team created highly localized campaigns, tailoring each ad to resonate with specific markets.",
     results: "A 40% boost in international revenue and a growing footprint in key regions.",
     cardColor: "bg-myCard3"
+  },
+]
+
+export const testimonialsData = [
+  {
+    id: 1,
+    title: "High-Quality Ad Creation with Excellent Responsiveness and Efficiency",
+    description: "Salman has made a notable impact on our Google Ads campaigns. He's an excellent communicator, always clear and responsive, and his introduction of new strategies has led to a noticeable improvement in our ROAS. His expertise in digital marketing is truly valuable, and I appreciate his dedication to optimizing our campaigns.",
+    clientName: "Wade Warren",
+    clientDetail: "Founder of Edardx",
+    clientImage: client1,
+    stars: 5,
+  },
+  {
+    id: 2,
+    title: "Transformative Results and Outstanding Communication",
+    description: "Salman has made a notable impact on our Google Ads campaigns. He's an excellent communicator, always clear and responsive, and his introduction of new strategies has led to a noticeable improvement in our ROAS. His expertise in digital marketing is truly valuable, and I appreciate his dedication to optimizing our campaigns. Highly recommended for anyone looking to enhance their advertising efforts.",
+    clientName: "Albert Flores",
+    clientDetail: "Founder of Edardx",
+    clientImage: client2,
+    stars: 5,
+  },
+  {
+    id: 3,
+    title: "High-Quality Ad Creation with Excellent Responsiveness and Efficiency",
+    description: "Salman has made a notable impact on our Google Ads campaigns. He's an excellent communicator, always clear and responsive, and his introduction of new strategies has led to a noticeable improvement in our ROAS. His expertise in digital marketing is truly valuable, and I appreciate his dedication to optimizing our campaigns.",
+    clientName: "Jenny Wilson",
+    clientDetail: "Founder of Edardx",
+    clientImage: client3,
+    stars: 5,
+  },
+  {
+    id: 4,
+    title: "Outstanding Ad Management: Consistently Meeting ROAS Targets with Sulman's Expertise",
+    description: "Salman has made a notable impact on our Google Ads campaigns. He's an excellent communicator, always clear and responsive, and his introduction of new strategies has led to a noticeable improvement in our ROAS. His expertise in digital marketing is truly valuable, and I appreciate his dedication to optimizing our campaigns.",
+    clientName: "Savannah",
+    clientDetail: "Founder of Edardx",
+    clientImage: client4,
+    stars: 5,
+  },
+  {
+    id: 5,
+    title: "Transformative Results and Outstanding Communication",
+    description: "Salman has made a notable impact on our Google Ads campaigns. He's an excellent communicator, always clear and responsive, and his introduction of new strategies has led to a noticeable improvement in our ROAS. His expertise in digital marketing is truly valuable, and I appreciate his dedication to optimizing our campaigns.",
+    clientName: "Guy Hawkins",
+    clientDetail: "Founder of Edardx",
+    clientImage: client5,
+    stars: 5,
   },
 ]
 
