@@ -70,6 +70,33 @@ export const stepsData = [
   },
 ]
 
+export const familyData = [
+  {
+    id: 1,
+    title: "From Struggle to Success: A 300% ROI Boost with Google Ads",
+    challenge: "Low ROI and underperforming campaigns.",
+    solution: "We revamped their Google Ads strategy, introducing advanced targeting techniques and creating compelling ad copy.",
+    results: "A 300% increase in ROI within just two months, solidifying their position as an industry leader.",
+    cardColor: "bg-myCard1"
+  },
+  {
+    id: 2,
+    title: "Revitalizing Meta Ads: Turning $150K Ad Spend into Unstoppable Growth",
+    challenge: "Stagnating social media campaigns and low engagement.",
+    solution: "By implementing innovative visuals, audience-specific messaging, and advanced segmentation, we reignited their campaigns.",
+    results: "$150,000 in monthly ad spend now generates unprecedented brand growth and sales.",
+    cardColor: "bg-myCard2"
+  },
+  {
+    id: 3,
+    title: "Going Global: How Localized Google Ads Increased Revenue by 30%",
+    challenge: "Limited global reach and inconsistent results from Google Ads.",
+    solution: "Our team created highly localized campaigns, tailoring each ad to resonate with specific markets.",
+    results: "A 40% boost in international revenue and a growing footprint in key regions.",
+    cardColor: "bg-myCard3"
+  },
+]
+
 // export const growthContent = [
 //   {
 //     id: 1,
@@ -93,29 +120,7 @@ export const stepsData = [
 //   },
 // ]
 
-// export const familyData = [
-//   {
-//     id: 1,
-//     title: "From Struggle to Success: A 300% ROI Boost with Google Ads",
-//     challenge: "Low ROI and underperforming campaigns.",
-//     solution: "We revamped their Google Ads strategy, introducing advanced targeting techniques and creating compelling ad copy.",
-//     results: "A 300% increase in ROI within just two months, solidifying their position as an industry leader.",
-//   },
-//   {
-//     id: 2,
-//     title: "From Struggle to Success: A 300% ROI Boost with Google Ads",
-//     challenge: "Low ROI and underperforming campaigns.",
-//     solution: "We revamped their Google Ads strategy, introducing advanced targeting techniques and creating compelling ad copy.",
-//     results: "A 300% increase in ROI within just two months, solidifying their position as an industry leader.",
-//   },
-//   {
-//     id: 3,
-//     title: "From Struggle to Success: A 300% ROI Boost with Google Ads",
-//     challenge: "Low ROI and underperforming campaigns.",
-//     solution: "We revamped their Google Ads strategy, introducing advanced targeting techniques and creating compelling ad copy.",
-//     results: "A 300% increase in ROI within just two months, solidifying their position as an industry leader.",
-//   },
-// ]
+
 
 // export const clientsReviews = [
 //   {

@@ -98,7 +98,7 @@ const ProvenExpertiseSection = () => {
                 <FaArrowRight className="size-8 fill-myBlack group-hover:fill-myPrimary" />
               </button>
             </div>
-            <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 rounded-xl border-2 border-myPrimary mt-4 hover:bg-transparent group transition-colors duration-300">
+            <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 rounded-xl cursor-pointer border-2 border-myPrimary mt-4 hover:bg-transparent group transition-colors duration-300">
               <p className="text-myBlack group-hover:text-myPrimary font-myFont text-lg md:text-xl font-bold">Get a Free Audit Report</p>
               <FaArrowRight className="size-6 fill-myBlack group-hover:fill-myPrimary" />
             </div>

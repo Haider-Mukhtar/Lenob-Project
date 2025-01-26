@@ -4,6 +4,7 @@ import MaxWidthWrapper from "./max-width-wrapper";
 import LenobNavbarLogo from "../assets/img/lenob-navbar-logo.png";
 import { useRef, useState } from "react";
 import { useOnClickOutside } from "../hooks/use-on-click-outside";
+import { Link } from "react-router";
 
 const Navbar = () => {
   const menuRef = useRef(null);
@@ -16,22 +17,22 @@ const Navbar = () => {
         {/*Desktop*/}
         <div className="hidden lg:flex items-center justify-between px-8 h-[72px]">
           <div className="flex items-center gap-14">
-            <img className="h-10 object-cover" src={LenobNavbarLogo} alt="Lenob-Navbar-Logo" />
+            <Link to="/"><img className="h-10 object-cover" src={LenobNavbarLogo} alt="Lenob-Navbar-Logo" /></Link>
             <div className="space-x-8 flex items-center text-sm font-myFont font-bold">
               <a href="#">Home</a>
               <a href="#">Our Services</a>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 cursor-pointer">
                 <p>Case study</p> 
                 <FaAngleDown />
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 cursor-pointer">
                 <p>About us</p> 
                 <FaAngleDown />
               </div>
               <a href="#">Contact</a>
             </div>
           </div>
-          <div className="bg-myPrimary h-12 flex justify-center items-center rounded-full px-6 border-2 border-myPrimary hover:bg-transparent transition-all duration-300 text-myBlack">
+          <div className="bg-myPrimary h-12 flex justify-center items-center rounded-full cursor-pointer px-6 border-2 border-myPrimary hover:bg-transparent transition-all duration-300 text-myBlack">
             <p className="font-myFont font-bold">Contact Us</p>
           </div>
         </div>
