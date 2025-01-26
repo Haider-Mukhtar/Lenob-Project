@@ -14,6 +14,7 @@ import client3 from "../assets/img/client-images/client3.png";
 import client4 from "../assets/img/client-images/client4.png";
 import client5 from "../assets/img/client-images/client5.png";
 
+import SuccessClient1 from "../assets/img/client-images/SuccessClient1.png";
 
 export const provenExpertise = [
   {
@@ -151,7 +152,11 @@ export const successStoriesData = [
     description: "I am happy with the quality of work Salman and his team provided. I highly recommend him for anyone looking for Facebook Ads expert. Cheers!",
     clientName: "Jordan Rampson",
     clientDetail: "Content Creator",
+    clientImage: SuccessClient1,
     videoURL: "https://docs.material-tailwind.com/demo.mp4",
+    rotation: "rotate-12",
+    borderColor: "border-myStoriesCard1",
+    marginTop: "mt-0",
   },
   {
     id: 2,
@@ -159,7 +164,11 @@ export const successStoriesData = [
     description: "I am happy with the quality of work Salman and his team provided. I highly recommend him for anyone looking for Facebook Ads expert. Cheers!",
     clientName: "Jordan Rampson",
     clientDetail: "Content Creator",
+    clientImage: SuccessClient1,
     videoURL: "https://docs.material-tailwind.com/demo.mp4",
+    rotation: "-rotate-12",
+    borderColor: "border-myStoriesCard2",
+    marginTop: "mt-14",
   },
   {
     id: 3,
@@ -167,7 +176,23 @@ export const successStoriesData = [
     description: "I am happy with the quality of work Salman and his team provided. I highly recommend him for anyone looking for Facebook Ads expert. Cheers!",
     clientName: "Jordan Rampson",
     clientDetail: "Content Creator",
+    clientImage: SuccessClient1,
     videoURL: "https://docs.material-tailwind.com/demo.mp4",
+    rotation: "rotate-12",
+    borderColor: "border-myStoriesCard3",
+    marginTop: "mt-0",
+  },
+  {
+    id: 4,
+    title: "Facebook Ads Optimization",
+    description: "I am happy with the quality of work Salman and his team provided. I highly recommend him for anyone looking for Facebook Ads expert. Cheers!",
+    clientName: "Jordan Rampson",
+    clientDetail: "Content Creator",
+    clientImage: SuccessClient1,
+    videoURL: "https://docs.material-tailwind.com/demo.mp4",
+    rotation: "-rotate-12",
+    borderColor: "border-myStoriesCard4",
+    marginTop: "mt-14",
   },
 ]
 
