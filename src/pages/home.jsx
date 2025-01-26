@@ -7,6 +7,8 @@ import StepsSection from "../components/steps-section";
 import GrowthSection from "../components/growth-section";
 import FamilyBusinessesSection from "../components/family-businesses-section";
 import TestimonialsSection from "../components/testimonials-section";
+import SuccessStoriesSection from "../components/success-stories-section";
+import ReadyToWorkSection from "../components/ready-to-work-section";
 
 const Home = () => {
   return (
@@ -20,6 +22,9 @@ const Home = () => {
       <StepsSection />
       <FamilyBusinessesSection />
       <TestimonialsSection />
+      <SuccessStoriesSection />
+
+      <ReadyToWorkSection />
     </>
   );
 };
