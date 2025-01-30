@@ -5,6 +5,8 @@ import LenobNavbarLogo from "../assets/img/lenob-navbar-logo.png";
 import { useRef, useState } from "react";
 import { useOnClickOutside } from "../hooks/use-on-click-outside";
 import { Link } from "react-router";
+import { RiMenu3Fill } from "react-icons/ri";
+
 
 const Navbar = () => {
   const menuRef = useRef(null);
@@ -45,7 +47,13 @@ const Navbar = () => {
           </div>
           {
             toggleMenu ?
-              <div ref={menuRef} className="p-3 space-y-4 text-sm font-myFont font-bold absolute w-1/2 top-[72px] right-3 rounded-lg flex flex-col items-center drop-shadow-lg bg-myPrimary">
+            <div ref={menuRef} className="p-2 space-y-4 absolute w-56 sm:w-60 md:w-72 top-2 right-1 rounded-lg flex flex-col drop-shadow-lg bg-myPrimary">
+              <div className="flex justify-end">
+                <button onClick={()=>setToggleMenu(true)} className="h-10 w-10 flex justify-center items-center rounded-lg bg-myDarkBackground">
+                  <RiMenu3Fill  className="size-8 fill-white"/>
+                </button>
+              </div>
+              <div className="text-base font-myFont font-bold space-y-4 flex flex-col items-center pb-2">
                 <div>Home</div>
                 <div>Our Services</div>
                 <div className="flex items-center gap-2">
@@ -60,6 +68,7 @@ const Navbar = () => {
                 <div className="bg-myWhite h-12 flex justify-center items-center rounded-full px-6 hover:border-2 border-myBlack text-myBlack">
                   <p className="font-myFont font-bold">Contact Us</p>
                 </div>
+              </div>
               </div>
               : null
           }

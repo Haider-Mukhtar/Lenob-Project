@@ -26,6 +26,8 @@ const Home = () => {
       <SuccessStoriesSection />
       <InnovateInspireCreateSection />
       <ReadyToWorkSection />
+      {/*
+        */}
     </>
   );
 };
