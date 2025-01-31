@@ -10,6 +10,7 @@ import TestimonialsSection from "../components/testimonials-section";
 import SuccessStoriesSection from "../components/success-stories-section";
 import ReadyToWorkSection from "../components/ready-to-work-section";
 import InnovateInspireCreateSection from "../components/innovate-inspire-create-section";
+import KickstartJourneySection from "../components/kickstart-journey-section";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <FamilyBusinessesSection />
       <TestimonialsSection />
       <SuccessStoriesSection />
+      <KickstartJourneySection />
       <InnovateInspireCreateSection />
       <ReadyToWorkSection />
       {/*

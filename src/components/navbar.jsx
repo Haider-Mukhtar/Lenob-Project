@@ -49,7 +49,7 @@ const Navbar = () => {
             toggleMenu ?
             <div ref={menuRef} className="p-2 space-y-4 absolute w-56 sm:w-60 md:w-72 top-2 right-1 rounded-lg flex flex-col drop-shadow-lg bg-myPrimary">
               <div className="flex justify-end">
-                <button onClick={()=>setToggleMenu(true)} className="h-10 w-10 flex justify-center items-center rounded-lg bg-myDarkBackground">
+                <button onClick={()=>setToggleMenu(false)} className="h-10 w-10 flex justify-center items-center rounded-lg bg-myDarkBackground">
                   <RiMenu3Fill  className="size-8 fill-white"/>
                 </button>
               </div>
