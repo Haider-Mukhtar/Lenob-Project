@@ -11,6 +11,7 @@ import SuccessStoriesSection from "../components/success-stories-section";
 import ReadyToWorkSection from "../components/ready-to-work-section";
 import InnovateInspireCreateSection from "../components/innovate-inspire-create-section";
 import KickstartJourneySection from "../components/kickstart-journey-section";
+import Footer from "../components/footer";
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
       <KickstartJourneySection />
       <InnovateInspireCreateSection />
       <ReadyToWorkSection />
+      <Footer />
       {/*
         */}
     </>
