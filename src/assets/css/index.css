@@ -8,20 +8,31 @@
   --font-myNumberFont: "Azeret Mono", serif;
 
   --color-myBlack: #000000;
+  --color-myWhite: #FFFFFF;
+  --color-myLightGray: #333333;
+  --color-myDarkWhite: #F0F0F0;
+
   --color-myDarkBackground: #222222;
   --color-myLigtBackground: #2A2A2A;
-  --color-myLightGray: #333333;
+  
   --color-myGrayText: #878C91;
   --color-myYellowText: #E4A321;
-  --color-myWhite: #FFFFFF;
-  --color-myDarkWhite: #F0F0F0;
+  
   --color-myPrimary: #9DFF50;
   --color-myDarkPrimary: #5FB819;
+
+  --color-myGrowthCard1: #759FF5;
+  --color-myGrowthCard2: #FFAA00;
+  --color-myGrowthCard3: #00CFE7;
+  --color-myGrowthCard4: #FF7C4D;
+
   --color-myCard1: #FFB288;
   --color-myCard2: #CFD2FF;
   --color-myCard3: #EBFAFD;
+
   --color-myReadyToWork: #FE926B;
   --color-myStoriesCardBackground: #E5E7EC;
+
   --color-myStoriesCard1: #9DFF50;
   --color-myStoriesCard2: #FE926B;
   --color-myStoriesCard3: #33CC79;
