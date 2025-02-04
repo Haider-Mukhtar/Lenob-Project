@@ -21,8 +21,8 @@ const Navbar = () => {
           <div className="flex items-center gap-14">
             <Link to="/"><img className="h-10 object-cover" src={LenobNavbarLogo} alt="Lenob-Navbar-Logo" /></Link>
             <div className="space-x-8 flex items-center text-sm font-myFont font-bold">
-              <a href="#">Home</a>
-              <a href="#">Our Services</a>
+              <Link to="/">Home</Link>
+              <Link to="/google-ads">Our Services</Link>
               <div className="flex items-center gap-2 cursor-pointer">
                 <p>Case study</p> 
                 <FaAngleDown />
