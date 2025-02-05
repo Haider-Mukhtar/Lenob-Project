@@ -223,4 +223,42 @@ export const lenobGrowthData = [
   },
 ]
 
+export const faqData = [
+  {
+    question: "Will a Google Ads & PPC Agency work for my business?",
+    answer:
+      "The honest answer is—it depends. At Lenob.co, we tailor our strategies to suit your unique needs, but if your business is anything like the hundreds we've helped, then yes! Google Ads is one of the fastest ways to grow leads and sales. However, running profitable Google Ads requires expertise. If you've tried ads before without success, chances are it wasn't optimized for ROI. That's where we come in—to ensure your campaigns are both cost-efficient and results-driven.",
+  },
+  {
+    question: "What is the benefit of Google Ads for getting customers?",
+    answer:
+      "Google Ads offers immediate visibility to potential customers actively searching for your products or services. It provides targeted reach, measurable results, and flexible budgeting options to help you acquire customers efficiently.",
+  },
+  {
+    question: "How does PPC affect SEO?",
+    answer:
+      "While PPC and SEO are separate strategies, they can complement each other. PPC provides immediate visibility and data about effective keywords, which can inform your SEO strategy. However, PPC doesn't directly impact your organic search rankings.",
+  },
+  {
+    question: "How do I choose the right Google Ads agency?",
+    answer:
+      "Look for agencies with proven track records, Google certifications, transparent reporting, and clear communication. Consider their experience in your industry, case studies, and their approach to understanding and meeting your specific business goals.",
+  },
+  {
+    question: "Are you a qualified Google Partner?",
+    answer:
+      "Yes, we maintain Google Partner status, which requires ongoing certification, demonstrated expertise, and adherence to best practices in Google Ads management.",
+  },
+  {
+    question: "What is the difference between Google Ads and SEO?",
+    answer:
+      "Google Ads provides immediate, paid visibility in search results, while SEO focuses on improving organic (unpaid) search rankings. Ads offer quick results but require ongoing investment, while SEO builds long-term organic presence but takes more time to show results.",
+  },
+  {
+    question: "What is Quality Score?",
+    answer:
+      "Quality Score is Google's rating of the quality and relevance of your keywords, ads, and landing pages. Higher Quality Scores can lead to lower costs and better ad positions. It's determined by factors like click-through rate, ad relevance, and landing page experience.",
+  },
+]
+
 

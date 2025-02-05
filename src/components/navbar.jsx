@@ -54,8 +54,8 @@ const Navbar = () => {
                 </button>
               </div>
               <div className="text-base font-myFont font-bold space-y-4 flex flex-col items-center pb-2">
-                <div>Home</div>
-                <div>Our Services</div>
+                <Link to="/">Home</Link>
+                <Link to="/google-ads">Our Services</Link>
                 <div className="flex items-center gap-2">
                   <p>Case study</p> 
                   <FaAngleDown />

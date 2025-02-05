@@ -77,6 +77,7 @@ const GADidWrongSection = () => {
               <p className="font-myFont text-myBlack text-lg md:text-2xl font-semibold text-center lg:text-start">With detailed insights into performance, we help you understand exactly how your investment is driving results.</p>
             </div>
           </div>
+          <p className="font-myFont text-myBlack font-bold text-xl md:text-4xl/12">This isn't just about managing campaigns—it's about exceeding expectations. We build campaigns that generate scalable, measurable, and profitable growth.</p>
         </div>
       </MaxWidthWrapper>
     </div>
