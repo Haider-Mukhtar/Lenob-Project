@@ -18,7 +18,7 @@
   --color-myGrayText: #878C91;
   --color-myYellowText: #E4A321;
   
-  --color-myPrimary: #9DFF50;
+  --color-myPrimary: #00CFE7;
   --color-myDarkPrimary: #5FB819;
 
   --color-myGrowthCard1: #759FF5;
@@ -30,11 +30,17 @@
   --color-myCard2: #CFD2FF;
   --color-myCard3: #EBFAFD;
 
-  --color-myReadyToWork: #FE926B;
   --color-myStoriesCardBackground: #E5E7EC;
 
-  --color-myStoriesCard1: #9DFF50;
+  --color-myStoriesCard1: #00CFE7;
   --color-myStoriesCard2: #FE926B;
   --color-myStoriesCard3: #33CC79;
   --color-myStoriesCard4: #E2A11A;
+
+  --color-c1: #D82108;
+  --color-c2: #FFB71B;
+  --color-c3: #6BCDEE;
+  --color-c4: #FF7E71;
+  --color-c5: #7671FF;
+  --color-c6: #344379;
 }

@@ -68,7 +68,7 @@ const ProvenExpertiseSection = () => {
             </div>
             <div className="flex flex-row  justify-center items-center">
               <button onClick={previous} className="bg-myPrimary hidden lg:flex w-14 h-14 aspect-square border-2 group border-myPrimary hover:bg-transparent items-center justify-center rounded-full cursor-pointer transition-all duration-300">
-                <FaArrowLeft  className="size-8 fill-myBlack group-hover:fill-myPrimary" />
+                <FaArrowLeft  className="size-8 fill-myWhite group-hover:fill-myPrimary" />
               </button>
               <div className="w-full md:w-[93%]">
                 <Slider ref={slider => { sliderRef = slider; }} {...settings}>
@@ -87,20 +87,20 @@ const ProvenExpertiseSection = () => {
                 </Slider>
               </div>
               <button onClick={next} className="bg-myPrimary hidden lg:flex w-14 h-14 aspect-square border-2 group border-myPrimary hover:bg-transparent items-center justify-center rounded-full cursor-pointer transition-all duration-300">
-                <FaArrowRight className="size-8 fill-myBlack group-hover:fill-myPrimary" />
+                <FaArrowRight className="size-8 fill-myWhite group-hover:fill-myPrimary" />
               </button>
             </div>
             <div className="flex lg:hidden justify-center items-center gap-10">
               <button onClick={previous} className="bg-myPrimary flex w-14 h-14 aspect-square border-2 group border-myPrimary hover:bg-transparent items-center justify-center rounded-full cursor-pointer transition-all duration-300">
-                <FaArrowLeft  className="size-8 fill-myBlack group-hover:fill-myPrimary" />
+                <FaArrowLeft  className="size-8 fill-myWhite group-hover:fill-myPrimary" />
               </button>
               <button onClick={next} className="bg-myPrimary flex w-14 h-14 aspect-square border-2 group border-myPrimary hover:bg-transparent items-center justify-center rounded-full cursor-pointer transition-all duration-300">
-                <FaArrowRight className="size-8 fill-myBlack group-hover:fill-myPrimary" />
+                <FaArrowRight className="size-8 fill-myWhite group-hover:fill-myPrimary" />
               </button>
             </div>
             <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 rounded-xl cursor-pointer border-2 border-myPrimary mt-4 hover:bg-transparent group transition-colors duration-300">
-              <p className="text-myBlack group-hover:text-myPrimary font-myFont text-lg md:text-xl font-bold">Get a Free Audit Report</p>
-              <FaArrowRight className="size-6 fill-myBlack group-hover:fill-myPrimary" />
+              <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-xl font-bold">Get a Free Audit Report</p>
+              <FaArrowRight className="size-6 fill-myWhite group-hover:fill-myPrimary" />
             </div>
           </div>
         </MaxWidthWrapper>

@@ -1,5 +1,5 @@
 import MaxWidthWrapper from "./max-width-wrapper"
-import LargeGreenStar from '../assets/img/stars/large-green-star.svg';
+import LargeBlueStar from '../assets/img/stars/large-blue-star.svg';
 import { FaCheckSquare } from "react-icons/fa";
 import { ImArrowRight } from "react-icons/im";
 
@@ -8,7 +8,7 @@ const GAMessageSection = () => {
     <div className="py-16">
     <MaxWidthWrapper>
       <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2">
-        <img className="aspect-square" src={LargeGreenStar} alt="Large-Green-Star" />
+        <img className="aspect-square" src={LargeBlueStar} alt="Large-Green-Star" />
           <p className="font-myFont text-3xl/14 md:text-5xl/20 font-bold text-myBlack ">A Personal Note to Business Owners</p>
           <div className="font-myFont text-myBlack font-semibold text-lg/8 md:text-xl/9">
             <p className="mt-6">Dear Business Owner,</p>

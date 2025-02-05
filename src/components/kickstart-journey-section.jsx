@@ -43,7 +43,7 @@ const KickstartJourneySection = () => {
                 Schedule your free consultation today and let's create something extraordinary together!
               </p>
               <div className="bg-myPrimary justify-self-center py-3 px-6 my-10 rounded-xl cursor-pointer border-2 border-myPrimary hover:bg-transparent group transition-colors duration-300">
-                <p className="text-myBlack group-hover:text-myPrimary font-myFont text-lg md:text-xl font-bold">
+                <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-xl font-bold">
                 Book a Discovery Call
                 </p>
             </div>

@@ -17,10 +17,10 @@ const HeroSection = () => {
             &nbsp;in annual revenue with targeted Meta and Google Ads.
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-10">
-            <div className="bg-myPrimary border-2 border-myPrimary cursor-pointer text-lg md:text-xl font-myFont font-semibold px-6 py-3 rounded-xl text-myBlack hover:bg-transparent hover:text-myPrimary transition-all duration-300">
+            <div className="bg-myPrimary border-2 border-myPrimary cursor-pointer text-lg md:text-xl font-myFont font-semibold px-6 py-3 rounded-xl text-myWhite hover:bg-transparent hover:text-myPrimary transition-all duration-300">
               Get a Free Audit Report
             </div>
-            <div className="bg-transparent border-2 border-myPrimary cursor-pointer text-lg md:text-xl font-myFont font-semibold px-6 py-3 rounded-xl text-myPrimary hover:bg-myPrimary hover:text-myBlack transition-all duration-300">
+            <div className="bg-transparent border-2 border-myPrimary cursor-pointer text-lg md:text-xl font-myFont font-semibold px-6 py-3 rounded-xl text-myPrimary hover:bg-myPrimary hover:text-myWhite transition-all duration-300">
               Schedule an ice Breaker
             </div>
           </div>

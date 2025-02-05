@@ -1,4 +1,4 @@
-import SmallGreenStar from '../assets/img/stars/small-green-star.svg';
+import SmallBlueStar from '../assets/img/stars/small-blue-star.svg';
 import SmallGreenWhiteStar from '../assets/img/stars/small-green-white-star.svg';
 import MaxWidthWrapper from './max-width-wrapper';
 
@@ -12,24 +12,24 @@ const InnovateInspireCreateSection = () => {
           <span
             className="absolute inset-0 z-0 text-transparent"
             style={{
-              WebkitTextStroke: "1px #9EFF00",
-              textStroke: "1px #9EFF00",
-              transform: "translate(0, 26px)",
+              WebkitTextStroke: "1px #00CFE7",
+              textStroke: "1px #00CFE7",
+              transform: "translate(0, 24px)",
             }}
           >
             Innovate
           </span>
         </h1>
         <div className='relative'>
-          <img className='relative z-10 aspect-square' src={SmallGreenStar} alt='Small-Green-Star' />
+          <img className='relative z-10 aspect-square' src={SmallBlueStar} alt='Small-Blue-Star' />
             <div
               className="absolute inset-0 z-0 text-transparent"
               style={{
-                WebkitTextStroke: "1px #9EFF00",
-                textStroke: "1px #9EFF00",
+                WebkitTextStroke: "1px #00CFE7",
+                textStroke: "1px #00CFE7",
                 transform: "translate(0, 24px)",
               }}>
-              <img className='aspect-square' src={SmallGreenWhiteStar} alt='Small-Green-Star' />
+              <img className='aspect-square' src={SmallGreenWhiteStar} alt='Small-Blue-Star' />
             </div>
         </div>
         <h1 className="relative text-7xl lg:text-7xl 2xl:text-8xl text-myBlack font-extrabold">
@@ -37,24 +37,24 @@ const InnovateInspireCreateSection = () => {
           <span
             className="absolute inset-0 z-0 text-transparent"
             style={{
-              WebkitTextStroke: "1px #9EFF00",
-              textStroke: "1px #9EFF00",
-              transform: "translate(0, 26px)",
+              WebkitTextStroke: "1px #00CFE7",
+              textStroke: "1px #00CFE7",
+              transform: "translate(0, 24px)",
             }}
           >
             Inspire
           </span>
         </h1>
         <div className='relative'>
-        <img className='relative z-10 aspect-square' src={SmallGreenStar} alt='Small-Green-Star' />
+        <img className='relative z-10 aspect-square' src={SmallBlueStar} alt='Small-Blue-Star' />
           <div
             className="absolute inset-0 z-0 text-transparent"
             style={{
-              WebkitTextStroke: "1px #9EFF00",
-              textStroke: "1px #9EFF00",
+              WebkitTextStroke: "1px #00CFE7",
+              textStroke: "1px #00CFE7",
               transform: "translate(0, 24px)",
             }}>
-            <img className='aspect-square' src={SmallGreenWhiteStar} alt='Small-Green-Star' />
+            <img className='aspect-square' src={SmallGreenWhiteStar} alt='Small-blue-Star' />
           </div>
       </div>
         <h1 className="relative text-7xl lg:text-7xl 2xl:text-8xl text-myBlack font-extrabold">
@@ -62,9 +62,9 @@ const InnovateInspireCreateSection = () => {
           <span
             className="absolute inset-0 z-0 text-transparent"
             style={{
-              WebkitTextStroke: "1px #9EFF00",
-              textStroke: "1px #9EFF00",
-              transform: "translate(0, 26px)",
+              WebkitTextStroke: "1px #00CFE7",
+              textStroke: "1px #00CFE7",
+              transform: "translate(0, 24px)",
             }}
           >
             Create

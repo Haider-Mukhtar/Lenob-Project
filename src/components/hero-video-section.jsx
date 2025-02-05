@@ -22,7 +22,7 @@ const HeroVideoSection = () => {
           </div>
           <div className="bg-myPrimary flex justify-between items-center w-[85%] md:w-[50%] rounded-xl drop-shadow-xl -mt-11 p-4 lg:p-0">
             <img className='hidden lg:block' src={LeftSidePattrens} alt='Left-Side-Pattrens' />
-            <div className='flex justify-center items-center gap-10 font-myFont text-myBlack'>
+            <div className='flex justify-center items-center gap-10 font-myFont text-myWhite'>
               <div>
                 <p className='text-2xl font-bold'>55+</p>
                 <p className='text-xs'>Completed Projects</p>

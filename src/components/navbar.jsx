@@ -34,7 +34,7 @@ const Navbar = () => {
               <a href="#">Contact</a>
             </div>
           </div>
-          <div className="bg-myPrimary h-12 flex justify-center items-center rounded-full cursor-pointer px-6 border-2 border-myPrimary hover:bg-transparent transition-all duration-300 text-myBlack">
+          <div className="bg-myPrimary h-12 flex justify-center items-center rounded-full cursor-pointer px-6 border-2 border-myPrimary hover:bg-transparent transition-all duration-300 text-myWhite hover:text-myPrimary">
             <p className="font-myFont font-bold">Contact Us</p>
           </div>
         </div>
@@ -65,7 +65,7 @@ const Navbar = () => {
                   <FaAngleDown />
                 </div>  
                 <div>Contact</div>
-                <div className="bg-myWhite h-12 flex justify-center items-center rounded-full px-6 hover:border-2 border-myBlack text-myBlack">
+                <div className="bg-myWhite h-12 flex justify-center items-center rounded-full px-6 hover:border-2 border-myBlack text-myWhite hover:text-myPrimary">
                   <p className="font-myFont font-bold">Contact Us</p>
                 </div>
               </div>

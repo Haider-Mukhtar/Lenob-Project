@@ -109,8 +109,8 @@ const FamilyBusinessesSection = () => {
               <button onClick={previous} className="border-2 border-myBlack px-6 py-3 rounded-full bg-transparent hover:bg-myPrimary cursor-pointer transition-colors duration-200">
                 <FaArrowLeft className="size-8" />
               </button>
-              <button onClick={next} className="border-2 border-myPrimary px-6 py-3 rounded-full bg-myPrimary hover:bg-transparent cursor-pointer transition-colors duration-200">
-                <FaArrowRight className="size-8" />
+              <button onClick={next} className="border-2 border-myPrimary px-6 py-3 rounded-full bg-myPrimary hover:bg-transparent cursor-pointer transition-colors duration-200 group">
+                <FaArrowRight className="size-8 fill-myWhite group-hover:fill-myPrimary" />
               </button>
             </div>
           </div>
