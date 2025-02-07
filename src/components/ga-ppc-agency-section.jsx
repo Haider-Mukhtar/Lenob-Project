@@ -70,7 +70,7 @@ const GAPPCAgencySection = () => {
                       </div>
               </Marquee>
             </div>
-                        <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 mt-10 rounded-xl cursor-pointer border-2 border-myPrimary mt-4 hover:bg-transparent group transition-colors duration-300">
+                        <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 mt-10 rounded-xl cursor-pointer border-2 border-myPrimary hover:bg-transparent group transition-colors duration-300">
                           <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-xl font-bold">Claim your Free 30 Min Consultation</p>
                           <FaArrowRight className="size-6 fill-myWhite group-hover:fill-myPrimary" />
                         </div>
