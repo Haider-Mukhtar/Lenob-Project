@@ -232,32 +232,125 @@ export const faqData = [
   {
     question: "What is the benefit of Google Ads for getting customers?",
     answer:
-      "Google Ads offers immediate visibility to potential customers actively searching for your products or services. It provides targeted reach, measurable results, and flexible budgeting options to help you acquire customers efficiently.",
+      "Google Ads is an incredibly powerful tool because it targets people who are actively searching for solutions to their problems. With precision targeting, your ads are shown to “ready-to-buy” prospects, ensuring your budget is spent on generating real leads. Unlike SEO, which can take months to build traction, Google Ads provides instant visibility, helping you outrank competitors and drive traffic quickly.",
   },
   {
     question: "How does PPC affect SEO?",
     answer:
-      "While PPC and SEO are separate strategies, they can complement each other. PPC provides immediate visibility and data about effective keywords, which can inform your SEO strategy. However, PPC doesn't directly impact your organic search rankings.",
+      "PPC and SEO complement each other perfectly. PPC delivers immediate results by placing your business at the top of search results, while SEO builds long-term organic authority. Running PPC campaigns can also provide valuable keyword insights to refine your SEO strategy. Together, they allow you to dominate both the paid and organic sections of search results, maximizing visibility and conversions.",
   },
   {
     question: "How do I choose the right Google Ads agency?",
     answer:
-      "Look for agencies with proven track records, Google certifications, transparent reporting, and clear communication. Consider their experience in your industry, case studies, and their approach to understanding and meeting your specific business goals.",
+      "Look for an agency that doesn't just focus on clicks and impressions but prioritizes ROI. The right agency will have a proven track record, transparent reporting, and an in-depth understanding of your business goals. At Lenob.co, we specialize in driving real results, turning ad spend into measurable profits. Don't just trust an agency—partner with one that delivers.",
   },
   {
     question: "Are you a qualified Google Partner?",
     answer:
-      "Yes, we maintain Google Partner status, which requires ongoing certification, demonstrated expertise, and adherence to best practices in Google Ads management.",
+      "Yes, Lenob.co is a certified Google Partner. This means we've met Google's rigorous standards for campaign performance and client satisfaction. As a partner, we have access to advanced tools, training, and beta features, ensuring your campaigns are always at the forefront of innovation.",
   },
   {
     question: "What is the difference between Google Ads and SEO?",
     answer:
-      "Google Ads provides immediate, paid visibility in search results, while SEO focuses on improving organic (unpaid) search rankings. Ads offer quick results but require ongoing investment, while SEO builds long-term organic presence but takes more time to show results.",
+      "Google Ads (PPC) is a paid strategy that delivers instant visibility by placing your ads at the top of search results. SEO, on the other hand, is a long-term strategy to improve your websit's organic ranking. Both are crucial—Google Ads drives immediate traffic, while SEO sustains your visibility over time. Together, they create a balanced and effective digital presence.",
   },
   {
     question: "What is Quality Score?",
     answer:
-      "Quality Score is Google's rating of the quality and relevance of your keywords, ads, and landing pages. Higher Quality Scores can lead to lower costs and better ad positions. It's determined by factors like click-through rate, ad relevance, and landing page experience.",
+      "Quality Score is Google's rating of the relevance and quality of your keywords, ads, and landing pages. A higher Quality Score means better ad placements at lower costs. At Lenob.co, we improve your Quality Score by creating highly relevant ads and seamless landing page experiences, ensuring you get the best ROI for your campaigns.",
+  },
+]
+
+export const gaTestimonialData = [  
+  {
+    id: 1,
+    name: "Justin Welsh",
+    title: "Founder of The Saturday",
+    rating: 5,
+    heading: "It's the easiest and simplest solution we found on the market!",
+    text: "",
+    video: "https://docs.material-tailwind.com/demo.mp4",
+    videoCard: true,
+  },
+  {
+    id: 2,
+    name: "",
+    title: "",
+    rating: 5,
+    heading: "High-Quality Ad Creation with Excellent Responsiveness and Efficiency",
+    text: "Sulman provided a detailed brief and supplied high quality results with ads covering videos and images. His work was supplied quickly and he was always willing to make changes and suggestions. Overall, Sulman did a good job and I would hire him again.",
+    video: "",
+    videoCard: false,
+  },
+  {
+    id: 3,
+    name: "Justin Welsh",
+    title: "Founder of The Saturday",
+    rating: 5,
+    heading: "It's the easiest and simplest solution we found on the market!",
+    text: "",
+    video: "https://docs.material-tailwind.com/demo.mp4",
+    videoCard: true,
+  },
+  {
+    id: 4,
+    name: "",
+    title: "",
+    rating: 5,
+    heading: "Outstanding Google Ad Management: Consistently Meeting ROAS Targets with Sulman's Expertise",
+    text: "Sulman did a fantastic job managing our ad campaigns, consistently met our ROAS targets. Sulman's expertise and attentiveness made a huge impact. I will highly recommend him for effective ad results. I'll definitely reach out to him for future campaigns!",
+    video: "",
+    videoCard: false,
+  },
+  {
+    id: 5,
+    name: "Justin Welsh",
+    title: "Founder of The Saturday",
+    rating: 5,
+    heading: "Once we added Testimonial, it unlocked so much more conversion for us! 🔥",
+    text: "",
+    video: "https://docs.material-tailwind.com/demo.mp4",
+    videoCard: true,
+  },
+  {
+    id: 6,
+    name: "Justin Welsh",
+    title: "Founder of The Saturday",
+    rating: 5,
+    heading: "It's the easiest and simplest solution we found on the market!",
+    text: "",
+    video: "https://docs.material-tailwind.com/demo.mp4",
+    videoCard: true,
+  },
+  {
+    id: 7,
+    name: "",
+    title: "",
+    rating: 5,
+    heading: "Transformative Results and Outstanding Communication",
+    text: "Salman greatly improved our Google Ads performance with clear communication and smart strategies, boosting our ROAS. His expertise and dedication make him highly recommended for effective ad optimization.",
+    video: "",
+    videoCard: false,
+  },
+  {
+    id: 8,
+    name: "",
+    title: "",
+    rating: 5,
+    heading: "Expert Needed for Google App Campaigns and Attribution Setup for iOS 14.5+",
+    text: "Salman and team really know their stuff! Recommended if you need a Google Ads expert.",
+    video: "",
+    videoCard: false,
+  },
+  {
+    id: 9,
+    name: "",
+    title: "",
+    rating: 5,
+    heading: "Google Ads Expertise That Delivers: Achieving ROAS Targets with Lenob's Guidance",
+    text: "Lenob did a great job setting up and managing our Google Ads, consistently meeting our ROAS targets. Salman's expertise and dedication were evident—I highly recommend his services for ad optimization.",
+    video: "",
+    videoCard: false,
   },
 ]
 
