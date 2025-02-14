@@ -1,8 +1,8 @@
+import CFormSection from "../components/contact/c-form-section"
 import Footer from "../components/footer"
 import GAClientsSaysSection from "../components/google-ads/ga-clients-says-section"
 import GADidWrongSection from "../components/google-ads/ga-did-wrong-section"
 import GAFAQSection from "../components/google-ads/ga-faq-section"
-import GAFormSection from "../components/google-ads/ga-form-section"
 import GAHeroSection from "../components/google-ads/ga-hero-section"
 import GAImagesScetion from "../components/google-ads/ga-images-scetion"
 import GAIndustriesServedSection from "../components/google-ads/ga-industries-served-section"
@@ -28,7 +28,7 @@ const GoogleAds = () => {
       <GAMakeStandoutSection />
       <GAClientsSaysSection />
       <GAFAQSection />
-      <GAFormSection />
+      <CFormSection />
       <InnovateInspireCreateSection />
       <ReadyToWorkSection />
       <Footer />

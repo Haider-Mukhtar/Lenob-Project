@@ -8,6 +8,7 @@ import FAFAQSection from '../components/facebook-ads/fa-faq-section'
 import InnovateInspireCreateSection from '../components/innovate-inspire-create-section'
 import ReadyToWorkSection from '../components/ready-to-work-section'
 import Footer from '../components/footer'
+import CFormSection from '../components/contact/c-form-section'
 
 const FacebookAds = () => {
   return (
@@ -19,7 +20,7 @@ const FacebookAds = () => {
 
       <FAClientsSaysSection />
       <FAFAQSection />
-
+      <CFormSection />
       <InnovateInspireCreateSection />
       <ReadyToWorkSection />
       <Footer />

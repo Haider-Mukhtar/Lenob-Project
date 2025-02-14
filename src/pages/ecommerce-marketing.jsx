@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/navbar'
 
 const EcommerceMarketing = () => {
   return (
-    <div>EcommerceMarketing</div>
+    <>
+      <Navbar />
+    </>
   )
 }
 

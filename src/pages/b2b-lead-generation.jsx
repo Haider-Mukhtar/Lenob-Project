@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/navbar'
 
 const B2BLeadGeneration = () => {
   return (
-    <div>B2BLeadGeneration</div>
+    <>
+      <Navbar />
+    </>
   )
 }
 
