@@ -7,8 +7,7 @@ const FAMessageSection = () => {
   return (
     <div className="py-16">
     <MaxWidthWrapper>
-      <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2">
-        <img className="aspect-square" src={LargeBlueStar} alt="Large-Green-Star" />
+      <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-2">
           <p className="font-myFont text-3xl/14 md:text-5xl/20 font-bold text-myBlack ">A Personal Note to Business Owners</p>
           <div className="font-myFont text-myBlack font-semibold text-lg/8 md:text-xl/9">
             <p className="mt-6">Dear Visionary Entrepreneur,</p>
@@ -21,7 +20,7 @@ const FAMessageSection = () => {
               { text: "Engagement that never translates to sales." },
               { text: "Generic campaigns lost in the noise." },
             ].map((item, index) => (
-              <div key={index} className="flex items-start gap-2">
+              <div key={index} className="flex items-center gap-2">
                 <FaCheckSquare className="size-7 md:size-8 fill-myDarkPrimary flex-shrink-0" />
                 <p>{item.text}</p>
               </div>
@@ -34,7 +33,7 @@ const FAMessageSection = () => {
               { text: "1,400+ conversions" },
               { text: "$120,000 in Revenue" },
             ].map((item, index) => (
-              <div key={index} className="flex items-start gap-2">
+              <div key={index} className="flex items-center gap-2">
                 <ImArrowRight className="size-7 md:size-8 fill-myPrimary flex-shrink-0" />
                 <p>{item.text}</p>
               </div>

@@ -10,9 +10,8 @@ const GAFAQSection = () => {
     <div className="my-10">
       <MaxWidthWrapper>
         <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2 space-y-8">
-          <div className="text-2xl md:text-5xl/16 text-myBlack text-center font-semibold ">
-            Industries we have&nbsp;   
-            <HighlightedText text={"Proudly Served"} />
+          <div className="text-2xl md:text-5xl/16 text-myBlack text-center font-semibold ">  
+            <HighlightedText text={"FAQs: Your Questions, Answered"} />
           </div>
           <div className="font-myFont">
             {faqData.map((faq, index) => (
@@ -39,7 +38,6 @@ const GAFAQSection = () => {
           </div>
         </div>
       </MaxWidthWrapper>
-      <div className="bg-myPrimary -skew-y-[2deg] h-20 mt-10"></div>
     </div>
   )
 }

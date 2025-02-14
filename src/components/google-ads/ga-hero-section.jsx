@@ -7,8 +7,8 @@ const GAHeroSection = () => {
     <MaxWidthWrapper>
       <div className="w-full lg:w-[80%] pt-14 space-y-12 justify-self-center border border-red-600 -skew-y-3 px-2 pb-20">
         <div className="font-myFont text-3xl md:text-5xl/20 font-bold text-center text-myWhite">
-          <p>Where Strategy Meets Scale: How to Make your Google Ads More Predictable,&nbsp;</p>
-          <HighlightedText text={"Scalable and Profitable"} />
+          Where Strategy Meets Scale: How to Make your Google Ads&nbsp;
+          <HighlightedText text={"More Predictable, Scalable and Profitable"} />
         </div>
         <div className="font-myFont text-xl md:text-3xl text-center md:mx-12 text-myWhite">
           We transform your Google Ads Account into a lead generation machine delivering scalable, measurable, and highly profitable leads.

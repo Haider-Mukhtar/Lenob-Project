@@ -39,7 +39,6 @@ const FAFAQSection = () => {
           </div>
         </div>
       </MaxWidthWrapper>
-      <div className="bg-myPrimary -skew-y-[2deg] h-20 mt-10"></div>
     </div>
   )
 }

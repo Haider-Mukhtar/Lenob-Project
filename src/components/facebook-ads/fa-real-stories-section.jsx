@@ -1,36 +1,34 @@
-import MaxWidthWrapper from "../max-width-wrapper"
-import { FaCheckSquare } from "react-icons/fa";
+import React from 'react'
+import MaxWidthWrapper from '../max-width-wrapper'
+import HighlightedText from '../ui/highlighted-text'
 
-const GAMakeStandoutSection = () => {
+const FARealStoriesSection = () => {
   return (
-    <div className="">
+    <div className="py-16">
       <MaxWidthWrapper>
         <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2 space-y-8">
-          <p className="font-myFont text-3xl/14 md:text-5xl/20 font-bold text-myBlack text-center">
-            Stories that Make us Stand to Our World
-          </p>
+          <div className="font-myFont text-3xl md:text-5xl/20 font-bold text-start text-myBlack">
+            Real Stories.&nbsp;
+            <HighlightedText text={"Real Results."} />
+          </div>
           <div className="grid grid-cols-3 gap-4">
                               <div className="rounded-4xl text-myWhite font-myFont overflow-hidden bg-myCard1">
                                 <p className="text-xl md:text-2xl justify-self-start font-myFont text-myWhite bg-myBlack p-5 rounded-br-2xl">01</p>
                                 <div className="px-8 py-4 space-y-4 text-myBlack">
                                 <div className="text-xl md:text-2xl font-bold text-myBlack mb-8">
-                                Generated <span className="text-red-500">65%</span> More Signups While Lowering CPA by <span className="text-red-500">18%</span>
+                                E-Commerce Business: 6x ROAS in 90 Days 
                               </div>
                                   <div className="text-lg md:text-xl">
-                                    <span className="font-semibold">Industry:</span>&nbsp;
-                                    Financial Services
-                                  </div>
-                                  <div className="text-lg md:text-xl">
                                     <span className="font-semibold">Challenge:</span>&nbsp;
-                                    Low signup rates with an unoptimized campaign structure.
+                                    Overspending with no conversions.
                                   </div>
                                   <div className="text-lg md:text-xl">
                                     <span className="font-semibold">Solution:</span>&nbsp;
-                                    Improved ad targeting, revised messaging, and optimized budget allocation.
+                                    Created conversion-focused ads with a retargeting strategy.
                                   </div>
                                   <div className="text-lg md:text-xl">
                                     <span className="font-semibold">Results:</span>&nbsp;
-                                    Increased signups by 65% and reduced CPA by 18% within three months.
+                                    $250,000 in revenue with a 6x ROAS.
                                   </div>
                                 </div>
                               </div>
@@ -38,11 +36,7 @@ const GAMakeStandoutSection = () => {
                                 <p className="text-xl md:text-2xl justify-self-start font-myFont text-myWhite bg-myBlack p-5 rounded-br-2xl">02</p>
                                 <div className="px-8 py-4 space-y-4 text-myBlack">
                                 <div className="text-xl md:text-2xl font-bold text-myBlack mb-8">
-                                Generated&nbsp;
-                                <span className="text-red-500">$1M+</span>
-                                &nbsp;in Purchase Revenue with&nbsp;
-                                <span className="text-red-500">15%</span>
-                                <p>Lower CPA</p>
+                                Fitness Studio: Doubling Class Bookings
                               </div>
                                   <div className="text-lg md:text-xl">
                                     <span className="font-semibold">Industry:</span>&nbsp;
@@ -50,15 +44,15 @@ const GAMakeStandoutSection = () => {
                                   </div>
                                   <div className="text-lg md:text-xl">
                                     <span className="font-semibold">Challenge:</span>&nbsp;
-                                    Challenges with driving sales and maintaining MER.
+                                    Struggling to attract local customers.
                                   </div>
                                   <div className="text-lg md:text-xl">
                                     <span className="font-semibold">Solution:</span>&nbsp;
-                                    Enhanced audience segmentation, revamped ad visuals, and streamlined the landing page experience.
+                                    Designed geo-targeted lead generation ads with compelling offers.
                                   </div>
                                   <div className="text-lg md:text-xl">
                                     <span className="font-semibold">Results:</span>&nbsp;
-                                    Achieved a 230% increase in purchases and a 15% decrease in CPA within four months.
+                                    Doubled bookings and reduced cost per lead by 40%.
                                   </div>
                                 </div>
                               </div>
@@ -66,27 +60,19 @@ const GAMakeStandoutSection = () => {
                                 <p className="text-xl md:text-2xl justify-self-start font-myFont text-myWhite bg-myBlack p-5 rounded-br-2xl">03</p>
                                 <div className="px-8 py-4 space-y-4 text-myBlack">
                                 <div className="text-xl md:text-2xl font-bold text-myBlack mb-8">
-                                Generated&nbsp;
-                                <span className="text-red-500">1283 Leads</span>
-                                &nbsp;in PPC Paid Search with&nbsp;
-                                <span className="text-red-500">18%</span>
-                                <p>Lower CPA</p>
+                                Tech Startup: Building Brand Awareness
                               </div>
                                   <div className="text-lg md:text-xl">
-                                    <span className="font-semibold">Industry:</span>&nbsp;
-                                    Insurance
-                                  </div>
-                                  <div className="text-lg md:text-xl">
                                     <span className="font-semibold">Challenge:</span>&nbsp;
-                                    Underperforming paid search campaigns with poor conversion rates.
+                                    Minimal visibility in a competitive niche.
                                   </div>
                                   <div className="text-lg md:text-xl">
                                     <span className="font-semibold">Solution:</span>&nbsp;
-                                    Refined paid search strategies and improved landing page usability.
+                                    Launched video ad campaigns to educate and engage.
                                   </div>
                                   <div className="text-lg md:text-xl">
                                     <span className="font-semibold">Results:</span>&nbsp;
-                                    Boosted conversion rates by 45% and reduced CPA by 18% in three months.
+                                    Increased brand recognition by 300% in 6 months.
                                   </div>
                                 </div>
             </div>
@@ -97,4 +83,4 @@ const GAMakeStandoutSection = () => {
   )
 }
 
-export default GAMakeStandoutSection
+export default FARealStoriesSection
