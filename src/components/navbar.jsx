@@ -28,12 +28,12 @@ const Navbar = () => {
             <Link to="/"><img className="h-10 object-cover" src={LenobNavbarLogo} alt="Lenob-Navbar-Logo" /></Link>
             <div className="space-x-8 flex items-center text-sm font-myFont font-bold">
               <Link to="/">Home</Link>
-              <button onClick={()=>setToggleSubMenu(true)} className="flex items-center gap-2 cursor-pointer group relative">
+              <button onClick={()=>setToggleSubMenu(!toggleSubMenu)} className="flex items-center gap-2 cursor-pointer group relative">
                 <p>Our Services</p> 
                 <FaAngleDown />
                 {
                   toggleSubMenu ?
-                  <div ref={subMenuRef} className="flex flex-col absolute top-[50px] bg-myWhite px-4 py-8 w-50 rounded-2xl gap-4 items-center transition-transform duration-1000">
+                  <div className="flex flex-col absolute top-[50px] bg-myWhite px-4 py-8 w-50 rounded-2xl gap-4 items-center transition-transform duration-1000">
                     <Link to="/google-ads">Google Ads</Link>
                     <Link to="/facebook-ads">Facebook Ads</Link>
                     <Link to="/seo">SEO</Link>
