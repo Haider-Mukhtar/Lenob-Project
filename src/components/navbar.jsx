@@ -13,6 +13,12 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
   useOnClickOutside(menuRef, () => setToggleMenu(false));
 
+  const subMenuRef = useRef(null);
+  const [toggleSubMenu, setToggleSubMenu] = useState(false)
+  useOnClickOutside(subMenuRef, () => setToggleSubMenu(false));
+
+  const [toggleSubMenuMobile, settoggleSubMenuMobile] = useState(false)
+
   return (
     <nav className="fixed z-[50] top-0 left-0 w-full bg-white">
       <MaxWidthWrapper>
@@ -22,16 +28,24 @@ const Navbar = () => {
             <Link to="/"><img className="h-10 object-cover" src={LenobNavbarLogo} alt="Lenob-Navbar-Logo" /></Link>
             <div className="space-x-8 flex items-center text-sm font-myFont font-bold">
               <Link to="/">Home</Link>
-              <Link to="/google-ads">Our Services</Link>
-              <div className="flex items-center gap-2 cursor-pointer">
-                <p>Case study</p> 
+              <button onClick={()=>setToggleSubMenu(true)} className="flex items-center gap-2 cursor-pointer group relative">
+                <p>Our Services</p> 
                 <FaAngleDown />
-              </div>
-              <div className="flex items-center gap-2 cursor-pointer">
-                <p>About us</p> 
-                <FaAngleDown />
-              </div>
-              <a href="#">Contact</a>
+                {
+                  toggleSubMenu ?
+                  <div ref={subMenuRef} className="flex flex-col absolute top-[50px] bg-myWhite px-4 py-8 w-50 rounded-2xl gap-4 items-center transition-transform duration-1000">
+                    <Link to="/google-ads">Google Ads</Link>
+                    <Link to="/facebook-ads">Facebook Ads</Link>
+                    <Link to="/seo">SEO</Link>
+                    <Link to="/ecommerce-marketing">Ecommerce Marketing</Link>
+                    <Link to="/b2b-lead-generation">B2B Lead Generation</Link>
+                    </div>
+                    : null 
+                }
+              </button>
+              <Link to="/about-us">About Us</Link>
+              <Link to="/privacy">Privacy</Link>
+              <Link to="/contact">Contact</Link>
             </div>
           </div>
           <div className="bg-myPrimary h-12 flex justify-center items-center rounded-full cursor-pointer px-6 border-2 border-myPrimary hover:bg-transparent transition-all duration-300 text-myWhite hover:text-myPrimary">
@@ -55,17 +69,27 @@ const Navbar = () => {
               </div>
               <div className="text-base font-myFont font-bold space-y-4 flex flex-col items-center pb-2">
                 <Link to="/">Home</Link>
-                <Link to="/google-ads">Our Services</Link>
-                <div className="flex items-center gap-2">
-                  <p>Case study</p> 
+                <button onClick={()=>settoggleSubMenuMobile(!toggleSubMenuMobile)} className="flex flex-col items-center gap-2 cursor-pointer group relative">
+                  <div className="flex items-center gap-2">
+                  <p>Our Services</p> 
                   <FaAngleDown />
-                </div>
-                <div className="flex items-center gap-2">
-                  <p>About us</p> 
-                  <FaAngleDown />
-                </div>  
-                <div>Contact</div>
-                <div className="bg-myWhite h-12 flex justify-center items-center rounded-full px-6 hover:border-2 border-myBlack text-myWhite hover:text-myPrimary">
+                  </div>
+                {
+                  toggleSubMenuMobile ?
+                  <div  className="flex flex-col bg-myWhite px-4 py-8 w-50 rounded-2xl gap-4 items-center transition-transform duration-1000">
+                    <Link to="/google-ads">Google Ads</Link>
+                    <Link to="/facebook-ads">Facebook Ads</Link>
+                    <Link to="/seo">SEO</Link>
+                    <Link to="/ecommerce-marketing">Ecommerce Marketing</Link>
+                    <Link to="/b2b-lead-generation">B2B Lead Generation</Link>
+                    </div>
+                    : null 
+                }
+              </button>
+              <Link to="/about-us">About Us</Link>
+              <Link to="/privacy">Privacy</Link>
+              <Link to="/contact">Contact</Link>
+                <div className="bg-myWhite h-12 flex justify-center items-center rounded-full px-6 hover:border-2 border-myBlack text-myBlack hover:text-myPrimary">
                   <p className="font-myFont font-bold">Contact Us</p>
                 </div>
               </div>

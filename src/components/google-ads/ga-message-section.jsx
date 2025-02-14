@@ -1,5 +1,5 @@
-import MaxWidthWrapper from "./max-width-wrapper"
-import LargeBlueStar from '../assets/img/stars/large-blue-star.svg';
+import MaxWidthWrapper from "../max-width-wrapper"
+import LargeBlueStar from '../../assets/img/stars/large-blue-star.svg';
 import { FaCheckSquare } from "react-icons/fa";
 import { ImArrowRight } from "react-icons/im";
 

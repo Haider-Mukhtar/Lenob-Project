@@ -1,6 +1,6 @@
-import MaxWidthWrapper from "./max-width-wrapper"
-import HighlightedText from "./ui/highlighted-text"
-import SmallWhiteStar from "../assets/img/stars/small-white-star.svg";
+import MaxWidthWrapper from "../max-width-wrapper"
+import HighlightedText from "../ui/highlighted-text"
+import SmallWhiteStar from "../../assets/img/stars/small-white-star.svg";
 import { FaArrowRight } from "react-icons/fa";
 
 const GAProblemSection = () => {

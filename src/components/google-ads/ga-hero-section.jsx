@@ -1,5 +1,5 @@
-import MaxWidthWrapper from "./max-width-wrapper"
-import HighlightedText from "./ui/highlighted-text"
+import MaxWidthWrapper from "../max-width-wrapper"
+import HighlightedText from "../ui/highlighted-text"
 
 const GAHeroSection = () => {
   return (

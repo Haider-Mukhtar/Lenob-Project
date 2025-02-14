@@ -1,10 +1,10 @@
 import { AiOutlineClose,AiOutlinePlus } from "react-icons/ai"
-import MaxWidthWrapper from "./max-width-wrapper"
-import HighlightedText from "./ui/highlighted-text"
+import MaxWidthWrapper from "../max-width-wrapper"
+import HighlightedText from "../ui/highlighted-text"
 import { useState } from "react"
-import { faqData } from "../lib/constants"
+import { faqData } from "../../lib/constants"
 
-const GAFAQSection = () => {
+const FAFAQSection = () => {
   const [openIndex, setOpenIndex] = useState(0)
   return (
     <div className="my-10">
@@ -44,4 +44,4 @@ const GAFAQSection = () => {
   )
 }
 
-export default GAFAQSection
+export default FAFAQSection

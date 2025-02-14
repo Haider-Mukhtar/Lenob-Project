@@ -1,11 +1,11 @@
-import MaxWidthWrapper from "./max-width-wrapper"
-import ECommerceBanner from "../assets/img/e-commerce-banner.png";
-import HealthCareBanner from "../assets/img/healthcare-banner.png";
-import EducationBanner from "../assets/img/education-banner.png";
-import TechnologyBanner from "../assets/img/technology-banner.png";
-import FinancialBanner from "../assets/img/financial-banner.png";
-import LegalBanner from "../assets/img/legal-banner.png";
-import InsuranceBanner from "../assets/img/insurance-banner.png";
+import MaxWidthWrapper from "../max-width-wrapper"
+import ECommerceBanner from "../../assets/img/e-commerce-banner.png";
+import HealthCareBanner from "../../assets/img/healthcare-banner.png";
+import EducationBanner from "../../assets/img/education-banner.png";
+import TechnologyBanner from "../../assets/img/technology-banner.png";
+import FinancialBanner from "../../assets/img/financial-banner.png";
+import LegalBanner from "../../assets/img/legal-banner.png";
+import InsuranceBanner from "../../assets/img/insurance-banner.png";
 
 const GAIndustriesServedSection = () => {
   return (

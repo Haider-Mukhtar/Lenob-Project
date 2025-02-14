@@ -1,5 +1,5 @@
 import { useState } from "react"
-import MaxWidthWrapper from "./max-width-wrapper"
+import MaxWidthWrapper from "../max-width-wrapper"
 
 const GAFormSection = () => {
   const [formData, setFormData] = useState({

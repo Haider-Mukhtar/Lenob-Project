@@ -1,11 +1,11 @@
-import MaxWidthWrapper from "./max-width-wrapper"
-import HighlightedText from "./ui/highlighted-text"
-import SmallWhiteStar from "../assets/img/stars/small-white-star.svg";
+import MaxWidthWrapper from "../max-width-wrapper"
+import HighlightedText from "../ui/highlighted-text"
+import SmallWhiteStar from "../../assets/img/stars/small-white-star.svg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ShoppingAdsBanner from "../assets/img/shopping-ads-banner.png";
-import DisplayAdsBanner from "../assets/img/display-ads-banner.png";
-import YoutubeAdsBanner from "../assets/img/youtube-ads-banner.png";
+import ShoppingAdsBanner from "../../assets/img/shopping-ads-banner.png";
+import DisplayAdsBanner from "../../assets/img/display-ads-banner.png";
+import YoutubeAdsBanner from "../../assets/img/youtube-ads-banner.png";
 import Marquee from "react-fast-marquee";
 import { FaArrowRight } from "react-icons/fa6";
 

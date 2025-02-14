@@ -1,7 +1,7 @@
-import MaxWidthWrapper from "./max-width-wrapper"
-import HighlightedText from "./ui/highlighted-text"
-import SmallWhiteStar from "../assets/img/stars/small-white-star.svg";
-import { gaTestimonialData } from "../lib/constants";
+import MaxWidthWrapper from "../max-width-wrapper"
+import HighlightedText from "../ui/highlighted-text"
+import SmallWhiteStar from "../../assets/img/stars/small-white-star.svg";
+import { gaTestimonialData } from "../../lib/constants";
 import { FaStar } from "react-icons/fa";
 
 const GAClientsSaysSection = () => {
