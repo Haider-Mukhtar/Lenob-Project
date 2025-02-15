@@ -10,6 +10,7 @@ import ReadyToWorkSection from '../components/ready-to-work-section'
 import Footer from '../components/footer'
 import CFormSection from '../components/contact/c-form-section'
 import FARealStoriesSection from '../components/facebook-ads/fa-real-stories-section'
+import FA6StepsSection from '../components/facebook-ads/fa-6-steps-section'
 
 const FacebookAds = () => {
   return (
@@ -18,6 +19,8 @@ const FacebookAds = () => {
       <FAHeroSection />
       <FAMessageSection />
       <FAImagesScetion />
+
+      <FA6StepsSection />      
       <FARealStoriesSection />
       <FAClientsSaysSection />
       <FAFAQSection />

@@ -16,13 +16,13 @@ const GAPPCAgencySection = () => {
         <MaxWidthWrapper className={"border-amber-300"}>
           <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2 py-10 ">
             <div className="font-myFont w-full justify-self-center border border-amber-400">
-              <img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />
+              {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
               <div className="text-2xl md:text-5xl/16 text-myWhite text-center font-semibold ">
                 Work with the&nbsp;   
                 <HighlightedText text={"best PPC Agency"} />
                 &nbsp;and double your Revenues, not your budget
               </div>
-              <img className="aspect-square justify-self-start" src={SmallWhiteStar} alt="Small-White-Star" />
+              {/*<img className="aspect-square justify-self-start" src={SmallWhiteStar} alt="Small-White-Star" />*/}
             </div>
             <div className="mt-10 space-y-10">
               <div className="font-myFont text-myWhite flex gap-4 md:gap-12">

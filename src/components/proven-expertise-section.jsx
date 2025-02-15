@@ -59,12 +59,12 @@ const ProvenExpertiseSection = () => {
         <MaxWidthWrapper className={"border-amber-300"}>
           <div className="w-full lg:w-[90%] justify-self-center border border-red-600 px-2 py-10 ">
             <div className="w-full lg:w-[80%] py-2 justify-self-center border border-yellow-300">
-              <img className="aspect-square" src={SmallWhiteStar} alt="Small-White-Star" />
+              {/*<img className="aspect-square" src={SmallWhiteStar} alt="Small-White-Star" />*/}
               <div className="text-2xl md:text-5xl text-myWhite font-myFont font-semibold text-center">
                 Grow Smarter, Faster, and Stronger with&nbsp;
                 <HighlightedText text={"Our Proven Expertise"} />
               </div>
-              <img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />
+              {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
             </div>
             <div className="flex flex-row  justify-center items-center">
               <button onClick={previous} className="bg-myPrimary hidden lg:flex w-14 h-14 aspect-square border-2 group border-myPrimary hover:bg-transparent items-center justify-center rounded-full cursor-pointer transition-all duration-300">
@@ -77,7 +77,7 @@ const ProvenExpertiseSection = () => {
                       <div key={item.id} className="px-2 lg:px-4 py-6">
                         <div  className="bg-myLigtBackground p-6 lg:p-12 rounded-4xl text-myWhite font-myFont drop-shadow-xl">
                           <p className="text-4xl md:text-5xl font-bold font-myNumberFont text-myGrayText">0{item.id}</p>
-                          <img className="object-cover rounded-4xl mt-4 md:mt-8 h-80 aspect-video" src={item.banner} alt="image" /> 
+                          <img className="object-cover rounded-4xl mt-4 md:mt-8 h-80 justify-self-center" src={item.banner} alt="image" /> 
                           <p className="text-2xl md:text-3xl font-bold mt-6 md:mt-8">{item.title}</p>
                           <p className="text-lg md:text-xl mt-3">{item.description}</p>
                         </div>

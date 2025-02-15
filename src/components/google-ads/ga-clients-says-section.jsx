@@ -3,6 +3,7 @@ import HighlightedText from "../ui/highlighted-text"
 import SmallWhiteStar from "../../assets/img/stars/small-white-star.svg";
 import { gaTestimonialData } from "../../lib/constants";
 import { FaStar } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa6";
 
 const GAClientsSaysSection = () => {
   return (
@@ -12,14 +13,14 @@ const GAClientsSaysSection = () => {
         <MaxWidthWrapper className={"border-white"}>
             <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2">
               <div className="font-myFont w-full justify-self-center border border-amber-400">
-                <img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />
+                {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
                 <div className="text-2xl md:text-5xl/16 text-myWhite text-center font-semibold ">
                   What&nbsp;   
                   <HighlightedText text={"Our Clients"} />
                   &nbsp;Say about Us
                 </div>
                 <p className="text-myGrayText text-xl text-center mt-4">At Lenob, we turn visions into victories—delivering growth so impactful, it leaves every client smiling from ear to ear!</p>
-                <img className="aspect-square justify-self-start" src={SmallWhiteStar} alt="Small-White-Star" />
+                {/*<img className="aspect-square justify-self-start" src={SmallWhiteStar} alt="Small-White-Star" />*/}
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 py-10">
                 {
@@ -65,6 +66,10 @@ const GAClientsSaysSection = () => {
                   ))
                 }
               </div>
+              <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 mt-10 rounded-xl cursor-pointer border-2 border-myPrimary hover:bg-transparent group transition-colors duration-300">
+                                        <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-xl font-bold">Get your Free Google Ads Audit</p>
+                                        <FaArrowRight className="size-6 fill-myWhite group-hover:fill-myPrimary" />
+                                      </div>
             </div>
           </MaxWidthWrapper>
         </div>

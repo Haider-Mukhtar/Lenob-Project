@@ -7,7 +7,7 @@ const GrowthSection = () => {
     <div className="py-10">
       <MaxWidthWrapper>
         <div className="w-full lg:w-[90%] justify-self-center border border-red-600 px-2 py-10">
-          <div className="text-2xl md:text-5xl text-myBlack font-myFont font-semibold">
+          <div className="text-2xl md:text-5xl text-myBlack font-myFont font-semibold text-center">
             Why Businesses out there Trust&nbsp;
             <br />
             <HighlightedText text={"Lenob for Growth"} />

@@ -5,7 +5,7 @@ const MessageSection = () => {
   return (
     <div className="py-16">
     <MaxWidthWrapper>
-      <img className="aspect-square" src={LargeBlueStar} alt="Large-Green-Star" />
+        {/*<img className="aspect-square" src={LargeBlueStar} alt="Large-Green-Star" />*/}
         <div className="w-full lg:w-[60%] justify-self-center border border-red-600 px-2">
           <div className="space-y-4" >
             <p className="font-myFont text-3xl/14 md:text-5xl/20 text-center font-semibold text-myBlack ">A Message to Ambitious Entrepreneurs</p>

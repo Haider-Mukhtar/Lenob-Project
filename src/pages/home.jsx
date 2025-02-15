@@ -12,6 +12,7 @@ import ReadyToWorkSection from "../components/ready-to-work-section";
 import InnovateInspireCreateSection from "../components/innovate-inspire-create-section";
 import KickstartJourneySection from "../components/kickstart-journey-section";
 import Footer from "../components/footer";
+import ClientsSaysSection from "../components/clients-says-section";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <StepsSection />
       <FamilyBusinessesSection />
       <TestimonialsSection />
+      <ClientsSaysSection />
       <SuccessStoriesSection />
       <KickstartJourneySection />
       <InnovateInspireCreateSection />

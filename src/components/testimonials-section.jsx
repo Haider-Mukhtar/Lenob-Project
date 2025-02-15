@@ -13,13 +13,13 @@ const TestimonialsSection = () => {
 
             <div className="w-full justify-self-center border border-red-500 px-2">
               <div className="pt-10 font-myFont w-full md:w-[70%] justify-self-center border border-amber-400">
-                <img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />
+              {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
                 <div className="text-2xl md:text-5xl text-myWhite text-center font-semibold ">
                   <HighlightedText text={"Testimonials"} />
                   &nbsp;that Speak to Our Results
                 </div>
                 <p className="text-myGrayText text-xl text-center mt-4">Read through our testimonials to see why our clients love working with us and <br /> how we can help you achieve your business goals</p>
-                <img className="aspect-square justify-self-start" src={SmallWhiteStar} alt="Small-White-Star" />
+                {/*<img className="aspect-square justify-self-start" src={SmallWhiteStar} alt="Small-White-Star" />*/}
               </div>
               <Marquee pauseOnHover>
                 {

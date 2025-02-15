@@ -9,7 +9,7 @@ const GAMakeStandoutSection = () => {
           <p className="font-myFont text-3xl/14 md:text-5xl/20 font-bold text-myBlack text-center">
             Stories that Make us Stand to Our World
           </p>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
                               <div className="rounded-4xl text-myWhite font-myFont overflow-hidden bg-myCard1">
                                 <p className="text-xl md:text-2xl justify-self-start font-myFont text-myWhite bg-myBlack p-5 rounded-br-2xl">01</p>
                                 <div className="px-8 py-4 space-y-4 text-myBlack">

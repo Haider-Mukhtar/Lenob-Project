@@ -9,8 +9,8 @@ const StepsSection = () => {
       <div className=" bg-myDarkBackground skew-y-[2deg]">
         <MaxWidthWrapper className={"border-amber-300"}>
           <div className="w-full lg:w-[90%] justify-self-center border border-red-600 px-2 py-10 ">
-            <img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />
-            <div className="text-2xl md:text-5xl text-myWhite font-myFont font-semibold">
+            {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
+            <div className="text-2xl md:text-5xl text-myWhite font-myFont font-semibold text-center">
               From Traffic to&nbsp;   
               <HighlightedText text={"Conversions"} />
             </div>

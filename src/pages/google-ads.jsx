@@ -32,6 +32,7 @@ const GoogleAds = () => {
       <InnovateInspireCreateSection />
       <ReadyToWorkSection />
       <Footer />
+      {/**/}
     </>
   )
 }
