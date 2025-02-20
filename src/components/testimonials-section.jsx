@@ -8,13 +8,13 @@ import SmallWhiteStar from "../assets/img/stars/small-white-star.svg";
 const TestimonialsSection = () => {
   return (
     <div>
-      <div className="bg-myDarkBackground -skew-y-[2deg] mt-10">
-        <div className="skew-y-[2deg] py-10">
+      <div className="bg-myDarkBackground -skew-y-3 mt-10">
+        <div className="skew-y-3 py-10">
 
             <div className="w-full justify-self-center border border-red-500 px-2">
-              <div className="pt-10 font-myFont w-full md:w-[70%] justify-self-center border border-amber-400">
+              <div className="pt-10 font-myFont w-full md:w-[80%] lg:[70%] justify-self-center border border-amber-400">
               {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
-                <div className="text-2xl md:text-5xl text-myWhite text-center font-semibold ">
+                <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold ">
                   <HighlightedText text={"Testimonials"} />
                   &nbsp;that Speak to Our Results
                 </div>
@@ -24,7 +24,7 @@ const TestimonialsSection = () => {
               <Marquee pauseOnHover>
                 {
                   testimonialsData.map((item) => (
-                    <div key={item.id} className="bg-myLigtBackground p-6 md:p-8 space-y-4 rounded-4xl w-80 md:w-[600px] mx-4 drop-shadow-lg hover:scale-110 duration-300 transition-transform my-10">
+                    <div key={item.id} className="bg-myLigtBackground p-6 md:p-8 space-y-4 rounded-4xl w-80 md:w-[600px] mx-4 drop-shadow-lg hover:scale-105 duration-500 transition-transform my-10">
                       <div className="md:flex justify-between items-center space-y-3 md:space-y-0">
                         <div className="flex items-center gap-2">
                           <img className="aspect-square rounded-full h-16" src={item.clientImage} alt="Client-Image" />
@@ -55,7 +55,7 @@ const TestimonialsSection = () => {
 
         </div>
       </div>
-      <div className="bg-myPrimary -skew-y-[2deg] h-20"></div>
+      <div className="bg-myPrimary -skew-y-3 h-20"></div>
     </div>
   )
 }

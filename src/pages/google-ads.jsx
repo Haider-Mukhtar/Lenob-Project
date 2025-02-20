@@ -1,6 +1,5 @@
-import CFormSection from "../components/contact/c-form-section"
+import { useEffect } from "react"
 import Footer from "../components/footer"
-import GAClientsSaysSection from "../components/google-ads/ga-clients-says-section"
 import GADidWrongSection from "../components/google-ads/ga-did-wrong-section"
 import GAFAQSection from "../components/google-ads/ga-faq-section"
 import GAHeroSection from "../components/google-ads/ga-hero-section"
@@ -13,8 +12,13 @@ import GAProblemSection from "../components/google-ads/ga-problem-section"
 import InnovateInspireCreateSection from "../components/innovate-inspire-create-section"
 import Navbar from "../components/navbar"
 import ReadyToWorkSection from "../components/ready-to-work-section"
+import ClientsSaysSection from "../components/clients-says-section"
+import GAFormSection from "../components/google-ads/ga-form-section"
 
 const GoogleAds = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <>
       <Navbar />
@@ -26,9 +30,9 @@ const GoogleAds = () => {
       <GAPPCAgencySection />
       <GAIndustriesServedSection />
       <GAMakeStandoutSection />
-      <GAClientsSaysSection />
+      <ClientsSaysSection />
       <GAFAQSection />
-      <CFormSection />
+      <GAFormSection />
       <InnovateInspireCreateSection />
       <ReadyToWorkSection />
       <Footer />

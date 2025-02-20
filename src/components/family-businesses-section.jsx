@@ -55,12 +55,14 @@ const FamilyBusinessesSection = () => {
     <div className="mt-10">
       <MaxWidthWrapper className={"border-amber-400"}>
         <div className="w-full lg:w-[90%] justify-self-center border border-red-500 px-2">
-          <div className="py-10 lg:py-20 lg:flex justify-between items-end ">
-            <div className="text-2xl md:text-5xl text-myBlack font-myFont font-semibold">
+          <div className="pt-10 lg:pt-20 lg:flex justify-center items-center ">
+            <div className="text-3xl md:text-5xl/20 text-myBlack font-myFont font-semibold text-center">
               Our&nbsp;
               <HighlightedText text={"Family Businesses"} />
-              we have <br className="hidden md:block"/>helped Grow
+              &nbsp;we have <br className="hidden lg:block"/> helped Grow
             </div>
+          </div>
+          <div className="justify-self-end mb-10">
             <div className="justify-self-center flex justify-center items-center gap-4 px-8 py-4 rounded-full border-2 border-myBlack bg-transparent hover:bg-myPrimary transition-colors duration-300 cursor-pointer mt-6 lg:mt-0">
               <p className="text-myBlack font-myFont font-semibold">See More</p>
               <FaArrowRightLong className="size-5" />
@@ -87,9 +89,9 @@ const FamilyBusinessesSection = () => {
                           <span className="font-semibold">Results:</span>&nbsp;
                           {item.results}
                         </div>
-                        <div className="flex justify-center items-center gap-1 px-8 py-4 rounded-xl border-2 border-myPrimary bg-myPrimary justify-self-start hover:bg-transparent transition-colors duration-200 cursor-pointer">
-                          <p className="font-myFont text-myBlack text-lg font-bold">Read more</p>
-                          <FiArrowUpRight className="size-6" />
+                        <div className="flex justify-center items-center gap-1 px-8 py-2 rounded-full text-myWhite bg-myBlack justify-self-start hover:scale-105 transition-transform duration-300 cursor-pointer group">
+                          <p className="font-myFont text-myWhite text-lg font-bold">Read more</p>
+                          <FiArrowUpRight className="size-6 group-hover:rotate-45 duration-300" />
                         </div>
                       </div>
                     </div>

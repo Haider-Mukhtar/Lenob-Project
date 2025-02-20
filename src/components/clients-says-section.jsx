@@ -8,32 +8,32 @@ import HighlightedText from "./ui/highlighted-text";
 const ClientsSaysSection = () => {
   return (
     <div>
-    <div className="bg-myDarkBackground -skew-y-[2deg] mt-10">
-      <div className="skew-y-[2deg] py-16">
+    <div className="bg-myDarkBackground -skew-y-3 mt-10">
+      <div className="skew-y-3 py-16">
         <MaxWidthWrapper className={"border-white"}>
             <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2">
               <div className="font-myFont w-full justify-self-center border border-amber-400">
                 {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
-                <div className="text-2xl md:text-5xl/16 text-myWhite text-center font-semibold ">
+                <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold ">
                   What&nbsp;   
                   <HighlightedText text={"Our Clients"} />
                   &nbsp;Say about Us
                 </div>
-                <p className="text-myGrayText text-xl text-center mt-4">At Lenob, we turn visions into victories—delivering growth so impactful, it leaves every client smiling from ear to ear!</p>
+                <p className="text-myGrayText text-xl text-center mt-10">At Lenob, we turn visions into victories—delivering growth so impactful, it leaves <br className="hidden lg:block"/> every client smiling from ear to ear!</p>
                 {/*<img className="aspect-square justify-self-start" src={SmallWhiteStar} alt="Small-White-Star" />*/}
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 py-10">
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 py-10">
                 {
                   gaTestimonialData.map((item) => (
                     <div key={item.id}>
                       {
                         item.videoCard === false ?
-                          <div className="bg-myWhite p-6 rounded-2xl font-myFont text-myBlack h-full">
+                          <div className="bg-myWhite p-6 rounded-2xl font-myFont text-myBlack h-full hover:scale-105 transition-transform duration-300">
                             <p className="text-base md:text-lg font-bold">{item.heading}</p>
                             <p className="text-sm md:text-base mt-6">{item.text}</p>
                           </div>
                           :
-                          <div className="rounded-2xl font-myFont bg-myPrimary h-full overflow-hidden">
+                          <div className="rounded-2xl font-myFont bg-myPrimary h-full overflow-hidden hover:scale-105 transition-transform duration-300">
                             <div className="bg-gray-500 w-full relative">
                               <video
                                 className="aspect-video h-full w-full"
@@ -66,15 +66,15 @@ const ClientsSaysSection = () => {
                   ))
                 }
               </div>
-              <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 mt-10 rounded-xl cursor-pointer border-2 border-myPrimary hover:bg-transparent group transition-colors duration-300">
-                                        <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-xl font-bold">Get your Free Google Ads Audit</p>
+              <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 md:px-14 md:py-6 mt-8 rounded-xl cursor-pointer border-2 border-myPrimary hover:bg-transparent group transition-colors duration-300">
+                                        <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-2xl font-bold">Get your Free Google Ads Audit</p>
                                         <FaArrowRight className="size-6 fill-myWhite group-hover:fill-myPrimary" />
                                       </div>
             </div>
           </MaxWidthWrapper>
         </div>
       </div>
-      <div className="bg-myPrimary -skew-y-[2deg] h-20"></div>
+      <div className="bg-myPrimary -skew-y-3 h-20"></div>
       </div>
   )
 }

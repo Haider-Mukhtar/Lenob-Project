@@ -17,14 +17,14 @@ const GAPPCAgencySection = () => {
           <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2 py-10 ">
             <div className="font-myFont w-full justify-self-center border border-amber-400">
               {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
-              <div className="text-2xl md:text-5xl/16 text-myWhite text-center font-semibold ">
+              <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold ">
                 Work with the&nbsp;   
                 <HighlightedText text={"best PPC Agency"} />
                 &nbsp;and double your Revenues, not your budget
               </div>
               {/*<img className="aspect-square justify-self-start" src={SmallWhiteStar} alt="Small-White-Star" />*/}
             </div>
-            <div className="mt-10 space-y-10">
+            <div className="mt-10 space-y-14">
               <div className="font-myFont text-myWhite flex gap-4 md:gap-12">
                 <p className="font-extrabold text-5xl md:text-6xl">01</p>
                 <div className="space-y-2">
@@ -70,8 +70,8 @@ const GAPPCAgencySection = () => {
                       </div>
               </Marquee>
             </div>
-                        <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 mt-10 rounded-xl cursor-pointer border-2 border-myPrimary hover:bg-transparent group transition-colors duration-300">
-                          <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-xl font-bold">Claim your Free 30 Min Consultation</p>
+                        <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 md:px-14 md:py-6 mt-10 rounded-xl cursor-pointer border-2 border-myPrimary hover:bg-transparent group transition-colors duration-300">
+                          <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-2xl text-center font-bold">Claim your Free 30 Min Consultation</p>
                           <FaArrowRight className="size-6 fill-myWhite group-hover:fill-myPrimary" />
                         </div>
           </div>

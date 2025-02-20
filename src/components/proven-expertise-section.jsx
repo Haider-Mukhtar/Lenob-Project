@@ -54,13 +54,13 @@ const ProvenExpertiseSection = () => {
     ]
   };
   return (
-    <div className=" bg-myPrimary -skew-y-[2deg]">
-      <div className=" bg-myDarkBackground skew-y-[2deg]">
+    <div className=" bg-myPrimary -skew-y-3">
+      <div className=" bg-myDarkBackground skew-y-3">
         <MaxWidthWrapper className={"border-amber-300"}>
           <div className="w-full lg:w-[90%] justify-self-center border border-red-600 px-2 py-10 ">
             <div className="w-full lg:w-[80%] py-2 justify-self-center border border-yellow-300">
               {/*<img className="aspect-square" src={SmallWhiteStar} alt="Small-White-Star" />*/}
-              <div className="text-2xl md:text-5xl text-myWhite font-myFont font-semibold text-center">
+              <div className="text-3xl md:text-5xl/20 text-myWhite font-myFont font-semibold text-center">
                 Grow Smarter, Faster, and Stronger with&nbsp;
                 <HighlightedText text={"Our Proven Expertise"} />
               </div>
@@ -98,8 +98,8 @@ const ProvenExpertiseSection = () => {
                 <FaArrowRight className="size-8 fill-myWhite group-hover:fill-myPrimary" />
               </button>
             </div>
-            <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 rounded-xl cursor-pointer border-2 border-myPrimary mt-4 hover:bg-transparent group transition-colors duration-300">
-              <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-xl font-bold">Get a Free Audit Report</p>
+            <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 md:px-14 md:py-6 rounded-xl cursor-pointer border-2 border-myPrimary mt-4 hover:bg-transparent group transition-colors duration-300">
+              <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-2xl font-bold">Get a Free Audit Report</p>
               <FaArrowRight className="size-6 fill-myWhite group-hover:fill-myPrimary" />
             </div>
           </div>

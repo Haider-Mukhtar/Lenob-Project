@@ -5,12 +5,12 @@ import { stepsData } from "../lib/constants";
 
 const StepsSection = () => {
   return (
-    <div className=" bg-myPrimary -skew-y-[2deg]">
-      <div className=" bg-myDarkBackground skew-y-[2deg]">
+    <div className=" bg-myPrimary -skew-y-3">
+      <div className=" bg-myDarkBackground skew-y-3">
         <MaxWidthWrapper className={"border-amber-300"}>
           <div className="w-full lg:w-[90%] justify-self-center border border-red-600 px-2 py-10 ">
             {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
-            <div className="text-2xl md:text-5xl text-myWhite font-myFont font-semibold text-center">
+            <div className="text-3xl md:text-5xl/20 text-myWhite font-myFont font-semibold text-center">
               From Traffic to&nbsp;   
               <HighlightedText text={"Conversions"} />
             </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../components/navbar'
 import FAHeroSection from '../components/facebook-ads/fa-hero-section'
 import FAMessageSection from '../components/facebook-ads/fa-message-section'
@@ -13,6 +13,9 @@ import FARealStoriesSection from '../components/facebook-ads/fa-real-stories-sec
 import FA6StepsSection from '../components/facebook-ads/fa-6-steps-section'
 
 const FacebookAds = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <>
       <Navbar />

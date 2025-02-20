@@ -13,8 +13,12 @@ import InnovateInspireCreateSection from "../components/innovate-inspire-create-
 import KickstartJourneySection from "../components/kickstart-journey-section";
 import Footer from "../components/footer";
 import ClientsSaysSection from "../components/clients-says-section";
+import { useEffect } from "react";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />

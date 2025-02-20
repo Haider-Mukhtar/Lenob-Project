@@ -13,7 +13,7 @@ const KickstartJourneySection = () => {
               {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
               <div className="grid grid-cols-1 xl:grid-cols-2 my-12 gap-10 xl:gap-0">
                 <div className="flex justify-center items-center">
-                  <div className="text-2xl md:text-5xl text-myWhite text-center font-semibold">
+                  <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold">
                     <HighlightedText text={"Kickstart Your Journey"} />
                     &nbsp;to Unstoppable Growth!
                   </div>
@@ -42,10 +42,9 @@ const KickstartJourneySection = () => {
               <p className="font-myFont text-xl md:text-3xl text-myWhite font-semibold w-full md:w-[80%] justify-self-center text-center">
                 Schedule your free consultation today and let's create something extraordinary together!
               </p>
-              <div className="bg-myPrimary justify-self-center py-3 px-6 my-10 rounded-xl cursor-pointer border-2 border-myPrimary hover:bg-transparent group transition-colors duration-300">
-                <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-xl font-bold">
-                Book a Discovery Call
-                </p>
+              <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 md:px-14 md:py-6  rounded-xl cursor-pointer border-2 border-myPrimary mt-8 hover:bg-transparent group transition-colors duration-300">
+              <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-2xl font-bold">Book a Discovery Call</p>
+              <FaArrowRight className="size-6 fill-myWhite group-hover:fill-myPrimary" />
             </div>
             </div>
           </MaxWidthWrapper>

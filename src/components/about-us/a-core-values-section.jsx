@@ -10,7 +10,7 @@ const ACoreValuesSection = () => {
       <div className="skew-y-[2deg] py-16">
         <MaxWidthWrapper className={"border-white"}>
             <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-2 space-y-8">
-            <div className="text-2xl md:text-5xl/16 text-myBlack text-center font-semibold ">  
+            <div className="text-3xl md:text-5xl/20 text-myBlack text-center font-semibold ">  
             <HighlightedText text={"What We Our Core Values"} />
               </div>
                 <ul className='font-myFont text-myWhite font-bold text-xl/8 md:text-3xl/14 list-decimal list-inside'>

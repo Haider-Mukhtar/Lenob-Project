@@ -8,14 +8,14 @@ const GAProblemSection = () => {
     <div className=" bg-myPrimary -skew-y-[2deg]">
       <div className=" bg-myDarkBackground skew-y-[2deg]">
         <MaxWidthWrapper className={"border-amber-300"}>
-          <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2 py-10 ">
+          <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-2 py-10 ">
             <div className="pt-10 font-myFont w-full justify-self-center border border-amber-400">
               <div className="bg-yellow-400 justify-self-center flex  items-center px-2 py-1 rounded-full gap-2">
                 <div className="bg-myWhite h-3 w-3 rounded-full"></div>
                 <p className="font-myFont text-myWhite text-base">Get Consistent Sales and 3X Your Profits</p>
               </div>
               {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
-              <div className="text-2xl md:text-5xl/16 text-myWhite text-center font-semibold ">
+              <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold ">
                 Businesses typically face one of two challenges: a sales&nbsp;   
                 <HighlightedText text={"problem or a lead problem."} />
                 &nbsp;We solve both
@@ -56,8 +56,8 @@ const GAProblemSection = () => {
                 </li>
               </ul>
               <p className="text-lg md:text-3xl/12">Our solutions ensure a steady flow of high-quality inquiries and appointments tailored to your business goals 🚀</p>
-              <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 rounded-xl cursor-pointer border-2 border-myPrimary mt-4 hover:bg-transparent group transition-colors duration-300">
-                <p className="text-myWhite group-hover:text-myPrimary font-myFont text-base md:text-xl font-bold">Get your Free Google Ads Audit</p>
+              <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 md:px-14 md:py-6 rounded-xl cursor-pointer border-2 border-myPrimary mt-4 hover:bg-transparent group transition-colors duration-300">
+                <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-2xl font-bold text-center">Get your Free Google Ads Audit</p>
                 <FaArrowRight className="size-6 fill-myWhite group-hover:fill-myPrimary" />
               </div>
             </div>

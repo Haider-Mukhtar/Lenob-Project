@@ -5,12 +5,12 @@ import { useState } from "react"
 import { faqData } from "../../lib/constants"
 
 const GAFAQSection = () => {
-  const [openIndex, setOpenIndex] = useState(0)
+  const [openIndex, setOpenIndex] = useState(0);
   return (
     <div className="my-10">
       <MaxWidthWrapper>
-        <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2 space-y-8">
-          <div className="text-2xl md:text-5xl/16 text-myBlack text-center font-semibold ">  
+        <div className="w-full md:w-[95%] lg:[80%] justify-self-center border border-red-600 px-2 space-y-14">
+          <div className="text-3xl md:text-5xl/20 text-myBlack text-center font-semibold ">  
             <HighlightedText text={"FAQs: Your Questions, Answered"} />
           </div>
           <div className="font-myFont">

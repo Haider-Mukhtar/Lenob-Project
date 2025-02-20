@@ -7,7 +7,7 @@ const HeroVideoSection = () => {
     <div className="-mt-28 skew-0">
       <MaxWidthWrapper>
         <div className="flex flex-col justify-center items-center px-2 ">
-          <div className="rounded-2xl bg-gray-500 w-full md:w-[70%] border-[10px]">
+          <div className="rounded-2xl bg-gray-500 w-full md:w-[80%] lg:w-[70%] border-[10px]">
             <video
               className="aspect-video h-full w-full rounded-2xl"
               controls

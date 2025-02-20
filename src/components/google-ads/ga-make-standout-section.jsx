@@ -9,8 +9,8 @@ const GAMakeStandoutSection = () => {
           <p className="font-myFont text-3xl/14 md:text-5xl/20 font-bold text-myBlack text-center">
             Stories that Make us Stand to Our World
           </p>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-                              <div className="rounded-4xl text-myWhite font-myFont overflow-hidden bg-myCard1">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 px-4 lg:px-0">
+                              <div className="rounded-4xl text-myWhite font-myFont overflow-hidden bg-myCard1 hover:scale-105 transition-transform duration-300">
                                 <p className="text-xl md:text-2xl justify-self-start font-myFont text-myWhite bg-myBlack p-5 rounded-br-2xl">01</p>
                                 <div className="px-8 py-4 space-y-4 text-myBlack">
                                 <div className="text-xl md:text-2xl font-bold text-myBlack mb-8">
@@ -34,7 +34,7 @@ const GAMakeStandoutSection = () => {
                                   </div>
                                 </div>
                               </div>
-                              <div className="rounded-4xl text-myWhite font-myFont overflow-hidden bg-myCard2">
+                              <div className="rounded-4xl text-myWhite font-myFont overflow-hidden bg-myCard2 hover:scale-105 transition-transform duration-300">
                                 <p className="text-xl md:text-2xl justify-self-start font-myFont text-myWhite bg-myBlack p-5 rounded-br-2xl">02</p>
                                 <div className="px-8 py-4 space-y-4 text-myBlack">
                                 <div className="text-xl md:text-2xl font-bold text-myBlack mb-8">
@@ -62,7 +62,7 @@ const GAMakeStandoutSection = () => {
                                   </div>
                                 </div>
                               </div>
-                              <div className="rounded-4xl text-myWhite font-myFont overflow-hidden bg-myCard3">
+                              <div className="rounded-4xl text-myWhite font-myFont overflow-hidden bg-myCard3 hover:scale-105 transition-transform duration-300">
                                 <p className="text-xl md:text-2xl justify-self-start font-myFont text-myWhite bg-myBlack p-5 rounded-br-2xl">03</p>
                                 <div className="px-8 py-4 space-y-4 text-myBlack">
                                 <div className="text-xl md:text-2xl font-bold text-myBlack mb-8">

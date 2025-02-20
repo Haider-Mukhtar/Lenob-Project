@@ -25,9 +25,9 @@ const Navbar = () => {
         {/*Desktop*/}
         <div className="hidden lg:flex items-center justify-between px-8 h-[72px]">
           <div className="flex items-center gap-14">
-            <Link to="/"><img className="h-10 object-cover" src={LenobNavbarLogo} alt="Lenob-Navbar-Logo" /></Link>
+            <Link to="/" onClick={() => window.scrollTo(0, 0)}><img className="h-10 object-cover" src={LenobNavbarLogo} alt="Lenob-Navbar-Logo" /></Link>
             <div className="space-x-8 flex items-center text-sm font-myFont font-bold">
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={() => window.scrollTo(0, 0)}>Home</Link>
               <button onClick={()=>setToggleSubMenu(!toggleSubMenu)} className="flex items-center gap-2 cursor-pointer group relative">
                 <p>Our Services</p> 
                 <FaAngleDown />
@@ -54,21 +54,23 @@ const Navbar = () => {
         </div>
         {/*Mobile*/}
         <div className="flex lg:hidden items-center justify-between px-3 h-[72px]">
-          <img className="h-10 object-cover" src={LenobNavbarLogo} alt="Lenob-Navbar-Logo" />
+          <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+            <img className="h-10 object-cover" src={LenobNavbarLogo} alt="Lenob-Navbar-Logo" />
+            </Link>
           <button onClick={()=>setToggleMenu(true)} className="h-10 w-10 flex justify-center items-center rounded-lg bg-myPrimary">
-            <CgMenuRightAlt className="size-8"/>
+            <RiMenu3Fill className="size-8 fill-myWhite"/>
           </button>
           </div>
           {
             toggleMenu ?
-            <div ref={menuRef} className="p-2 space-y-4 absolute w-56 sm:w-60 md:w-72 top-2 right-1 rounded-lg flex flex-col drop-shadow-lg bg-myPrimary">
+            <div ref={menuRef} className="p-2 space-y-4 absolute w-56 sm:w-60 md:w-72 top-2 right-1 rounded-lg flex lg:hidden flex-col drop-shadow-lg bg-myPrimary">
               <div className="flex justify-end">
                 <button onClick={()=>setToggleMenu(false)} className="h-10 w-10 flex justify-center items-center rounded-lg bg-myDarkBackground">
                   <RiMenu3Fill  className="size-8 fill-white"/>
                 </button>
               </div>
               <div className="text-base font-myFont font-bold space-y-4 flex flex-col items-center pb-2">
-                <Link to="/">Home</Link>
+                <Link to="/" onClick={() => window.scrollTo(0, 0)}>Home</Link>
                 <button onClick={()=>settoggleSubMenuMobile(!toggleSubMenuMobile)} className="flex flex-col items-center gap-2 cursor-pointer group relative">
                   <div className="flex items-center gap-2">
                   <p>Our Services</p> 
@@ -89,7 +91,7 @@ const Navbar = () => {
               <Link to="/about-us">About Us</Link>
               <Link to="/privacy">Privacy</Link>
               <Link to="/contact">Contact</Link>
-                <div className="bg-myWhite h-12 flex justify-center items-center rounded-full px-6 hover:border-2 border-myBlack text-myBlack hover:text-myPrimary">
+                <div className="bg-myWhite h-12 flex justify-center items-center rounded-full px-6 hover:border-2 border-myBlack text-myPrimary hover:text-myBlack">
                   <p className="font-myFont font-bold">Contact Us</p>
                 </div>
               </div>

@@ -9,20 +9,20 @@ const SuccessStoriesSection = () => {
     <div className="mt-10">
       <MaxWidthWrapper className={"border-amber-300"}>
         <div className="w-full lg:w-[90%] justify-self-center border border-red-600 px-2 py-10 ">
-          <div className="font-myFont w-full md:w-[70%] justify-self-center border border-amber-400">
+          <div className="font-myFont w-full lg:w-[70%] justify-self-center border border-amber-400">
             {/*<img className="aspect-square justify-self-start" src={SmallBlueStar} alt="Small-White-Star" />*/}
-            <div className="text-2xl md:text-5xl text-myBlack text-center font-semibold ">
+            <div className="text-3xl md:text-5xl/20 text-myBlack text-center font-semibold ">
               <HighlightedText text={"Success"} />
               &nbsp;Stories of our loyal clients
             </div>
-            <p className="text-myGrayText text-xl text-center mt-4">At Captens, we turn visions into victories—delivering growth so impactful, it leaves every client smiling from ear to ear!</p>
+            <p className="text-myGrayText text-xl text-center mt-6">At Captens, we turn visions into victories—delivering growth so impactful, it leaves every client smiling from ear to ear!</p>
             <img className="aspect-square justify-self-end" src={SmallBlueStar} alt="Small-White-Star" />
           </div>
           {/*Mobile*/}
           <div className="md:hidden grid grid-cols-1 gap-8 px-4 mt-10 w-full justify-self-center border border-amber-400">
             {
               successStoriesData.map((item) => (
-                <div key={item.id}>
+                <div key={item.id} className="hover:scale-105 transition-transform duration-500">
                   <div className={`bg-myStoriesCardBackground border-8 ${item.borderColor} rounded-3xl px-4 py-4`}>
                     <p className="font-myFont text-2xl font-bold text-myBlack">{item.title}</p>
                     <p className="font-myFont text-base text-myBlack mt-2">{item.description}</p>
@@ -45,7 +45,7 @@ const SuccessStoriesSection = () => {
           <div className="hidden xl:hidden md:grid grid-cols-2 gap-8 px-4 mt-10 w-[92%] justify-self-center border border-amber-400">
             {
               successStoriesData.map((item) => (
-                <div key={item.id} className="">
+                <div key={item.id} className="hover:scale-105 transition-transform duration-500">
                   <div className={`bg-myStoriesCardBackground border-8 ${item.borderColor} ${item.rotation} rounded-3xl px-4 py-4`}>
                     <p className="font-myFont text-2xl font-bold text-myBlack">{item.title}</p>
                     <p className="font-myFont text-base text-myBlack mt-2">{item.description}</p>
@@ -68,7 +68,7 @@ const SuccessStoriesSection = () => {
           <div className="hidden xl:grid grid-cols-4 mt-10 w-[92%] justify-self-center border border-amber-400">
             {
               successStoriesData.map((item) => (
-                <div key={item.id} className={`${item.marginTop}`}>
+                <div key={item.id} className={`${item.marginTop} hover:scale-105 transition-transform duration-500`}>
                   <div className={`bg-myStoriesCardBackground border-8 ${item.borderColor} ${item.rotation} rounded-3xl px-4 py-4`}>
                     <p className="font-myFont text-2xl font-bold text-myBlack">{item.title}</p>
                     <p className="font-myFont text-base text-myBlack mt-2">{item.description}</p>
