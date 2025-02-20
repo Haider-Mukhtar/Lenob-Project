@@ -10,7 +10,7 @@ const KickstartJourneySection = () => {
         <div className="skew-y-[2deg] py-16">
           <MaxWidthWrapper className={"border-white"}>
             <div className="w-full lg:w-[90%] justify-self-center border border-red-600 px-2">
-              <img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />
+              {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
               <div className="grid grid-cols-1 xl:grid-cols-2 my-12 gap-10 xl:gap-0">
                 <div className="flex justify-center items-center">
                   <div className="text-2xl md:text-5xl text-myWhite text-center font-semibold">
