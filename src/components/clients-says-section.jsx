@@ -4,13 +4,15 @@ import { FaStar } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
 import MaxWidthWrapper from "./max-width-wrapper";
 import HighlightedText from "./ui/highlighted-text";
+import LeftSideVerticalText from "./ui/left-side-vertical-text";
 
 const ClientsSaysSection = () => {
   return (
     <div>
     <div className="bg-myDarkBackground -skew-y-3 mt-10">
       <div className="skew-y-3 py-16">
-        <MaxWidthWrapper className={"border-white"}>
+          <MaxWidthWrapper className={"border-white"}>
+          <LeftSideVerticalText text={"Our Clients"} className="bg-myLightGray -left-12" />
             <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2">
               <div className="font-myFont w-full justify-self-center border border-amber-400">
                 {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}

@@ -1,6 +1,7 @@
 import React from 'react'
 import MaxWidthWrapper from '../max-width-wrapper'
 import HighlightedText from '../ui/highlighted-text'
+import LeftSideVerticalText from '../ui/left-side-vertical-text'
 
 const ACoreValuesSection = () => {
   return (
@@ -8,7 +9,8 @@ const ACoreValuesSection = () => {
     <div className="bg-myPrimary h-32"></div>
     <div className="bg-myDarkBackground -skew-y-[2deg] font-myFont -mt-18">
       <div className="skew-y-[2deg] py-16">
-        <MaxWidthWrapper className={"border-white"}>
+          <MaxWidthWrapper className={"border-white relative"}>
+            <LeftSideVerticalText text={"Core Values"} className="bg-myLightGray -left-12" />
             <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-2 space-y-8">
             <div className="text-3xl md:text-5xl/20 text-myBlack text-center font-semibold ">  
             <HighlightedText text={"What We Our Core Values"} />

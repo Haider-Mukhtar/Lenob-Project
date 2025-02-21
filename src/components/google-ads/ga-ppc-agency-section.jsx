@@ -8,12 +8,14 @@ import DisplayAdsBanner from "../../assets/img/display-ads-banner.png";
 import YoutubeAdsBanner from "../../assets/img/youtube-ads-banner.png";
 import Marquee from "react-fast-marquee";
 import { FaArrowRight } from "react-icons/fa6";
+import LeftSideVerticalText from "../ui/left-side-vertical-text";
 
 const GAPPCAgencySection = () => {
   return (
     <div className=" bg-myPrimary -skew-y-[2deg]">
       <div className=" bg-myDarkBackground skew-y-[2deg]">
         <MaxWidthWrapper className={"border-amber-300"}>
+        <LeftSideVerticalText text={"PPC Agency"} className="bg-myLightGray -left-11" />
           <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2 py-10 ">
             <div className="font-myFont w-full justify-self-center border border-amber-400">
               {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}

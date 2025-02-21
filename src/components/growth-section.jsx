@@ -1,11 +1,13 @@
 import { lenobGrowthData } from "../lib/constants"
 import MaxWidthWrapper from "./max-width-wrapper"
 import HighlightedText from "./ui/highlighted-text"
+import LeftSideVerticalText from "./ui/left-side-vertical-text"
 
 const GrowthSection = () => {
   return (
     <div className="py-10">
       <MaxWidthWrapper>
+      <LeftSideVerticalText text={"Lenob for Growth"} className="bg-myPrimary -left-18" />
         <div className="w-full lg:w-[90%] justify-self-center border border-red-600 px-2 py-10">
           <div className="text-3xl md:text-5xl/20 text-myBlack font-myFont font-semibold text-center">
             Why Businesses out there Trust&nbsp;

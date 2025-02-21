@@ -2,12 +2,14 @@ import MaxWidthWrapper from "../max-width-wrapper"
 import HighlightedText from "../ui/highlighted-text"
 import SmallWhiteStar from "../../assets/img/stars/small-white-star.svg";
 import { FaArrowRight } from "react-icons/fa";
+import LeftSideVerticalText from '../ui/left-side-vertical-text'
 
 const GAProblemSection = () => {
   return (
     <div className=" bg-myPrimary -skew-y-[2deg]">
       <div className=" bg-myDarkBackground skew-y-[2deg]">
         <MaxWidthWrapper className={"border-amber-300"}>
+        <LeftSideVerticalText text={"challenges"} className="bg-myLightGray -left-12" />
           <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-2 py-10 ">
             <div className="pt-10 font-myFont w-full justify-self-center border border-amber-400">
               <div className="bg-yellow-400 justify-self-center flex  items-center px-2 py-1 rounded-full gap-2">

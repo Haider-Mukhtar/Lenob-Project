@@ -2,12 +2,14 @@ import MaxWidthWrapper from "./max-width-wrapper"
 import HighlightedText from "./ui/highlighted-text"
 import SmallWhiteStar from "../assets/img/stars/small-white-star.svg";
 import { stepsData } from "../lib/constants";
+import LeftSideVerticalText from "./ui/left-side-vertical-text";
 
 const StepsSection = () => {
   return (
     <div className=" bg-myPrimary -skew-y-3">
       <div className=" bg-myDarkBackground skew-y-3">
         <MaxWidthWrapper className={"border-amber-300"}>
+        <LeftSideVerticalText text={"Traffic"} className="bg-myLightGray -left-6" />
           <div className="w-full lg:w-[90%] justify-self-center border border-red-600 px-2 py-10 ">
             {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
             <div className="text-3xl md:text-5xl/20 text-myWhite font-myFont font-semibold text-center">

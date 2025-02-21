@@ -8,7 +8,7 @@ import { useRef } from "react";
 import { FaArrowLeft } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
 import { provenExpertise } from "../lib/constants";
-
+import LeftSideVerticalText from './ui/left-side-vertical-text'
 
 const ProvenExpertiseSection = () => {
   let sliderRef = useRef(null);
@@ -57,6 +57,7 @@ const ProvenExpertiseSection = () => {
     <div className=" bg-myPrimary -skew-y-3">
       <div className=" bg-myDarkBackground skew-y-3">
         <MaxWidthWrapper className={"border-amber-300"}>
+        <LeftSideVerticalText text={"Our Expertise"} className="bg-myLightGray -left-12" />
           <div className="w-full lg:w-[90%] justify-self-center border border-red-600 px-2 py-10 ">
             <div className="w-full lg:w-[80%] py-2 justify-self-center border border-yellow-300">
               {/*<img className="aspect-square" src={SmallWhiteStar} alt="Small-White-Star" />*/}

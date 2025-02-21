@@ -3,11 +3,13 @@ import HighlightedText from "./ui/highlighted-text"
 import SmallBlueStar from "../assets/img/stars/small-blue-star.svg"
 import { successStoriesData } from "../lib/constants"
 import { FaPlay } from "react-icons/fa";
+import LeftSideVerticalText from "./ui/left-side-vertical-text";
 
 const SuccessStoriesSection = () => {
   return (
     <div className="mt-10">
       <MaxWidthWrapper className={"border-amber-300"}>
+      <LeftSideVerticalText text={"Testimonials"} className="bg-myPrimary -left-12" />
         <div className="w-full lg:w-[90%] justify-self-center border border-red-600 px-2 py-10 ">
           <div className="font-myFont w-full lg:w-[70%] justify-self-center border border-amber-400">
             {/*<img className="aspect-square justify-self-start" src={SmallBlueStar} alt="Small-White-Star" />*/}
