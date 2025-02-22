@@ -170,7 +170,7 @@ const ContactForm = () => {
             </form>
           </div>
               </div>
-              <button               type="submit" className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 md:px-14 md:py-6 mt-8 rounded-xl cursor-pointer border-2 border-myPrimary hover:bg-transparent group transition-colors duration-300">
+              <button               onClick={handleSubmit} className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 md:px-14 md:py-6 mt-8 rounded-xl cursor-pointer border-2 border-myPrimary hover:bg-transparent group transition-colors duration-300">
               <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-2xl font-bold">Schedule a Consultation</p>
               <FaArrowRight className="size-6 fill-myWhite group-hover:fill-myPrimary" />
             </button>

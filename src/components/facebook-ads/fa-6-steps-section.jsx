@@ -6,21 +6,23 @@ import DotIcon from '../../assets/img/dot-icon.png'
 import RightPath from '../../assets/img/right-path.png'
 import LeftPath from '../../assets/img/left-path.png'
 import { FaArrowRight } from "react-icons/fa6";
+import LeftSideVerticalText from '../ui/left-side-vertical-text'
 
 const FA6StepsSection = () => {
   return (
     <div className=" bg-myPrimary -skew-y-[2deg]">
       <div className=" bg-myDarkBackground skew-y-[2deg]">
         <MaxWidthWrapper className={"border-amber-300"}>
+        <LeftSideVerticalText text={"6 Approach"} className="bg-myLightGray -left-11" />
           <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2 py-10 font-myFont">
-            <div className="text-2xl md:text-5xl/16 text-myWhite text-center font-semibold "> 
+            <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold "> 
               <HighlightedText text={"Our 6-Step Approach"} />
               &nbsp;to Facebook Ad Success
             </div>
             <div className='justify-self-center my-10'>
               <img className='object-cover h-36' src={FacebookPartner} alt='Facebook-partner-image' />
             </div>
-            <p className="text-lg md:text-2xl text-start text-myWhite">Here's how we turn ordinary campaigns into extraordinary results:</p>
+            <p className="text-lg md:text-2xl text-myWhite text-center">Here's how we turn ordinary campaigns into extraordinary results:</p>
             {/*Desktop*/}
             <div className='text-myBlack font-myFont mt-10 hidden lg:block'>
               <div className='flex  justify-self-start'>
@@ -140,8 +142,8 @@ const FA6StepsSection = () => {
               </div>
               </div>
             </div>
-            <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 mt-10 rounded-xl cursor-pointer border-2 border-myPrimary hover:bg-transparent group transition-colors duration-300">
-                          <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-xl font-bold">Claim your Free 30 Min Consultation</p>
+            <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 md:px-14 md:py-6 mt-10 rounded-xl cursor-pointer border-2 border-myPrimary hover:bg-transparent group transition-colors duration-300">
+                          <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-2xl text-center font-bold">Claim your Free 30 Min Consultation</p>
                           <FaArrowRight className="size-6 fill-myWhite group-hover:fill-myPrimary" />
                         </div>
           </div>

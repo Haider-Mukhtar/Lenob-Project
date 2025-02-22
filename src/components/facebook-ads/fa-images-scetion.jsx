@@ -33,8 +33,8 @@ const FAImagesScetion = () => {
           <p className="font-myFont text-myBlack font-semibold text-lg/8 md:text-xl/9 text-center">
           Let's turn your audience into advocates and your ads into profit-generating machines.
           </p>
-          <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 rounded-xl cursor-pointer border-2 border-myPrimary mt-4 hover:bg-transparent group transition-colors duration-300">
-            <p className="text-myWhite group-hover:text-myPrimary font-myFont text-base md:text-xl font-bold">Claim your Free 30 Min Consultation</p>
+          <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 md:px-14 md:py-6 rounded-xl cursor-pointer border-2 border-myPrimary mt-4 hover:bg-transparent group transition-colors duration-300">
+            <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-2xl text-center font-bold">Claim your Free 30 Min Consultation</p>
             <FaArrowRight className="size-6 fill-myWhite group-hover:fill-myPrimary" />
           </div>
         </div>

@@ -5,7 +5,7 @@ const GADidWrongSection = () => {
     <div className="py-16">
       <MaxWidthWrapper>
         <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2">
-          <div className="font-myFont text-myBlack text-lg md:text-3xl/12 font-semibold space-y-10">
+          <div className="font-myFont text-myBlack text-lg md:text-3xl/10 font-semibold space-y-10">
             <p className="font-bold text-xl md:text-6xl/18 text-center">When it Comes to Google Ads Everyone has it Wrong</p>
             <p>Most agencies aim to do "enough." Their campaigns are functional—but not exceptional. They stick to routine practices: their keyword selection is average, their targeting is basic, and their ad copy does the bare minimum.</p>
             <div>
