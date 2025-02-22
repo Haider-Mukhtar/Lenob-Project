@@ -3,18 +3,15 @@ import MaxWidthWrapper from "../max-width-wrapper"
 import HighlightedText from "../ui/highlighted-text"
 import { useState } from "react"
 import { faqData } from "../../lib/constants"
-import LeftSideVerticalText from "../ui/left-side-vertical-text"
 
 const FAFAQSection = () => {
-  const [openIndex, setOpenIndex] = useState(0)
+  const [openIndex, setOpenIndex] = useState(0);
   return (
     <div className="my-10">
       <MaxWidthWrapper>
-      <LeftSideVerticalText text={"FQA"} className="bg-myPrimary -left-3" />
-        <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2 space-y-8">
-          <div className="text-3xl md:text-5xl/20 text-myBlack text-center font-semibold ">
-            Industries we have&nbsp;   
-            <HighlightedText text={"Proudly Served"} />
+        <div className="w-full md:w-[95%] lg:[80%] justify-self-center border border-red-600 px-2 space-y-14">
+          <div className="text-3xl md:text-5xl/20 text-myBlack text-center font-semibold ">  
+            <HighlightedText text={"FAQs: Your Questions, Answered"} />
           </div>
           <div className="font-myFont">
             {faqData.map((faq, index) => (
@@ -44,5 +41,6 @@ const FAFAQSection = () => {
     </div>
   )
 }
+
 
 export default FAFAQSection

@@ -4,7 +4,7 @@ import HighlightedText from "../ui/highlighted-text"
 import { useState } from "react"
 import { faqData } from "../../lib/constants"
 
-const SEOFAQSection = () => {
+const EMFAQSection = () => {
   const [openIndex, setOpenIndex] = useState(0);
   return (
     <div className="my-10">
@@ -42,5 +42,4 @@ const SEOFAQSection = () => {
   )
 }
 
-
-export default SEOFAQSection
+export default EMFAQSection
