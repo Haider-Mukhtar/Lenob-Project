@@ -9,7 +9,7 @@ const FAMessageSection = () => {
     <MaxWidthWrapper>
       <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-2">
           <p className="font-myFont text-3xl/14 md:text-5xl/20 font-bold text-myBlack ">A Personal Note to Business Owners</p>
-          <div className="font-myFont text-myBlack font-semibold text-lg/8 md:text-xl/9">
+          <div className="font-myFont text-myBlack font-medium text-lg/8 md:text-xl/9">
             <p className="mt-6">Dear Visionary Entrepreneur,</p>
             <p className="mt-6">If you're here, it's because you already know the power of Facebook. With over 2.9 billion active users scrolling, liking, and sharing every month, your audience is there.</p>
             <p className="mt-6">The real question is—are they seeing your brand?</p>

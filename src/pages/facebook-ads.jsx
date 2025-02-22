@@ -7,12 +7,12 @@ import FAFAQSection from '../components/facebook-ads/fa-faq-section'
 import InnovateInspireCreateSection from '../components/innovate-inspire-create-section'
 import ReadyToWorkSection from '../components/ready-to-work-section'
 import Footer from '../components/footer'
-import CFormSection from '../components/contact/c-form-section'
 import FARealStoriesSection from '../components/facebook-ads/fa-real-stories-section'
 import FA6StepsSection from '../components/facebook-ads/fa-6-steps-section'
 import ClientsSaysSection from '../components/clients-says-section'
 import FAUltimateSecret from '../components/facebook-ads/fa-ultimate-secret'
 import FAHintEveryone from '../components/facebook-ads/fa-hint-everyone'
+import FAFormSection from '../components/facebook-ads/fa-form-section'
 
 const FacebookAds = () => {
     useEffect(() => {
@@ -30,7 +30,7 @@ const FacebookAds = () => {
       <FARealStoriesSection />
       <ClientsSaysSection />
       <FAFAQSection />
-      <CFormSection />
+      <FAFormSection />
       <InnovateInspireCreateSection />
       <ReadyToWorkSection />
       <Footer />

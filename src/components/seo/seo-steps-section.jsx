@@ -6,14 +6,16 @@ import DotIcon from '../../assets/img/dot-icon.png'
 import RightPath from '../../assets/img/right-path.png'
 import LeftPath from '../../assets/img/left-path.png'
 import { FaArrowRight } from "react-icons/fa6";
+import LeftSideVerticalText from '../ui/left-side-vertical-text'
 
 const SEOStepsSection = () => {
   return (
     <div className=" bg-myPrimary -skew-y-[2deg]">
       <div className=" bg-myDarkBackground skew-y-[2deg]">
         <MaxWidthWrapper className={"border-amber-300"}>
+        <LeftSideVerticalText text={"Lenob Roadmap"} className="bg-myLightGray -left-15" />
           <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2 py-10 font-myFont">
-            <div className="text-2xl md:text-5xl/16 text-myWhite text-center font-semibold "> 
+            <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold "> 
               The Lenob's Way: Your&nbsp;
               <HighlightedText text={"Roadmap to Success"} />
             </div>
@@ -136,10 +138,6 @@ const SEOStepsSection = () => {
               </div>
               </div>
             </div>
-            <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 mt-10 rounded-xl cursor-pointer border-2 border-myPrimary hover:bg-transparent group transition-colors duration-300">
-                          <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-xl font-bold">Claim your Free 30 Min Consultation</p>
-                          <FaArrowRight className="size-6 fill-myWhite group-hover:fill-myPrimary" />
-                        </div>
           </div>
         </MaxWidthWrapper>
       </div>

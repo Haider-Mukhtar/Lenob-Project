@@ -2,6 +2,10 @@ import MaxWidthWrapper from "../max-width-wrapper"
 import LargeBlueStar from '../../assets/img/stars/large-blue-star.svg';
 import { FaCheckSquare } from "react-icons/fa";
 import { ImArrowRight } from "react-icons/im";
+import SEOImage1 from '../../assets/img/seo-image-1.png'
+import SEOImage2 from '../../assets/img/seo-image-2.png'
+import SEOImage3 from '../../assets/img/seo-image-3.png'
+import { FaArrowRight } from "react-icons/fa6";
 
 const SEOMessageSection = () => {
   return (
@@ -9,7 +13,7 @@ const SEOMessageSection = () => {
     <MaxWidthWrapper>
       <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-2">
           <p className="font-myFont text-3xl/14 md:text-5xl/20 font-bold text-myBlack ">Your Customers Are Searching—Will They Find You?</p>
-          <div className="font-myFont text-myBlack font-semibold text-lg/8 md:text-xl/9">
+          <div className="font-myFont text-myBlack font-medium text-lg/8 md:text-xl/9">
             <p className="mt-6 font-bold">Dear Entrepreneurs,</p>
             <p className="mt-6">In today's crowded digital world, standing out is more than just a challenge—it's a battle for survival.</p>
             <p className="mt-6">Millions of businesses are vying for attention, and your competitors are only a click away.</p>
@@ -44,7 +48,35 @@ const SEOMessageSection = () => {
                 <p>{item.text}</p>
               </div>
             ))}  
-          </div>            
+          </div>
+          <div className="space-y-10 mt-10">
+          <div className="w-full justify-self-center border border-red-600 px-2">
+            <img className="w-full object-cover" src={SEOImage1} alt="seo-image-1" />
+          </div>
+          <div className="w-full justify-self-center border border-red-600 px-2">
+            <img className="w-full object-cover" src={SEOImage2} alt="seo-image-1" />
+          </div>
+          <div className="w-full justify-self-center border border-red-600 px-2">
+            <img className="w-full object-cover" src={SEOImage3} alt="seo-image-1" />
+          </div>
+        </div>
+        <div className="my-10 w-full justify-self-center border border-red-600 px-2 space-y-4">
+          <p className="font-myFont text-myBlack font-semibold text-lg/8 md:text-xl/9 text-center">
+          Our approach isn’t about gaming the system or stuffing keywords. It’s about building trust, authority, and visibility that positions your brand as a leader in your industry.
+          </p>
+          <p className="font-myFont text-myBlack font-semibold text-lg/8 md:text-xl/9 text-center">
+          If you’re ready to unlock the potential of your digital presence, let’s talk. 👉
+          </p>
+          <p className="font-myFont text-myBlack font-semibold text-lg/8 md:text-xl/9 text-center">
+              Your competitors won’t wait—and neither should you.
+              <br/>
+              The Next Step: ITS RIGHT BELOW
+          </p>
+          <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 md:px-14 md:py-6 rounded-xl cursor-pointer border-2 border-myPrimary mt-4 hover:bg-transparent group transition-colors duration-300">
+            <p className="text-myWhite group-hover:text-myPrimary font-myFont text-lg md:text-2xl font-bold text-center">Claim your Free 30 Min Consultation</p>
+            <FaArrowRight className="size-6 fill-myWhite group-hover:fill-myPrimary" />
+          </div>
+        </div>
       </div>
       </MaxWidthWrapper>
     </div>
