@@ -354,4 +354,31 @@ export const gaTestimonialData = [
   },
 ]
 
+export const b2bStepsData = [
+  {
+    id: 1,
+    title: "We Don’t Just Generate Leads",
+    description: " We Generate Sales Opportunities Our campaigns are built to deliver qualified, ready-to-buy leads, not just clicks or form fills.",
+    banner: Step1,
+  },
+  {
+    id: 2,
+    title: "Multi-Channel Expertise",
+    description: "Why choose one platform when you can dominate all three? We integrate Google, Meta, and LinkedIn Ads into a cohesive strategy that maximizes your reach and ROI.",
+    banner: Step2,
+  },
+  {
+    id: 3,
+    title: "Conversion-First Focus",
+    description: "Every campaign we run is optimized for bottom-line results. From ad creatives to landing pages, we ensure every lead counts.",
+    banner: Step3,
+  },
+  {
+    id: 4,
+    title: "Custom Strategies for Every Business",
+    description: "No cookie-cutter solutions here. We tailor every campaign to your unique business goals, industry, and audience.",
+    banner: Step4,
+  },
+]
+
 
