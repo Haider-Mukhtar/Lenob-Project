@@ -8,7 +8,7 @@ const EMProfitMachine = () => {
     <div className='py-10'>
     <MaxWidthWrapper>
       <LeftSideVerticalText text={"Profit Machine"} className="bg-myLightGray -left-14" />
-        <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-2 py-10">
+        <div className="w-full lg:w-[70%] justify-self-center px-2 py-10">
         <div className="mx-10 text-3xl md:text-5xl/20 text-myBlack text-center font-semibold "> 
         <HighlightedText text={"Ready to Turn Your eCommerce "} />
         &nbsp;Store into a Profit Machine?

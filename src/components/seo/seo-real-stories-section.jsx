@@ -8,7 +8,7 @@ const SEORealStoriesSection = () => {
     <div className="py-16">
       <MaxWidthWrapper>
       <LeftSideVerticalText text={"Results"} className="bg-myPrimary -left-7" />
-        <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-4 space-y-8">
+        <div className="w-full lg:w-[80%] justify-self-center px-4 space-y-8">
           <div className="font-myFont text-3xl md:text-5xl/20 font-bold text-start text-myBlack">
             Real Stories.&nbsp;
             <HighlightedText text={"Real Results."} />

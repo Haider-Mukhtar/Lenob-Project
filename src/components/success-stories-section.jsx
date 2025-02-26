@@ -8,10 +8,10 @@ import LeftSideVerticalText from "./ui/left-side-vertical-text";
 const SuccessStoriesSection = () => {
   return (
     <div className="mt-10">
-      <MaxWidthWrapper className={"border-amber-300"}>
+      <MaxWidthWrapper>
       <LeftSideVerticalText text={"Testimonials"} className="bg-myPrimary -left-12" />
-        <div className="w-full lg:w-[90%] justify-self-center border border-red-600 px-2 py-10 ">
-          <div className="font-myFont w-full lg:w-[70%] justify-self-center border border-amber-400">
+        <div className="w-full lg:w-[90%] justify-self-center px-2 py-10 ">
+          <div className="font-myFont w-full lg:w-[70%] justify-self-center">
             {/*<img className="aspect-square justify-self-start" src={SmallBlueStar} alt="Small-White-Star" />*/}
             <div className="text-3xl md:text-5xl/20 text-myBlack text-center font-semibold ">
               <HighlightedText text={"Success"} />
@@ -21,7 +21,7 @@ const SuccessStoriesSection = () => {
             <img className="aspect-square justify-self-end" src={SmallBlueStar} alt="Small-White-Star" />
           </div>
           {/*Mobile*/}
-          <div className="md:hidden grid grid-cols-1 gap-8 px-4 mt-10 w-full justify-self-center border border-amber-400">
+          <div className="md:hidden grid grid-cols-1 gap-8 px-4 mt-10 w-full justify-self-center">
             {
               successStoriesData.map((item) => (
                 <div key={item.id} className="hover:scale-105 transition-transform duration-500">
@@ -44,7 +44,7 @@ const SuccessStoriesSection = () => {
             }
           </div>
           {/*Tab*/}
-          <div className="hidden xl:hidden md:grid grid-cols-2 gap-8 px-4 mt-10 w-[92%] justify-self-center border border-amber-400">
+          <div className="hidden xl:hidden md:grid grid-cols-2 gap-8 px-4 mt-10 w-[92%] justify-self-center">
             {
               successStoriesData.map((item) => (
                 <div key={item.id} className="hover:scale-105 transition-transform duration-500">
@@ -67,7 +67,7 @@ const SuccessStoriesSection = () => {
             }
           </div>
           {/*Desktop*/}
-          <div className="hidden xl:grid grid-cols-4 mt-10 w-[92%] justify-self-center border border-amber-400">
+          <div className="hidden xl:grid grid-cols-4 mt-10 w-[92%] justify-self-center">
             {
               successStoriesData.map((item) => (
                 <div key={item.id} className={`${item.marginTop} hover:scale-105 transition-transform duration-500`}>

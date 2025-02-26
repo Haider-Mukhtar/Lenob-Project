@@ -11,7 +11,7 @@ const EMMessageSection = () => {
   return (
     <div className="py-16">
     <MaxWidthWrapper>
-      <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-2">
+      <div className="w-full lg:w-[70%] justify-self-center px-2">
           <p className="font-myFont text-3xl/14 md:text-5xl/20 font-bold text-myBlack ">Your eCommerce Potential is Waiting to Be Unlocked</p>
           <div className="font-myFont text-myBlack font-medium text-lg/8 md:text-xl/9">
             <p className="mt-6 font-bold">Dear Online Entrepreneur,</p>
@@ -46,17 +46,17 @@ const EMMessageSection = () => {
             ))}
           </div>
           <div className="space-y-10 mt-10">
-          <div className="w-full justify-self-center border border-red-600 px-2">
+          <div className="w-full justify-self-center px-2">
             <img className="w-full object-cover" src={EMImage1} alt="em-image-1" />
           </div>
-          <div className="w-full justify-self-center border border-red-600 px-2">
+          <div className="w-full justify-self-center px-2">
             <img className="w-full object-cover" src={EMImage2} alt="em-image-1" />
           </div>
-          <div className="w-full justify-self-center border border-red-600 px-2">
+          <div className="w-full justify-self-center px-2">
             <img className="w-full object-cover" src={EMImage3} alt="em-image-1" />
           </div>
         </div>
-        <div className="my-10 w-full justify-self-center border border-red-600 px-2 space-y-4">
+        <div className="my-10 w-full justify-self-center px-2 space-y-4">
           <p className="font-myFont text-myBlack font-semibold text-lg/8 md:text-xl/9 text-center">
           Your competitors are moving fast—and now is the time to outpace them. The key to transforming your business is just one step away.
           </p>

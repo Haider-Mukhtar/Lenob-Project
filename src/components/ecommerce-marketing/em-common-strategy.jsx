@@ -11,7 +11,7 @@ const EMCommonStrategy = () => {
       <div className="skew-y-[2deg] py-16">
       <MaxWidthWrapper>
       <LeftSideVerticalText text={"Game Changer"} className="bg-myLightGray -left-14" />
-        <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2">
+        <div className="w-full lg:w-[80%] justify-self-center px-2">
         <div className="mx-10 text-3xl md:text-5xl/20 text-myWhite text-center font-semibold "> 
         The Common&nbsp;
         <HighlightedText text={"Struggles eCommerce Owners Face"} />

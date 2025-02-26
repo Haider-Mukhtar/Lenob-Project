@@ -9,12 +9,13 @@ import LeftSideVerticalText from "./ui/left-side-vertical-text";
 const ClientsSaysSection = () => {
   return (
     <div>
-    <div className="bg-myDarkBackground -skew-y-3 mt-10">
+      <div className="bg-myDarkBackground -skew-y-3 mt-10">
+      <div className="bg-myPrimary h-20"></div>
       <div className="skew-y-3 py-16">
-          <MaxWidthWrapper className={"border-white"}>
+          <MaxWidthWrapper>
           <LeftSideVerticalText text={"Our Clients"} className="bg-myLightGray -left-12" />
-            <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2">
-              <div className="font-myFont w-full justify-self-center border border-amber-400">
+            <div className="w-full lg:w-[80%] justify-self-center px-2">
+              <div className="font-myFont w-full justify-self-center">
                 {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
                 <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold ">
                   What&nbsp;   

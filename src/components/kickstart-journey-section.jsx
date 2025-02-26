@@ -9,9 +9,9 @@ const KickstartJourneySection = () => {
     <div>
       <div className="bg-myDarkBackground -skew-y-[2deg] mt-10">
         <div className="skew-y-[2deg] py-16">
-          <MaxWidthWrapper className={"border-white"}>
+          <MaxWidthWrapper>
           <LeftSideVerticalText text={"Journey"} className="bg-myLightGray -left-8" />
-            <div className="w-full lg:w-[90%] justify-self-center border border-red-600 px-2">
+            <div className="w-full lg:w-[90%] justify-self-center px-2">
               {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
               <div className="grid grid-cols-1 xl:grid-cols-2 my-12 gap-10 xl:gap-0">
                 <div className="flex justify-center items-center">

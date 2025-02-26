@@ -10,17 +10,17 @@ const GAImagesScetion = () => {
     <div className="">
       <MaxWidthWrapper>
         <div className="space-y-10">
-          <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-2">
+          <div className="w-full lg:w-[70%] justify-self-center px-2">
             <img className="w-full object-cover" src={GAImage1} alt="google-ads-image-1" />
           </div>
-          <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-2">
+          <div className="w-full lg:w-[70%] justify-self-center px-2">
             <img className="w-full object-cover" src={GAImage2} alt="google-ads-image-1" />
           </div>
-          <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-2">
+          <div className="w-full lg:w-[70%] justify-self-center px-2">
             <img className="w-full object-cover" src={GAImage3} alt="google-ads-image-1" />
           </div>
         </div>
-        <div className="my-10 w-full lg:w-[70%] justify-self-center border border-red-600 px-2 space-y-4">
+        <div className="my-10 w-full lg:w-[70%] justify-self-center px-2 space-y-4">
           <p className="font-myFont text-myBlack font-semibold text-lg/8 md:text-xl/9 text-center">
           This is not just advertising; it's strategic growth engineered for your success.
           </p>

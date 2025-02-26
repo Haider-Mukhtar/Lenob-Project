@@ -5,7 +5,7 @@ const FAHeroSection = () => {
   return (
     <header className="bg-[url(/grid-hero-section.png)] bg-center bg-no-repeat pt-[72px] bg-myDarkBackground skew-y-3">
     <MaxWidthWrapper>
-      <div className="w-full lg:w-[80%] pt-24 space-y-12 justify-self-center border border-red-600 -skew-y-3 px-2 pb-24">
+      <div className="w-full lg:w-[80%] pt-24 space-y-12 justify-self-center -skew-y-3 px-2 pb-24">
         <div className="font-myFont text-3xl md:text-5xl/20 font-bold text-center text-myWhite">
             <HighlightedText text={"How to Flood Your Business"} />
             &nbsp;with Customers, Clients, and Sales Using Facebook Ads That Actually Work!

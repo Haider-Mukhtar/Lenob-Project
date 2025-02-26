@@ -7,7 +7,7 @@ const FAMessageSection = () => {
   return (
     <div className="py-16">
     <MaxWidthWrapper>
-      <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-2">
+      <div className="w-full lg:w-[70%] justify-self-center px-2">
           <p className="font-myFont text-3xl/14 md:text-5xl/20 font-bold text-myBlack ">A Personal Note to Business Owners</p>
           <div className="font-myFont text-myBlack font-medium text-lg/8 md:text-xl/9">
             <p className="mt-6">Dear Visionary Entrepreneur,</p>

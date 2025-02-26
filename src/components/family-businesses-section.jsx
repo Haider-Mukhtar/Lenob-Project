@@ -54,9 +54,9 @@ const FamilyBusinessesSection = () => {
     };
   return (
     <div className="mt-10">
-      <MaxWidthWrapper className={"border-amber-400"}>
+      <MaxWidthWrapper>
       <LeftSideVerticalText text={"Family Businesses"} className="bg-myPrimary -left-18" />
-        <div className="w-full lg:w-[90%] justify-self-center border border-red-500 px-2">
+        <div className="w-full lg:w-[90%] justify-self-center px-2">
           <div className="pt-10 lg:pt-20 lg:flex justify-center items-center ">
             <div className="text-3xl md:text-5xl/20 text-myBlack font-myFont font-semibold text-center">
               Our&nbsp;

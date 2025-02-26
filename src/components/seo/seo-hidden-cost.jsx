@@ -6,7 +6,7 @@ const SEOHiddenCost = () => {
   return (
     <div className='py-10'>
       <MaxWidthWrapper className={"border-amber-300"}>
-        <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-4 py-10 font-myFont">
+        <div className="w-full lg:w-[70%] justify-self-center px-4 py-10 font-myFont">
         <div className="text-3xl md:text-5xl/20 text-myBlack text-center font-semibold "> 
         The&nbsp;
         <HighlightedText text={"Hidden Costs"} />

@@ -14,7 +14,7 @@ const SEOStepsSection = () => {
       <div className=" bg-myDarkBackground skew-y-[2deg]">
         <MaxWidthWrapper className={"border-amber-300"}>
         <LeftSideVerticalText text={"Lenob Roadmap"} className="bg-myLightGray -left-15" />
-          <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2 py-10 font-myFont">
+          <div className="w-full lg:w-[80%] justify-self-center px-2 py-10 font-myFont">
             <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold "> 
               The Lenob's Way: Your&nbsp;
               <HighlightedText text={"Roadmap to Success"} />

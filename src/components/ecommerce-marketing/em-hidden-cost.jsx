@@ -9,9 +9,9 @@ const EMHiddenCost = () => {
     <div className="bg-myPrimary h-32"></div>
     <div className="bg-myDarkBackground -skew-y-[2deg] font-myFont -mt-18">
       <div className="skew-y-[2deg] py-16">
-          <MaxWidthWrapper className={"border-red-500"}>
+          <MaxWidthWrapper>
           <LeftSideVerticalText text={"Owner Trust"} className="bg-myLightGray -left-12" />
-            <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-2">
+            <div className="w-full lg:w-[70%] justify-self-center px-2">
             <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold "> 
             <HighlightedText text={"The Hidden Costs"} />
             &nbsp;of Neglecting eCommerce Marketing

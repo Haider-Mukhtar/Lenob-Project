@@ -38,7 +38,7 @@ const ContactForm = () => {
     })
   }
   return (
-    <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2 space-y-8">
+    <div className="w-full lg:w-[80%] justify-self-center px-2 space-y-8">
             <div className="font-myFont text-3xl md:text-5xl/20 font-bold text-center text-myWhite">
                 <HighlightedText text={"Partner With us"} />
             </div>

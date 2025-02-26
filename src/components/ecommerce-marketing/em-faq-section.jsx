@@ -9,7 +9,7 @@ const EMFAQSection = () => {
   return (
     <div className="my-10">
       <MaxWidthWrapper>
-        <div className="w-full md:w-[95%] lg:[80%] justify-self-center border border-red-600 px-2 space-y-14">
+        <div className="w-full md:w-[95%] lg:[80%] justify-self-center px-2 space-y-14">
           <div className="text-3xl md:text-5xl/20 text-myBlack text-center font-semibold ">  
             <HighlightedText text={"FAQs: Your Questions, Answered"} />
           </div>

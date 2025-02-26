@@ -14,7 +14,7 @@ const FA6StepsSection = () => {
       <div className=" bg-myDarkBackground skew-y-[2deg]">
         <MaxWidthWrapper className={"border-amber-300"}>
         <LeftSideVerticalText text={"6 Approach"} className="bg-myLightGray -left-11" />
-          <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2 py-10 font-myFont">
+          <div className="w-full lg:w-[80%] justify-self-center px-2 py-10 font-myFont">
             <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold "> 
               <HighlightedText text={"Our 6-Step Approach"} />
               &nbsp;to Facebook Ad Success

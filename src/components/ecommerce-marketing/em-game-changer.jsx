@@ -7,7 +7,7 @@ const EMGameChanger = () => {
   return (
     <div>
     <MaxWidthWrapper className={"border-white"}>
-        <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-4 py-10 font-myFont">
+        <div className="w-full lg:w-[80%] justify-self-center px-4 py-10 font-myFont">
         <div className="text-3xl md:text-5xl/20 text-myBlack text-center font-semibold "> 
         <HighlightedText text={"Our Game-Changing Approach"} />
         &nbsp;to eCommerce Success

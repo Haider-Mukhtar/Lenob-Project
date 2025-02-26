@@ -6,7 +6,7 @@ const InnovateInspireCreateSection = () => {
   return (
     <div className="my-10">
       <MaxWidthWrapper>
-        <div className='w-full lg:w-[90%] justify-self-center border border-red-600 px-2 py-10 flex flex-col xl:flex-row gap-12 items-center justify-between'>
+        <div className='w-full lg:w-[90%] justify-self-center px-2 py-10 flex flex-col xl:flex-row gap-12 items-center justify-between'>
         <h1 className="relative text-7xl lg:text-7xl 2xl:text-8xl text-myBlack font-bold">
           <span className="relative z-10">Innovate</span>
           <span

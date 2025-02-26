@@ -6,7 +6,7 @@ const SEOOutranking = () => {
   return (
     <div className='pb-10'>
     <MaxWidthWrapper className={"border-amber-300"}>
-        <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-4 py-10 font-myFont">
+        <div className="w-full lg:w-[70%] justify-self-center px-4 py-10 font-myFont">
         <div className="bg-[#FF5E48] justify-self-center flex  items-center px-4 py-2 rounded-full gap-2">
         <div className="bg-myWhite h-3 w-3 rounded-full"></div>
         <p className="font-myFont text-myWhite text-base">Outranking</p>

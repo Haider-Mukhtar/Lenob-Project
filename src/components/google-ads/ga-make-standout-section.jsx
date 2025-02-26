@@ -5,7 +5,7 @@ const GAMakeStandoutSection = () => {
   return (
     <div className="">
       <MaxWidthWrapper>
-        <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-2 space-y-8">
+        <div className="w-full lg:w-[80%] justify-self-center px-2 space-y-8">
           <p className="font-myFont text-3xl/14 md:text-5xl/20 font-bold text-myBlack text-center">
             Stories that Make us Stand to Our World
           </p>

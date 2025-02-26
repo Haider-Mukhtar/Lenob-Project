@@ -56,10 +56,10 @@ const ProvenExpertiseSection = () => {
   return (
     <div className=" bg-myPrimary -skew-y-3">
       <div className=" bg-myDarkBackground skew-y-3">
-        <MaxWidthWrapper className={"border-amber-300"}>
+        <MaxWidthWrapper>
         <LeftSideVerticalText text={"Our Expertise"} className="bg-myLightGray -left-12" />
-          <div className="w-full lg:w-[90%] justify-self-center border border-red-600 px-2 py-10 ">
-            <div className="w-full lg:w-[80%] py-2 justify-self-center border border-yellow-300">
+          <div className="w-full lg:w-[90%] justify-self-center px-2 py-10 ">
+            <div className="w-full lg:w-[80%] py-2 justify-self-center">
               {/*<img className="aspect-square" src={SmallWhiteStar} alt="Small-White-Star" />*/}
               <div className="text-3xl md:text-5xl/20 text-myWhite font-myFont font-semibold text-center">
                 Grow Smarter, Faster, and Stronger with&nbsp;

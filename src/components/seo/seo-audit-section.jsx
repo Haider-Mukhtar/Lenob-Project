@@ -13,7 +13,7 @@ const SEOAuditSection = () => {
       <div className="skew-y-[2deg] py-16">
           <MaxWidthWrapper className={"border-white"}>
           <LeftSideVerticalText text={"Free SEO Audit"} className="bg-myLightGray -left-14" />
-            <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-4 py-10 font-myFont">
+            <div className="w-full lg:w-[70%] justify-self-center px-4 py-10 font-myFont">
             <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold mt-6"> 
             Your Free SEO Audit&nbsp;
             <HighlightedText text={"What to Expect 👀"} />

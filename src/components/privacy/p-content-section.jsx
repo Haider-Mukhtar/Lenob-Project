@@ -4,7 +4,7 @@ const PContentSection = () => {
   return (
     <div className="py-10">
     <MaxWidthWrapper>
-      <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-2">
+      <div className="w-full lg:w-[70%] justify-self-center px-2">
           <div className="font-myFont text-myBlack text-lg/8 md:text-xl/10">
 
             <p className="mt-6">Last updated: September 19, 2024</p>
