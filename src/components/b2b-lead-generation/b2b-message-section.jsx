@@ -12,7 +12,7 @@ const B2BMessageSection = () => {
   return (
     <div className="py-16">
     <MaxWidthWrapper>
-      <div className="w-full lg:w-[70%] justify-self-center border border-red-600 px-2">
+      <div className="w-full lg:w-[70%] justify-self-center px-2">
           <p className="font-myFont text-3xl/14 md:text-5xl/20 font-bold text-myBlack ">Dear Business Owners,</p>
           <div className="font-myFont text-myBlack font-medium text-lg/8 md:text-xl/9">
           <p className="mt-6">We get it. Running a business is tough. You’re pouring your time and resources into finding the right leads, only to be met with endless frustration—calls that don’t get answered, emails left unopened, and ads that don’t seem to deliver.</p>

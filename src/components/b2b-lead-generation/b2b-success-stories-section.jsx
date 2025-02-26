@@ -12,8 +12,8 @@ const B2BSuccessStoriesSection = () => {
     <div className="bg-myDarkBackground -skew-y-[2deg] font-myFont -mt-18">
       <div className="skew-y-[2deg] py-16">
       <MaxWidthWrapper>
-      <LeftSideVerticalText text={"Success Stories"} className="bg-myPrimary -left-17" />
-        <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-4 space-y-8">
+      <LeftSideVerticalText text={"Success Stories"} className="bg-myLightGray -left-17" />
+        <div className="w-full lg:w-[80%] justify-self-center px-4 space-y-8">
           <div className="font-myFont text-3xl md:text-5xl/20 font-bold text-myWhite text-center">
           <HighlightedText text={"Success Stories"} />
           &nbsp;See the Results for Yourself

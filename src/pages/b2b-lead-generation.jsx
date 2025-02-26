@@ -12,6 +12,7 @@ import B2BFormSection from '../components/b2b-lead-generation/b2b-form-section';
 import InnovateInspireCreateSection from '../components/innovate-inspire-create-section';
 import ReadyToWorkSection from '../components/ready-to-work-section';
 import Footer from '../components/footer';
+import B2BColdProspectsSection from '../components/b2b-lead-generation/b2b-cold-prospects-section';
 
 const B2BLeadGeneration = () => {
     useEffect(() => {
@@ -25,7 +26,7 @@ const B2BLeadGeneration = () => {
       <B2BFrameworkSection />
       <B2BStepsSections />
       <B2BPainPointsSection />
-
+      <B2BColdProspectsSection />
       <B2BSuccessStoriesSection />
       <B2BFAQSection />
       <B2BProfitMachineSection />

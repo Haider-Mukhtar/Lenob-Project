@@ -11,7 +11,7 @@ const B2BFrameworkSection = () => {
       <div className="skew-y-[2deg] py-16">
           <MaxWidthWrapper className={"border-white"}>
             <LeftSideVerticalText text={"B2B Lead Generation"} className="bg-myLightGray -left-21" />
-            <div className="w-full lg:w-[80%] justify-self-center border border-red-600 px-4 py-10 font-myFont">
+            <div className="w-full lg:w-[80%] justify-self-center px-4 py-10 font-myFont">
               <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold "> 
               Our Proven&nbsp;
               <HighlightedText text={"B2B Lead Generation"} />

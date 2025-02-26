@@ -10,7 +10,7 @@ const B2BStepsSections = () => {
     <div className='py-10'>
       <MaxWidthWrapper className={"border-amber-300"}>
     <LeftSideVerticalText text={"Lenob.co Difference"} className="bg-myPrimary -left-22" />
-      <div className="w-full lg:w-[90%] justify-self-center border border-red-600 px-2 py-10 ">
+      <div className="w-full lg:w-[90%] justify-self-center px-2 py-10 ">
         {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
         <div className="text-3xl md:text-5xl/20 text-myBlack font-myFont font-semibold text-center">
           The&nbsp;   
