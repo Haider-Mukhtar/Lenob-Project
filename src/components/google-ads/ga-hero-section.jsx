@@ -10,7 +10,7 @@ const GAHeroSection = () => {
           Where Strategy Meets Scale: How to Make your Google Ads&nbsp;
           <HighlightedText text={"More Predictable, Scalable and Profitable"} />
         </div>
-        <div className="font-myFont text-xl md:text-3xl text-center md:mx-12 text-myWhite">
+        <div className="font-myFont text-xl/8 md:text-3xl/10 text-center md:mx-12 text-myWhite">
           We transform your Google Ads Account into a lead generation machine delivering scalable, measurable, and highly profitable leads.
         </div>
       </div>

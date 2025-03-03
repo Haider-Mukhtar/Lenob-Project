@@ -12,7 +12,7 @@ const StepsSection = () => {
         <LeftSideVerticalText text={"Traffic"} className="bg-myLightGray -left-6" />
           <div className="w-full lg:w-[90%] justify-self-center px-2 py-10 ">
             {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
-            <div className="text-3xl md:text-5xl/20 text-myWhite font-myFont font-semibold text-center">
+            <div className="text-xl/8 md:text-4xl/14 text-myWhite font-myFont font-semibold text-center">
               From Traffic to&nbsp;   
               <HighlightedText text={"Conversions"} />
             </div>
@@ -21,8 +21,8 @@ const StepsSection = () => {
                 stepsData.map((item) => (
                   <div key={item.id} className="flex flex-col items-center font-myFont space-y-4 md:space-y-6">
                     <img className="aspect-square" src={item.banner} alt="steps-image" />
-                    <p className="text-2xl font-bold text-myYellowText text-center">{item.title}</p>
-                    <p className="text-base text-myWhite text-center">{item.description}</p>
+                    <p className="text-lg/8 md:text-2xl/10 font-bold text-myYellowText text-center">{item.title}</p>
+                    <p className="text-lg text-myWhite text-center">{item.description}</p>
                   </div>
                 ))
               }

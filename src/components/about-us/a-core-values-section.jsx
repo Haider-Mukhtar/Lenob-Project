@@ -12,21 +12,21 @@ const ACoreValuesSection = () => {
           <MaxWidthWrapper>
             <LeftSideVerticalText text={"Core Values"} className="bg-myLightGray -left-12" />
             <div className="w-full lg:w-[70%] justify-self-center px-2 space-y-8">
-            <div className="text-3xl md:text-5xl/20 text-myBlack text-center font-semibold ">  
+            <div className="text-xl/8 md:text-4xl/14 text-myBlack text-center font-semibold ">  
             <HighlightedText text={"What We Our Core Values"} />
               </div>
-                <ul className='font-myFont text-myWhite font-bold text-xl/8 md:text-3xl/14 list-decimal list-inside'>
+                <ul className='font-myFont text-myWhite font-bold text-lg/8 md:text-xl/10 list-decimal list-inside'>
                   <li>
                   Transparency:&nbsp;
-                  <span className='font-normal'>No fluff, no jargon—just clear, honest communication every step of the way.</span>
+                  <p className='font-normal'>No fluff, no jargon—just clear, honest communication every step of the way.</p>
                   </li>
                   <li>
                   Innovation:&nbsp;
-                  <span className='font-normal'>Staying ahead of trends to ensure your campaigns are always on the cutting edge.</span>
+                  <p className='font-normal'>Staying ahead of trends to ensure your campaigns are always on the cutting edge.</p>
                   </li>
                   <li>
                   Commitment:&nbsp;
-                  <span className='font-normal'>Your goals become ours. We don't succeed unless you do.</span>
+                  <p className='font-normal'>Your goals become ours. We don't succeed unless you do.</p>
                   </li>
                 </ul>
             </div>

@@ -20,14 +20,14 @@ const GAImagesScetion = () => {
             <img className="w-full object-cover" src={GAImage3} alt="google-ads-image-1" />
           </div>
         </div>
-        <div className="my-10 w-full lg:w-[70%] justify-self-center px-2 space-y-4">
-          <p className="font-myFont text-myBlack font-semibold text-lg/8 md:text-xl/9 text-center">
+        <div className="my-10 w-full lg:w-[50%] justify-self-center px-2 space-y-4">
+          <p className="font-myFont text-myBlack font-semibold text-lg/8 md:text-xl/10 text-center">
           This is not just advertising; it's strategic growth engineered for your success.
           </p>
-          <p className="font-myFont text-myBlack font-semibold text-lg/8 md:text-xl/9 text-center">
+          <p className="font-myFont text-myBlack font-semibold text-lg/8 md:text-xl/10 text-center">
           The next step? It's right below…
           </p>
-          <p className="font-myFont text-myBlack font-semibold text-lg/8 md:text-xl/9 text-center">
+          <p className="font-myFont text-myBlack font-semibold text-lg/8 md:text-xl/10 text-center">
           Let's unlock this potential for your business, turning every ad dollar into measurable impact.
           </p>
           <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 md:px-14 md:py-6 rounded-xl cursor-pointer border-2 border-myPrimary mt-4 hover:bg-transparent group transition-colors duration-300">

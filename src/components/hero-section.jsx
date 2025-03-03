@@ -11,7 +11,7 @@ const HeroSection = () => {
             &nbsp;<span>Transformation</span>
             <p>with Meta and Google Ads</p>
           </div>
-          <div className="font-myFont text-xl md:text-3xl text-center md:mx-12 text-myWhite">
+          <div className="font-myFont text-xl/8 md:text-3xl/10 text-center md:mx-12 text-myWhite">
             We helped a single mom in her 40s, turning her hair care business, to reach&nbsp;
             <span className="text-red-500 underline">$1M</span>
             &nbsp;in annual revenue with targeted Meta and Google Ads.

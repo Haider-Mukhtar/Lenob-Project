@@ -15,12 +15,12 @@ const KickstartJourneySection = () => {
               {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
               <div className="grid grid-cols-1 xl:grid-cols-2 my-12 gap-10 xl:gap-0">
                 <div className="flex justify-center items-center">
-                  <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold">
+                  <div className="text-xl/8 md:text-4xl/14 text-myWhite text-center font-semibold">
                     <HighlightedText text={"Kickstart Your Journey"} />
                     &nbsp;to Unstoppable Growth!
                   </div>
                 </div>
-                <div className="text-myWhite font-myFont text-xl space-y-10">
+                <div className="text-myWhite font-myFont text-lg md:text-xl space-y-10">
                   <div className="flex items-center gap-4">
                     <div className="bg-myPrimary p-2 md:p-3 rounded-full">
                       <FaArrowRight className="fill-myWhite size-8" />
@@ -41,7 +41,7 @@ const KickstartJourneySection = () => {
                   </div>
                 </div>
               </div>
-              <p className="font-myFont text-xl md:text-3xl text-myWhite font-semibold w-full md:w-[80%] justify-self-center text-center">
+              <p className="font-myFont text-lg/8 md:text-2xl/10 text-myWhite font-semibold w-full md:w-[80%] justify-self-center text-center">
                 Schedule your free consultation today and let's create something extraordinary together!
               </p>
               <div className="flex justify-center items-center bg-myPrimary justify-self-center gap-3 py-3 px-6 md:px-14 md:py-6  rounded-xl cursor-pointer border-2 border-myPrimary mt-8 hover:bg-transparent group transition-colors duration-300">

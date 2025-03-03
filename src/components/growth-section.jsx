@@ -9,7 +9,7 @@ const GrowthSection = () => {
       <MaxWidthWrapper>
       <LeftSideVerticalText text={"Lenob for Growth"} className="bg-myPrimary -left-18" />
         <div className="w-full lg:w-[90%] justify-self-center px-2 py-10">
-          <div className="text-3xl md:text-5xl/20 text-myBlack font-myFont font-semibold text-center">
+          <div className="text-xl/8 md:text-4xl/14 text-myBlack font-myFont font-semibold text-center">
             Why Businesses out there Trust&nbsp;
             <br />
             <HighlightedText text={"Lenob for Growth"} />
@@ -20,7 +20,7 @@ const GrowthSection = () => {
                 <div key={item.id} className={`${item.bgColor} rounded-xl pt-6 flex flex-col justify-between overflow-hidden hover:scale-105 transition-transform duration-300`}>
                   <div className="">
                     <p className="font-myFont text-myBlack text-lg font-bold px-8 pb-5 border-b-[0.5px]">{item.title}</p>
-                    <p className="font-myFont text-myBlack text-base px-8 pt-5">{item.description}</p>
+                    <p className="font-myFont text-myBlack text-lg px-8 pt-5">{item.description}</p>
                   </div>
                   <div className="flex justify-end mt-5">
                     <div className="aspect-square h-14 bg-myWhite/50 rounded-br-full"></div>

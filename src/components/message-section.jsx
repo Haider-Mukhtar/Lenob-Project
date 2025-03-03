@@ -6,10 +6,12 @@ const MessageSection = () => {
     <div className="py-16">
     <MaxWidthWrapper>
         {/*<img className="aspect-square" src={LargeBlueStar} alt="Large-Green-Star" />*/}
-        <div className="w-full lg:w-[60%] justify-self-center px-2">
+        <div className="w-full lg:w-[50%] justify-self-center px-2">
           <div className="space-y-4" >
-            <p className="font-myFont text-3xl/14 md:text-5xl/20 text-center font-semibold text-myBlack ">A Message to Ambitious Entrepreneurs</p>
-            <div className="font-myFont text-myBlack font-medium text-lg/8 md:text-xl/9 space-y-3 md:space-y-6">
+            <p className="font-myFont text-xl/8 md:text-4xl/14 text-center font-semibold text-myBlack ">
+              A Message to Ambitious Entrepreneurs
+            </p>
+            <div className="font-myFont text-myBlack font-medium text-lg/8 md:text-xl/10 space-y-3 md:space-y-6">
               <p className="font-bold">Dear visionary business owner,</p>
               <p>We hear you. Growing a business is tough—a marathon with no finish line.</p>
               <p>You're juggling budgets, clients, and the constant chase for breakthroughs.</p>

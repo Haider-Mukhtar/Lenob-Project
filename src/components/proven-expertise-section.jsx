@@ -61,7 +61,7 @@ const ProvenExpertiseSection = () => {
           <div className="w-full lg:w-[90%] justify-self-center px-2 py-10 ">
             <div className="w-full lg:w-[80%] py-2 justify-self-center">
               {/*<img className="aspect-square" src={SmallWhiteStar} alt="Small-White-Star" />*/}
-              <div className="text-3xl md:text-5xl/20 text-myWhite font-myFont font-semibold text-center">
+              <div className="text-xl/8 md:text-4xl/14 text-myWhite font-myFont font-semibold text-center">
                 Grow Smarter, Faster, and Stronger with&nbsp;
                 <HighlightedText text={"Our Proven Expertise"} />
               </div>
@@ -79,8 +79,8 @@ const ProvenExpertiseSection = () => {
                         <div  className="bg-myLigtBackground p-6 lg:p-12 rounded-4xl text-myWhite font-myFont drop-shadow-xl">
                           <p className="text-4xl md:text-5xl font-bold font-myNumberFont text-myGrayText">0{item.id}</p>
                           <img className="object-cover rounded-4xl mt-4 md:mt-8 h-80 justify-self-center" src={item.banner} alt="image" /> 
-                          <p className="text-2xl md:text-3xl font-bold mt-6 md:mt-8">{item.title}</p>
-                          <p className="text-lg md:text-xl mt-3">{item.description}</p>
+                          <p className="text-xl/8 md:text-3xl/10 font-bold mt-6 md:mt-8">{item.title}</p>
+                          <p className="text-lg/8 md:text-xl/10 mt-3">{item.description}</p>
                         </div>
                       </div>
                     ))

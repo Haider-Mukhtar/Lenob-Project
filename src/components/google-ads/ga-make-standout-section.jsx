@@ -6,17 +6,17 @@ const GAMakeStandoutSection = () => {
     <div className="">
       <MaxWidthWrapper>
         <div className="w-full lg:w-[80%] justify-self-center px-2 space-y-8">
-          <p className="font-myFont text-3xl/14 md:text-5xl/20 font-bold text-myBlack text-center">
+          <p className="font-myFont text-xl/8 md:text-3xl/10 font-bold text-myBlack text-center">
             Stories that Make us Stand to Our World
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 px-4 lg:px-0">
                               <div className="rounded-4xl text-myWhite font-myFont overflow-hidden bg-myCard1 hover:scale-105 transition-transform duration-300">
                                 <p className="text-xl md:text-2xl justify-self-start font-myFont text-myWhite bg-myBlack p-5 rounded-br-2xl">01</p>
                                 <div className="px-8 py-4 space-y-4 text-myBlack">
-                                <div className="text-xl md:text-2xl font-bold text-myBlack mb-8">
+                                <div className="text-xl/8 md:text-2xl/10 font-bold text-myBlack mb-8">
                                 Generated <span className="text-red-500">65%</span> More Signups While Lowering CPA by <span className="text-red-500">18%</span>
                               </div>
-                                  <div className="text-lg md:text-xl">
+                                  <div className="text-lg">
                                     <span className="font-semibold">Industry:</span>&nbsp;
                                     Financial Services
                                   </div>
@@ -37,14 +37,14 @@ const GAMakeStandoutSection = () => {
                               <div className="rounded-4xl text-myWhite font-myFont overflow-hidden bg-myCard2 hover:scale-105 transition-transform duration-300">
                                 <p className="text-xl md:text-2xl justify-self-start font-myFont text-myWhite bg-myBlack p-5 rounded-br-2xl">02</p>
                                 <div className="px-8 py-4 space-y-4 text-myBlack">
-                                <div className="text-xl md:text-2xl font-bold text-myBlack mb-8">
+                                <div className="text-xl/8 md:text-2xl/10 font-bold text-myBlack mb-8">
                                 Generated&nbsp;
                                 <span className="text-red-500">$1M+</span>
                                 &nbsp;in Purchase Revenue with&nbsp;
                                 <span className="text-red-500">15%</span>
                                 <p>Lower CPA</p>
                               </div>
-                                  <div className="text-lg md:text-xl">
+                                  <div className="text-lg">
                                     <span className="font-semibold">Industry:</span>&nbsp;
                                     Apparel Ecommerce
                                   </div>
@@ -65,14 +65,14 @@ const GAMakeStandoutSection = () => {
                               <div className="rounded-4xl text-myWhite font-myFont overflow-hidden bg-myCard3 hover:scale-105 transition-transform duration-300">
                                 <p className="text-xl md:text-2xl justify-self-start font-myFont text-myWhite bg-myBlack p-5 rounded-br-2xl">03</p>
                                 <div className="px-8 py-4 space-y-4 text-myBlack">
-                                <div className="text-xl md:text-2xl font-bold text-myBlack mb-8">
+                                <div className="text-xl/8 md:text-2xl/10 font-bold text-myBlack mb-8">
                                 Generated&nbsp;
                                 <span className="text-red-500">1283 Leads</span>
                                 &nbsp;in PPC Paid Search with&nbsp;
                                 <span className="text-red-500">18%</span>
                                 <p>Lower CPA</p>
                               </div>
-                                  <div className="text-lg md:text-xl">
+                                  <div className="text-lg">
                                     <span className="font-semibold">Industry:</span>&nbsp;
                                     Insurance
                                   </div>

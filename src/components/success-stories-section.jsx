@@ -13,11 +13,13 @@ const SuccessStoriesSection = () => {
         <div className="w-full lg:w-[90%] justify-self-center px-2 py-10 ">
           <div className="font-myFont w-full lg:w-[70%] justify-self-center">
             {/*<img className="aspect-square justify-self-start" src={SmallBlueStar} alt="Small-White-Star" />*/}
-            <div className="text-3xl md:text-5xl/20 text-myBlack text-center font-semibold ">
+            <div className="text-xl/8 md:text-4xl/14 text-myBlack text-center font-semibold ">
               <HighlightedText text={"Success"} />
               &nbsp;Stories of our loyal clients
             </div>
-            <p className="text-myGrayText text-xl text-center mt-6">At Captens, we turn visions into victories—delivering growth so impactful, it leaves every client smiling from ear to ear!</p>
+            <p className="text-myGrayText text-lg md:text-xl text-center mt-6">
+              At Captens, we turn visions into victories—delivering growth so impactful, it leaves every client smiling from ear to ear!
+            </p>
             <img className="aspect-square justify-self-end" src={SmallBlueStar} alt="Small-White-Star" />
           </div>
           {/*Mobile*/}

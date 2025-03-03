@@ -58,7 +58,7 @@ const FamilyBusinessesSection = () => {
       <LeftSideVerticalText text={"Family Businesses"} className="bg-myPrimary -left-18" />
         <div className="w-full lg:w-[90%] justify-self-center px-2">
           <div className="pt-10 lg:pt-20 lg:flex justify-center items-center ">
-            <div className="text-3xl md:text-5xl/20 text-myBlack font-myFont font-semibold text-center">
+            <div className="text-xl/8 md:text-4xl/14 text-myBlack font-myFont font-semibold text-center">
               Our&nbsp;
               <HighlightedText text={"Family Businesses"} />
               &nbsp;we have <br className="hidden lg:block"/> helped Grow
@@ -78,8 +78,8 @@ const FamilyBusinessesSection = () => {
                     <div className={`${item.cardColor} rounded-4xl text-myWhite font-myFont overflow-hidden`}>
                       <p className="text-xl md:text-2xl justify-self-start font-myFont text-myWhite bg-myBlack p-5 rounded-br-2xl">0{item.id}</p>
                       <div className="px-8 py-4 space-y-4 text-myBlack">
-                        <p className="text-xl md:text-3xl font-semibold">{item.title}</p>
-                        <div className="text-lg md:text-xl">
+                        <p className="text-xl/8 md:text-2xl/10 font-semibold">{item.title}</p>
+                        <div className="text-lg">
                           <span className="font-semibold">Challenge:</span>&nbsp;
                           {item.challenge}
                         </div>

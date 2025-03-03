@@ -17,12 +17,14 @@ const ClientsSaysSection = () => {
             <div className="w-full lg:w-[80%] justify-self-center px-2">
               <div className="font-myFont w-full justify-self-center">
                 {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
-                <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold ">
+                <div className="text-xl/8 md:text-4xl/14 text-myWhite text-center font-semibold ">
                   What&nbsp;   
                   <HighlightedText text={"Our Clients"} />
                   &nbsp;Say about Us
                 </div>
-                <p className="text-myGrayText text-xl text-center mt-10">At Lenob, we turn visions into victories—delivering growth so impactful, it leaves <br className="hidden lg:block"/> every client smiling from ear to ear!</p>
+                <p className="text-myGrayText text-lg md:text-xl text-center mt-10">
+                  At Lenob, we turn visions into victories—delivering growth so impactful, it leaves <br className="hidden lg:block" /> every client smiling from ear to ear!
+                </p>
                 {/*<img className="aspect-square justify-self-start" src={SmallWhiteStar} alt="Small-White-Star" />*/}
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 py-10">

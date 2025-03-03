@@ -11,8 +11,8 @@ const GAIndustriesServedSection = () => {
   return (
     <div className="pt-16">
       <MaxWidthWrapper>
-        <div className="w-full lg:w-[80%] justify-self-center px-2">
-          <p className="font-myFont text-3xl/14 md:text-5xl/20 font-bold text-myBlack text-center">
+        <div className="w-full lg:w-[70%] justify-self-center px-2">
+          <p className="font-myFont text-xl/8 md:text-3xl/10 font-bold text-myBlack text-center">
             Industries we have Proudly Served
           </p>
           {/*Mobile*/}
@@ -88,13 +88,13 @@ const GAIndustriesServedSection = () => {
                 <img className="aspect-video w-full object-cover" src={ECommerceBanner} alt="ECommerce-Banner" />
               </div>
               <div className="font-myFont text-myBlack space-y-4">
-                <p className="text-xl md:text-3xl font-bold">E-commerce</p>
+                <p className="text-xl md:text-2xl font-bold">E-commerce</p>
                 <p className="text-lg md:text-xl/10">Boost online sales with targeted advertising strategies that drive qualified traffic to your store.</p>
               </div>
             </div>
             <div className="grid grid-cols-2 items-center gap-10 lg:gap-20">
               <div className="font-myFont text-myBlack space-y-4">
-                <p className="text-xl md:text-3xl font-bold">Healthcare</p>
+                <p className="text-xl md:text-2xl font-bold">Healthcare</p>
                 <p className="text-lg md:text-xl/10">Attract new patients and promote health services with compliant and effective ad campaigns.</p>
               </div>
               <div className="border-[12px] border-myGrayText rounded-md justify-self-center w-full">
@@ -106,13 +106,13 @@ const GAIndustriesServedSection = () => {
                 <img className="aspect-video w-full object-cover" src={EducationBanner} alt="Education-Banner" />
               </div>
               <div className="font-myFont text-myBlack space-y-4">
-                <p className="text-xl md:text-3xl font-bold">Education</p>
+                <p className="text-xl md:text-2xl font-bold">Education</p>
                 <p className="text-lg md:text-xl/10">Enhance enrollment rates by reaching prospective students with tailored messaging.</p>
               </div>
             </div>
             <div className="grid grid-cols-2 items-center gap-10 lg:gap-20">
               <div className="font-myFont text-myBlack space-y-4">
-                <p className="text-xl md:text-3xl font-bold">Technology</p>
+                <p className="text-xl md:text-2xl font-bold">Technology</p>
                 <p className="text-lg md:text-xl/10">Promote your tech solutions to a targeted audience, driving awareness and adoption.</p>
               </div>
               <div className="border-[12px] border-myGrayText rounded-md justify-self-center w-full">
@@ -124,13 +124,13 @@ const GAIndustriesServedSection = () => {
                 <img className="aspect-video w-full object-cover" src={FinancialBanner} alt="Financial-Banner" />
               </div>
               <div className="font-myFont text-myBlack space-y-4">
-                <p className="text-xl md:text-3xl font-bold">Financial Institutions</p>
+                <p className="text-xl md:text-2xl font-bold">Financial Institutions</p>
                 <p className="text-lg md:text-xl/10">Drive customer acquisition and promote financial products with precision-targeted ads.</p>
               </div>
             </div>
             <div className="grid grid-cols-2 items-center gap-10 lg:gap-20">
               <div className="font-myFont text-myBlack space-y-4">
-                <p className="text-xl md:text-3xl font-bold">Legal</p>
+                <p className="text-xl md:text-2xl font-bold">Legal</p>
                 <p className="text-lg md:text-xl/10">Attract potential clients and increase visibility with strategies tailored to legal practices.</p>
               </div>
               <div className="border-[12px] border-myGrayText rounded-md justify-self-center w-full">
@@ -142,7 +142,7 @@ const GAIndustriesServedSection = () => {
                 <img className="aspect-video w-full object-cover" src={InsuranceBanner} alt="Insurance-Banner" />
               </div>
               <div className="font-myFont text-myBlack space-y-4">
-                <p className="text-xl md:text-3xl font-bold">Insurance</p>
+                <p className="text-xl md:text-2xl font-bold">Insurance</p>
                 <p className="text-lg md:text-xl/10">Generate high-quality leads and build trust with campaigns tailored to insurance providers.</p>
               </div>
             </div>

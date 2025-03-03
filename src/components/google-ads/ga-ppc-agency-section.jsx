@@ -16,10 +16,10 @@ const GAPPCAgencySection = () => {
       <div className=" bg-myDarkBackground skew-y-[2deg]">
         <MaxWidthWrapper>
         <LeftSideVerticalText text={"PPC Agency"} className="bg-myLightGray -left-11" />
-          <div className="w-full lg:w-[80%] justify-self-center px-2 py-10 ">
+          <div className="w-full lg:w-[70%] justify-self-center px-2 py-10 ">
             <div className="font-myFont w-full justify-self-center">
               {/*<img className="aspect-square justify-self-end" src={SmallWhiteStar} alt="Small-White-Star" />*/}
-              <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold ">
+              <div className="text-xl/8 md:text-4xl/14 text-myWhite text-center font-semibold ">
                 Work with the&nbsp;   
                 <HighlightedText text={"best PPC Agency"} />
                 &nbsp;and double your Revenues, not your budget
@@ -28,31 +28,31 @@ const GAPPCAgencySection = () => {
             </div>
             <div className="mt-10 space-y-14">
               <div className="font-myFont text-myWhite flex gap-4 md:gap-12">
-                <p className="font-extrabold text-5xl md:text-6xl">01</p>
+                <p className="font-extrabold text-4xl md:text-5xl">01</p>
                 <div className="space-y-2">
-                  <p className="font-bold text-xl md:text-3xl">Certified Google Partners:</p>
-                  <p className="text-lg md:text-2xl">Our team comprises certified professionals with a proven track record in managing successful Google Ads campaigns across diverse industries.</p>
+                  <p className="font-bold text-lg/8 md:text-2xl/10">Certified Google Partners:</p>
+                  <p className="text-lg md:text-xl">Our team comprises certified professionals with a proven track record in managing successful Google Ads campaigns across diverse industries.</p>
                 </div>
               </div>
               <div className="font-myFont text-myWhite flex gap-4 md:gap-12">
-                <p className="font-extrabold text-5xl md:text-6xl">02</p>
+                <p className="font-extrabold text-4xl md:text-5xl">02</p>
                 <div className="space-y-2">
-                  <p className="font-bold text-xl md:text-3xl">Tailored Strategies:</p>
-                  <p className="text-lg md:text-2xl">We understand that every business is unique. Our bespoke campaigns are crafted to align with your specific goals and market dynamics.</p>
+                  <p className="font-bold text-lg/8 md:text-2xl/10">Tailored Strategies:</p>
+                  <p className="text-lg md:text-xl">We understand that every business is unique. Our bespoke campaigns are crafted to align with your specific goals and market dynamics.</p>
                 </div>
               </div>
               <div className="font-myFont text-myWhite flex gap-4 md:gap-12">
-                <p className="font-extrabold text-5xl md:text-6xl">03</p>
+                <p className="font-extrabold text-4xl md:text-5xl">03</p>
                 <div className="space-y-2">
-                  <p className="font-bold text-xl md:text-3xl">Transparent Reporting:</p>
-                  <p className="text-lg md:text-2xl">Stay informed with clear and detailed performance reports, providing insights into your campaign's effectiveness and ROI.</p>
+                  <p className="font-bold text-lg/8 md:text-2xl/10">Transparent Reporting:</p>
+                  <p className="text-lg md:text-xl">Stay informed with clear and detailed performance reports, providing insights into your campaign's effectiveness and ROI.</p>
                 </div>
               </div>
               <div className="font-myFont text-myWhite flex gap-4 md:gap-12">
-                <p className="font-extrabold text-5xl md:text-6xl">04</p>
+                <p className="font-extrabold text-4xl md:text-5xl">04</p>
                 <div className="space-y-2">
-                  <p className="font-bold text-xl md:text-3xl">Comprehensive Management:</p>
-                  <p className="text-lg md:text-2xl">From initial setup to continuous optimization, we handle all aspects of your Google Ads campaigns, allowing you to focus on your core business operations.</p>
+                  <p className="font-bold text-lg/8 md:text-2xl/10">Comprehensive Management:</p>
+                  <p className="text-lg md:text-xl">From initial setup to continuous optimization, we handle all aspects of your Google Ads campaigns, allowing you to focus on your core business operations.</p>
                 </div>
               </div>
             </div>
@@ -60,15 +60,15 @@ const GAPPCAgencySection = () => {
               <Marquee pauseOnHover>
                       <div  className="bg-myLigtBackground m-3 p-6 rounded-4xl text-myWhite font-myFont drop-shadow-xl hover:scale-105 transition-transform duration-500">
                         <img className="object-cover rounded-2xl md:rounded-4xl h-40 md:h-60 w-full aspect-video" src={ShoppingAdsBanner} alt="image" /> 
-                        <p className="text-xl md:text-3xl font-bold mt-6">Shopping  Ads</p>
+                        <p className="text-lg md:text-2xl font-bold mt-6">Shopping  Ads</p>
                       </div>
                       <div  className="bg-myLigtBackground m-3 p-6 rounded-4xl text-myWhite font-myFont drop-shadow-xl hover:scale-105 transition-transform duration-500">
                         <img className="object-cover rounded-2xl md:rounded-4xl h-40 md:h-60 w-full aspect-video" src={DisplayAdsBanner} alt="image" /> 
-                        <p className="text-xl md:text-3xl font-bold mt-6">Display Ads</p>
+                        <p className="text-lg md:text-2xl font-bold mt-6">Display Ads</p>
                       </div>
                       <div  className="bg-myLigtBackground m-3 p-6 rounded-4xl text-myWhite font-myFont drop-shadow-xl hover:scale-105 transition-transform duration-500">
                         <img className="object-cover rounded-2xl md:rounded-4xl w-full h-40 md:h-60 aspect-video" src={YoutubeAdsBanner} alt="image" /> 
-                        <p className="text-xl md:text-3xl font-bold mt-6">Youtube  Ads</p>
+                        <p className="text-lg md:text-2xl font-bold mt-6">Youtube  Ads</p>
                       </div>
               </Marquee>
             </div>
