@@ -7,36 +7,42 @@ const ContactForm = () => {
     fname: "",
     lname: "",
     email: "",
-    companysize: "",
     businesstype: "",
     role: "",
     helpmsg: "",
-  })
+    companysize: "0 - 10", // Default selection
+  });
+
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const companySizeOptions = ["0 - 10", "10 - 20", "20 - 30", "30 - 40", "50 +"];
 
   const handleChange = (e) => {
-    const { name, value } = e.target
+    const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
       [name]: value,
-    }))
-  }
+    }));
+  };
+
+  const handleSelectCompanySize = (size) => {
+    setFormData((prev) => ({ ...prev, companysize: size }));
+    setDropdownOpen(false);
+  };
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
-    // Add your form submission logic here
-    console.log("Form submitted:", formData)
-
-    // Reset form after submission
+    e.preventDefault();
+    console.log("Form submitted:", formData);
     setFormData({
       fname: "",
       lname: "",
       email: "",
-      companysize: "",
       businesstype: "",
       role: "",
       helpmsg: "",
-    })
-  }
+      companysize: "0 - 10",
+    });
+  };
+
   return (
     <div className="w-full lg:w-[80%] justify-self-center px-2 space-y-8">
             <div className="font-myFont text-xl/8 md:text-4xl/14 font-bold text-center text-myWhite">
@@ -107,21 +113,19 @@ const ContactForm = () => {
                   className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-cyan-500 focus:ring-2 focus:ring-cyan-200 outline-none transition-colors"
                 />
               </div>
-              <div className="space-y-2">
-                <label htmlFor="companysize" className="block text-sm font-medium text-myWhite">
-                  Company Size
-                </label>
-                <input
-                  type="number"
-                  id="companysize"
-                  name="companysize"
-                  value={formData.companysize}
-                  onChange={handleChange}
-                  required
-                  placeholder="0 - 10"
-                  className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-cyan-500 focus:ring-2 focus:ring-cyan-200 outline-none transition-colors"
-                />
-              </div>
+              <div className="space-y-2 relative">
+              <label className="block text-sm font-medium text-myWhite">Company Size</label>
+              <button type="button" onClick={() => setDropdownOpen(!dropdownOpen)} className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-cyan-500 focus:ring-2 focus:ring-cyan-200 outline-none transition-colors text-left text-gray-500 text-sm font-medium">
+                {formData.companysize}
+              </button>
+              {dropdownOpen && (
+                <div className="absolute w-full bg-gray-50 border border-gray-200 rounded-lg mt-2 z-10 text-sm font-medium text-gray-500">
+                  {companySizeOptions.map((size) => (
+                    <p key={size} onClick={() => handleSelectCompanySize(size)} className="px-4 py-2 cursor-pointer hover:bg-gray-200 ">{size}</p>
+                  ))}
+                </div>
+              )}
+            </div>
               <div className="space-y-2">
                 <label htmlFor="businesstype" className="block text-sm font-medium text-myWhite">
                   What is your type of business?
