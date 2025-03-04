@@ -11,7 +11,7 @@ const EMHeroSection = () => {
             <HighlightedText text={"Business 5X in 90 Days"} />
             &nbsp;and Turn Traffic Into Repeat Buyers
         </div>
-        <div className="font-myFont text-xl md:text-3xl text-center md:mx-12 text-myWhite">
+        <div className="font-myFont text-xl/8 md:text-2xl/10 text-center md:mx-12 text-myWhite">
         Your eCommerce store deserves more than just traffic—it deserves transformation. Take your online store to new heights with proven strategies that deliver traffic, skyrocket sales, and build lasting customer loyalty.
         </div>
       </div>

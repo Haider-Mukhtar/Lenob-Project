@@ -12,12 +12,12 @@ const EMOwnerTrust = () => {
       <div className="skew-y-[2deg] py-16">
           <MaxWidthWrapper>
           <LeftSideVerticalText text={"Owner Trust"} className="bg-myLightGray -left-12" />
-            <div className="w-full lg:w-[80%] justify-self-center px-2">
-            <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold "> 
+            <div className="w-full lg:w-[60%] justify-self-center px-2">
+            <div className="text-xl/8 md:text-4xl/14 text-myWhite text-center font-semibold "> 
             <HighlightedText text={"The Lenob.co Difference:"} />
             &nbsp;Why eCommerce Owners Trust Us
               </div>
-              <div className='font-myFont text-xl md:text-3xl text-myWhite'>
+              <div className='font-myFont text-lg/8 md:text-xl/10 text-myWhite'>
               <ul className=''>
                 <li className='font-bold mt-14'>
                 We Don’t Just Deliver Clicks—We Deliver Sales

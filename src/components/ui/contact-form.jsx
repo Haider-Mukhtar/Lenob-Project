@@ -39,17 +39,17 @@ const ContactForm = () => {
   }
   return (
     <div className="w-full lg:w-[80%] justify-self-center px-2 space-y-8">
-            <div className="font-myFont text-3xl md:text-5xl/20 font-bold text-center text-myWhite">
+            <div className="font-myFont text-xl/8 md:text-4xl/14 font-bold text-center text-myWhite">
                 <HighlightedText text={"Partner With us"} />
             </div>
           <div className="grid grid-cols-1 md:grid-cols-2 items-center mt-10">
             <div className="w-[80%]">
               <div className="text-myWhite">
-                <p className="font-bold text-2xl md:text-4xl/20 lg:text-5xl/20">Get in Touch</p>
+                <p className="font-bold text-lg/8 md:text-3xl/10">Get in Touch</p>
                 <p className="text-base md:text-lg font-extralight">Thank you for considering Lenob to grow your business. Simply fill out the form below, and we'll be in touch shortly to guide you through the next steps.</p>
               </div>
               <div className="text-myWhite md:mt-20 mt-6">
-                <p className="font-bold text-xl md:text-3xl/20">Our Process</p>
+                <p className="font-bold text-lg/8 md:text-3xl/10">Our Process</p>
                     <ul className="text-base md:text-lg font-extralight list-disc list-inside">
                       <li>Initial Email Discovery</li>
                       <li>Introductory Call</li>

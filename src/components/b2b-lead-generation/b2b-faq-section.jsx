@@ -11,11 +11,11 @@ const B2BFAQSection = () => {
     <div className="my-10">
       <MaxWidthWrapper>
       <LeftSideVerticalText text={"FAQ"} className="bg-myPrimary -left-3" />
-        <div className="w-full md:w-[95%] lg:[80%] justify-self-center px-2 space-y-14">
-          <div className="text-3xl md:text-5xl/20 text-myBlack text-center font-semibold ">  
+        <div className="w-full md:w-[80%] lg:[80%] justify-self-center px-2 space-y-14">
+          <div className="text-xl/8 md:text-4xl/14 text-myBlack text-center font-semibold ">  
             <HighlightedText text={"FAQs: Your Questions, Answered"} />
           </div>
-          <div className="font-myFont">
+          <div className="font-myFont text-base">
             {faqData.map((faq, index) => (
               <div key={index} className="mb-4">
                 <button

@@ -9,12 +9,12 @@ const B2BColdProspectsSection = () => {
     <MaxWidthWrapper>
     <LeftSideVerticalText text={"Leads"} className="bg-myPrimary -left-5" />
     <div className="w-full lg:w-[70%] justify-self-center px-2">
-    <div className="mx-10 text-3xl md:text-5xl/20 text-myBlack text-center font-semibold "> 
+    <div className="mx-10 text-xl/8 md:text-4xl/14 text-myBlack text-center font-semibold "> 
             How&nbsp;
             <HighlightedText text={"We Turn Cold Prospects into Hot"} />
             &nbsp;Leads
       </div>
-      <div className='font-myFont text-xl md:text-3xl/12 text-myBlack mt-10'>
+      <div className='font-myFont text-myBlack mt-10'>
             <div className='flex gap-6'>
               <div className='' >
                 <div className='w-12 h-12 rounded-full flex justify-center items-center bg-[#A990DD] text-myWhite font-bold'>
@@ -23,8 +23,8 @@ const B2BColdProspectsSection = () => {
                 <div className='bg-[#A990DD] w-1 h-full justify-self-center'></div>
               </div>
               <div>
-              <p className='font-bold'>Discovery & Strategy:</p>
-              <p>We dive deep into your business to define your ideal customer profile (ICP) and craft a winning strategy.</p>
+              <p className='font-bold text-lg/8 md:text-2xl/10'>Discovery & Strategy:</p>
+              <p className='text-lg/8 md:text-xl/10'>We dive deep into your business to define your ideal customer profile (ICP) and craft a winning strategy.</p>
               </div>
             </div>
             <div className='flex gap-6 mt-10'>
@@ -35,8 +35,8 @@ const B2BColdProspectsSection = () => {
                 <div className='bg-[#A990DD] w-1 h-full justify-self-center'></div>
               </div>
               <div>
-              <p className='font-bold'>Advanced Ad Targeting:</p>
-              <p>Using the power of Google, Meta, and LinkedIn, we create hyper-targeted campaigns that reach the right people.</p>
+              <p className='font-bold text-lg/8 md:text-2xl/10'>Advanced Ad Targeting:</p>
+              <p className='text-lg/8 md:text-xl/10'>Using the power of Google, Meta, and LinkedIn, we create hyper-targeted campaigns that reach the right people.</p>
               </div>
             </div>
             <div className='flex gap-6 mt-10'>
@@ -47,8 +47,8 @@ const B2BColdProspectsSection = () => {
                 <div className='bg-[#A990DD] w-1 h-full justify-self-center'></div>
               </div>
               <div>
-              <p className='font-bold'>Lead Nurturing Sequences:</p>
-              <p>Through email and retargeting, we keep your leads engaged and guide them through the funnel.</p>
+              <p className='font-bold text-lg/8 md:text-2xl/10'>Lead Nurturing Sequences:</p>
+              <p className='text-lg/8 md:text-xl/10'>Through email and retargeting, we keep your leads engaged and guide them through the funnel.</p>
               </div>
             </div>
             <div className='flex gap-6 mt-10'>
@@ -58,8 +58,8 @@ const B2BColdProspectsSection = () => {
                 </div>
               </div>
               <div>
-              <p className='font-bold'>A/B Testing & Optimization:</p>
-              <p>We constantly refine your campaigns to ensure maximum efficiency and ROI.</p>
+              <p className='font-bold text-lg/8 md:text-2xl/10'>A/B Testing & Optimization:</p>
+              <p className='text-lg/8 md:text-xl/10'>We constantly refine your campaigns to ensure maximum efficiency and ROI.</p>
               </div>
             </div>
       </div>

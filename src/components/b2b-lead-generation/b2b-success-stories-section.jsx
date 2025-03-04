@@ -14,7 +14,7 @@ const B2BSuccessStoriesSection = () => {
       <MaxWidthWrapper>
       <LeftSideVerticalText text={"Success Stories"} className="bg-myLightGray -left-17" />
         <div className="w-full lg:w-[80%] justify-self-center px-4 space-y-8">
-          <div className="font-myFont text-3xl md:text-5xl/20 font-bold text-myWhite text-center">
+          <div className="font-myFont text-xl/8 md:text-4xl/14 font-bold text-myWhite text-center">
           <HighlightedText text={"Success Stories"} />
           &nbsp;See the Results for Yourself
           </div>
@@ -23,23 +23,23 @@ const B2BSuccessStoriesSection = () => {
                               <div className="rounded-4xl text-myWhite font-myFont overflow-hidden bg-myCard1 hover:scale-105 transition-transform duration-300">
                                 <p className="text-xl md:text-2xl justify-self-start font-myFont text-myWhite bg-myBlack p-5 rounded-br-2xl">01</p>
                                 <div className="px-8 py-4 space-y-4 text-myBlack">
-                                <div className="text-xl md:text-2xl font-bold text-myBlack mb-8">
+                                <div className="text-lg md:text-2xl font-bold text-myBlack mb-8">
                                 Case Study: SaaS Company
                               </div>
-                                  <div className="text-lg md:text-xl">
+                                  <div className="text-lg">
                                     <span className="font-semibold">Challenge:</span>&nbsp;
                                     Low response rates from cold outreach.
                                   </div>
-                                  <div className="text-lg md:text-xl">
+                                  <div className="text-lg">
                                     <span className="font-semibold">Solution:</span>&nbsp;
                                     Combined Google Ads with LinkedIn messaging campaigns.
                                   </div>
-                                  <div className="text-lg md:text-xl">
+                                  <div className="text-lg">
                                     <span className="font-semibold">Results:</span>&nbsp;
                                     A&nbsp;<span className='font-bold'>400%</span>increase in qualified leads in just two months.
                                   </div>
                                   <div className="flex justify-center items-center gap-1 px-8 py-2 rounded-full text-myWhite bg-myBlack justify-self-start hover:scale-105 transition-transform duration-300 cursor-pointer mt-10 group">
-                                  <p className="font-myFont text-myWhite text-lg font-bold">Read more</p>
+                                  <p className="font-myFont text-myWhite text-lg font-semibold">Read more</p>
                                   <FiArrowUpRight className="size-6 group-hover:rotate-45 duration-300" />
                                 </div>
               </div>
@@ -48,23 +48,24 @@ const B2BSuccessStoriesSection = () => {
                               <div className="rounded-4xl text-myWhite font-myFont overflow-hidden bg-myCard2 hover:scale-105 transition-transform duration-300">
                                 <p className="text-xl md:text-2xl justify-self-start font-myFont text-myWhite bg-myBlack p-5 rounded-br-2xl">02</p>
                                 <div className="px-8 py-4 space-y-4 text-myBlack">
-                                <div className="text-xl md:text-2xl font-bold text-myBlack mb-8">
+                                <div className="text-lg md:text-2xl font-bold text-myBlack mb-8">
                                 Case Study: Financial Services Firm
                               </div>
-                                  <div className="text-lg md:text-xl">
+                                  <div className="text-lg">
                                     <span className="font-semibold">Challenge:</span>&nbsp;
                                     High cost-per-lead on Meta.
                                   </div>
-                                  <div className="text-lg md:text-xl">
+                                  <div className="text-lg">
                                     <span className="font-semibold">Solution:</span>&nbsp;
                                     Implemented advanced re-targeting and lookalike audiences.
                                   </div>
-                                  <div className="text-lg md:text-xl">
+                                  <div className="text-lg">
                                     <span className="font-semibold">Results:</span>&nbsp;
                                     Cut CPL by&nbsp;<span className='font-bold'>35%</span>&nbsp;while doubling lead volume.
-                </div>
+                    </div>
+                    
                 <div className="flex justify-center items-center gap-1 px-8 py-2 rounded-full text-myWhite bg-myBlack justify-self-start hover:scale-105 transition-transform duration-300 cursor-pointer mt-10 group">
-                                  <p className="font-myFont text-myWhite text-lg font-bold">Read more</p>
+                                  <p className="font-myFont text-myWhite text-lg font-semibold">Read more</p>
                                   <FiArrowUpRight className="size-6 group-hover:rotate-45 duration-300" />
                                 </div>
                                 </div>
@@ -73,23 +74,23 @@ const B2BSuccessStoriesSection = () => {
                               <div className="rounded-4xl text-myWhite font-myFont overflow-hidden bg-myCard3 hover:scale-105 transition-transform duration-300">
                                 <p className="text-xl md:text-2xl justify-self-start font-myFont text-myWhite bg-myBlack p-5 rounded-br-2xl">03</p>
                                 <div className="px-8 py-4 space-y-4 text-myBlack">
-                                <div className="text-xl md:text-2xl font-bold text-myBlack mb-8">
+                                <div className="text-lg md:text-2xl font-bold text-myBlack mb-8">
                                 Case Study: Manufacturing Brand
                               </div>
-                                  <div className="text-lg md:text-xl">
+                                  <div className="text-lg">
                                     <span className="font-semibold">Challenge:</span>&nbsp;
                                     Difficulty breaking into new verticals.
                                   </div>
-                                  <div className="text-lg md:text-xl">
+                                  <div className="text-lg">
                                     <span className="font-semibold">Solution:</span>&nbsp;
                                     Built a targeted Google Ads campaign and accompanying email sequence.
                                   </div>
-                                  <div className="text-lg md:text-xl">
+                                  <div className="text-lg">
                                     <span className="font-semibold">Results:</span>&nbsp;
                                     <span className='font-bold'> $500,000</span>&nbsp;in new contracts generated within three months.
                 </div>
                 <div className="flex justify-center items-center gap-1 px-8 py-2 rounded-full text-myWhite bg-myBlack justify-self-start hover:scale-105 transition-transform duration-300 cursor-pointer mt-10 group">
-                                  <p className="font-myFont text-myWhite text-lg font-bold">Read more</p>
+                                  <p className="font-myFont text-myWhite text-lg font-semibold">Read more</p>
                                   <FiArrowUpRight className="size-6 group-hover:rotate-45 duration-300" />
                                 </div>
                                 </div>

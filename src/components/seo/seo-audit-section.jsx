@@ -13,8 +13,8 @@ const SEOAuditSection = () => {
       <div className="skew-y-[2deg] py-16">
           <MaxWidthWrapper className={"border-white"}>
           <LeftSideVerticalText text={"Free SEO Audit"} className="bg-myLightGray -left-14" />
-            <div className="w-full lg:w-[70%] justify-self-center px-4 py-10 font-myFont">
-            <div className="text-3xl md:text-5xl/20 text-myWhite text-center font-semibold mt-6"> 
+            <div className="w-full lg:w-[50%] justify-self-center px-4 py-10 font-myFont">
+            <div className="text-xl/8 md:text-4xl/14 text-myWhite text-center font-semibold mt-6"> 
             Your Free SEO Audit&nbsp;
             <HighlightedText text={"What to Expect 👀"} />
               </div>
@@ -23,11 +23,11 @@ const SEOAuditSection = () => {
     { heading: "Competitive Landscape Evaluation", text: "Understand how you stack up against your competitors and where you can outperform them." },
     { heading: "Tailored Action Plan", text: "Get a step-by-step roadmap to boost your rankings, traffic, and revenue." },
               ].map((item, index) => (
-                <div key={index} className="flex gap-4 font-myFont text-myWhite text-lg md:text-3xl/10 font-medium space-y-10 mt-10">
-                  <img src={BlueTick} className="size-7 md:size-8 fill-myDarkPrimary flex-shrink-0 mt-2" />
+                <div key={index} className="flex gap-4 font-myFont text-myWhite font-medium space-y-10 mt-10">
+                  <img src={BlueTick} className="size-5 md:size-7 fill-myDarkPrimary flex-shrink-0 mt-2" />
                   <div>
-                    <p className='font-bold'>{item.heading}</p>
-                    <p>{item.text}</p>
+                    <p className='font-bold text-lg/8 md:text-2xl/10'>{item.heading}</p>
+                    <p className='text-lg/8 md:text-xl/10'>{item.text}</p>
                   </div>
                 </div>
               ))}

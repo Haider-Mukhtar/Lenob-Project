@@ -10,10 +10,10 @@ const B2BHeroSection = () => {
             <HighlightedText text={"B2B Lead Generation"} />
             &nbsp;The Ultimate System for Consistent, High-Quality Leads That Drive Real Revenue Growth
         </div>
-        <div className="font-myFont text-xl md:text-3xl text-center md:mx-12 text-myWhite font-bold mt-12">
+        <div className="font-myFont text-xl/8 md:text-2xl/10 text-center md:mx-12 text-myWhite font-bold mt-12">
         Turn your Ad Spend into a Flood of Qualified Leads for Your Sales Team
         </div>
-        <div className="font-myFont text-xl md:text-3xl text-center md:mx-12 text-myWhite mt-4">
+        <div className="font-myFont text-xl/8 md:text-2xl/10 text-center md:mx-12 text-myWhite mt-4">
         We specialize in building and scaling predictable lead generation systems that turn Google, Meta, and LinkedIn ads into a pipeline of sales-ready prospects. Whether you’re a startups, enterprise, or niche industry, we deliver leads that convert.
         </div>
       </div>

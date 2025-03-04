@@ -83,11 +83,11 @@ const FamilyBusinessesSection = () => {
                           <span className="font-semibold">Challenge:</span>&nbsp;
                           {item.challenge}
                         </div>
-                        <div className="text-lg md:text-xl">
+                        <div className="text-lg">
                           <span className="font-semibold">Solution:</span>&nbsp;
                           {item.solution}
                         </div>
-                        <div className="text-lg md:text-xl">
+                        <div className="text-lg">
                           <span className="font-semibold">Results:</span>&nbsp;
                           {item.results}
                         </div>

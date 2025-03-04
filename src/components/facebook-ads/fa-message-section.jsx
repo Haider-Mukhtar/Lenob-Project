@@ -8,13 +8,15 @@ const FAMessageSection = () => {
     <div className="py-16">
     <MaxWidthWrapper>
       <div className="w-full lg:w-[70%] justify-self-center px-2">
-          <p className="font-myFont text-3xl/14 md:text-5xl/20 font-bold text-myBlack ">A Personal Note to Business Owners</p>
-          <div className="font-myFont text-myBlack font-medium text-lg/8 md:text-xl/9">
-            <p className="mt-6">Dear Visionary Entrepreneur,</p>
-            <p className="mt-6">If you're here, it's because you already know the power of Facebook. With over 2.9 billion active users scrolling, liking, and sharing every month, your audience is there.</p>
-            <p className="mt-6">The real question is—are they seeing your brand?</p>
+          <p className="font-myFont text-xl/8 md:text-4xl/14 font-bold text-myBlack text-center">
+            A Personal Note to Business Owners
+          </p>
+          <div className="font-myFont text-myBlack font-medium text-lg/8 md:text-xl/10">
+            <p className="mt-8">Dear Visionary Entrepreneur,</p>
+            <p className="mt-8">If you're here, it's because you already know the power of Facebook. With over 2.9 billion active users scrolling, liking, and sharing every month, your audience is there.</p>
+            <p className="mt-8">The real question is—are they seeing your brand?</p>
             <p>Facebook Ads aren't just another marketing channel—they're a golden opportunity to meet your audience where they already spend their time. But, let's be honest: getting Facebook Ads right is no small feat.</p>
-            <p className="mt-6">We've seen it all:</p>
+            <p className="mt-8">We've seen it all:</p>
             {[
               { text: "Ad budgets drained with nothing to show for it." },
               { text: "Engagement that never translates to sales." },
@@ -25,9 +27,9 @@ const FAMessageSection = () => {
                 <p>{item.text}</p>
               </div>
             ))}
-            <p className="mt-6">That's where we come in.</p>
+            <p className="mt-8">That's where we come in.</p>
             <p>We specialize in turning “likes” into loyal customers, “shares” into sales, and clicks into consistent revenue.</p>
-            <p className="mt-6">One of our recent campaigns achieved:</p>
+            <p className="mt-8">One of our recent campaigns achieved:</p>
             {[
               { text: "8,000+ clicks" },
               { text: "1,400+ conversions" },

@@ -11,7 +11,7 @@ const SEOHeroSection = () => {
             <HighlightedText text={"Transform Your Website into"} />
             &nbsp;a Revenue-Generating Machine
         </div>
-        <div className="font-myFont text-xl md:text-3xl text-center md:mx-12 text-myWhite">
+        <div className="font-myFont text-xl/8 md:text-2xl/10 text-center md:mx-12 text-myWhite">
         SEO isn't just about rankings—it's about revenue. At Lenob.co, we turn your website into a lead-generating machine with strategies that drive traffic, build trust, and convert browsers into buyers.
         </div>
       </div>

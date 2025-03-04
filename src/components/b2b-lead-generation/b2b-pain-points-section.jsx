@@ -11,11 +11,11 @@ const B2BPainPointsSection = () => {
       <div className="skew-y-[2deg] py-16">
       <MaxWidthWrapper>
       <LeftSideVerticalText text={"Pain Points"} className="bg-myLightGray -left-11" />
-        <div className="w-full lg:w-[80%] justify-self-center px-2">
-        <div className="mx-10 text-3xl md:text-5xl/20 text-myWhite text-center font-semibold "> 
+        <div className="w-full lg:w-[60%] justify-self-center px-2">
+        <div className="mx-10 text-xl/8 md:text-4xl/14 text-myWhite text-center font-semibold "> 
         <HighlightedText text={"The Pain Points We Solve"} />
           </div>
-          <div className='font-myFont text-xl md:text-3xl/12 text-myWhite'>
+          <div className='font-myFont text-lg/8 md:text-xl/10 text-myWhite'>
             <ul className='list-decimal list-inside'>
               <li className='font-bold mt-16'>
                 Too Many Unqualified Leads

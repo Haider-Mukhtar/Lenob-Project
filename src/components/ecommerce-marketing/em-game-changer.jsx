@@ -7,12 +7,12 @@ const EMGameChanger = () => {
   return (
     <div>
     <MaxWidthWrapper className={"border-white"}>
-        <div className="w-full lg:w-[80%] justify-self-center px-4 py-10 font-myFont">
-        <div className="text-3xl md:text-5xl/20 text-myBlack text-center font-semibold "> 
+        <div className="w-full lg:w-[60%] justify-self-center px-4 py-10 font-myFont">
+        <div className="text-xl/8 md:text-4xl/14 text-myBlack text-center font-semibold "> 
         <HighlightedText text={"Our Game-Changing Approach"} />
         &nbsp;to eCommerce Success
           </div>
-          <div className='font-myFont text-xl md:text-3xl text-myBlack'>
+          <div className='font-myFont text-lg/8 md:text-xl/10 text-myBlack'>
           <ul className='list-decimal list-inside'>
             <li className='font-bold mt-10'>
             Precision Advertising

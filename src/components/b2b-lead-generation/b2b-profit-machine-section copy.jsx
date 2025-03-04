@@ -11,12 +11,12 @@ const B2BProfitMachineSection = () => {
       <div className="skew-y-[2deg] py-16">
       <MaxWidthWrapper>
       <LeftSideVerticalText text={"Profit Machine"} className="bg-myLightGray -left-15" />
-        <div className="w-full lg:w-[70%] justify-self-center px-2">
-        <div className="mx-10 text-3xl md:text-5xl/20 text-myWhite text-center font-semibold "> 
+        <div className="w-full lg:w-[60%] justify-self-center px-2">
+        <div className="mx-10 text-xl/8 md:text-4xl/14 text-myWhite text-center font-semibold "> 
                 <HighlightedText text={"Ready to Turn Your eCommerce"} />
                 &nbsp;Store into a Profit Machine?
           </div>
-          <div className='font-myFont text-xl md:text-3xl/12 text-myWhite mt-10'>
+          <div className='font-myFont text-lg/8 md:text-xl/10 text-myWhite mt-10'>
             <p>
             It’s time to stop guessing and start scaling. Partner with Lenob.co and experience the difference of data-driven, results-oriented eCommerce marketing.
             </p>

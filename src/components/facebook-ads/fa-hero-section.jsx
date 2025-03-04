@@ -10,7 +10,7 @@ const FAHeroSection = () => {
             <HighlightedText text={"How to Flood Your Business"} />
             &nbsp;with Customers, Clients, and Sales Using Facebook Ads That Actually Work!
         </div>
-        <div className="font-myFont text-xl md:text-3xl text-center md:mx-12 text-myWhite">
+        <div className="font-myFont text-xl/8 md:text-2xl/10 text-center md:mx-12 text-myWhite">
           With 2.6 billion people logging into Facebook monthly, your next big customer is just a click away! Tap into this goldmine of eager buyers ready to spend on your products or services!
         </div>
       </div>
