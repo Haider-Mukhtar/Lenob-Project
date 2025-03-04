@@ -5,6 +5,7 @@ import AWWRSection from '../components/about-us/a-wwr-section'
 import AWWBSection from '../components/about-us/a-wwb-section'
 import AWWDSection from '../components/about-us/a-wwd-section'
 import ACoreValuesSection from '../components/about-us/a-core-values-section'
+import AFormSection from '../components/about-us/a-form-section'
 
 const AboutUs = () => {
     useEffect(() => {
@@ -18,6 +19,7 @@ const AboutUs = () => {
       <AWWBSection />
       <ACoreValuesSection />
       <AWWDSection />
+      <AFormSection />
     </>
   )
 }

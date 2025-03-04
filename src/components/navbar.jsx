@@ -20,7 +20,7 @@ const Navbar = () => {
   const [toggleSubMenuMobile, settoggleSubMenuMobile] = useState(false)
 
   return (
-    <nav className="fixed z-[50] top-0 left-0 w-full bg-white">
+    <nav className="fixed z-[50] top-0 left-0 w-full bg-white drop-shadow-xl">
       <MaxWidthWrapper>
         {/*Desktop*/}
         <div className="hidden lg:flex items-center justify-between px-8 h-[72px]">
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <FaAngleDown />
                 {
                   toggleSubMenu ?
-                  <div className="flex flex-col absolute top-[50px] bg-myWhite px-4 py-8 w-50 rounded-2xl gap-4 items-center transition-transform duration-1000">
+                  <div className="flex flex-col absolute top-[50px] bg-myWhite px-4 py-8 w-50 rounded-2xl gap-4 items-center transition-transform duration-1000 drop-shadow-xl">
                     <Link to="/google-ads">Google Ads</Link>
                     <Link to="/facebook-ads">Facebook Ads</Link>
                     <Link to="/seo">SEO</Link>

@@ -53,13 +53,13 @@ const SEOMessageSection = () => {
           </div>
           <div className="w-full lg:w-[70%] justify-self-center space-y-10 mt-10">
           <div className="w-full justify-self-center px-2">
-            <img className="w-full object-cover" src={SEOImage1} alt="seo-image-1" />
+            <img className="w-full object-cover rounded-lg drop-shadow-xl" src={SEOImage1} alt="seo-image-1" />
           </div>
           <div className="w-full justify-self-center px-2">
-            <img className="w-full object-cover" src={SEOImage2} alt="seo-image-1" />
+            <img className="w-full object-cover rounded-lg drop-shadow-xl" src={SEOImage2} alt="seo-image-1" />
           </div>
           <div className="w-full justify-self-center px-2">
-            <img className="w-full object-cover" src={SEOImage3} alt="seo-image-1" />
+            <img className="w-full object-cover rounded-lg drop-shadow-xl" src={SEOImage3} alt="seo-image-1" />
           </div>
         </div>
         <div className="w-full lg:w-[50%] justify-self-center my-10 px-2 space-y-4">

@@ -9,18 +9,18 @@ const FAImagesScetion = () => {
   return (
     <div className="">
       <MaxWidthWrapper>
-        <div className="space-y-0">
+        <div className="space-y-10">
           <div className="w-full lg:w-[80%] justify-self-center px-2">
-            <img className="w-full object-cover" src={FAImage1} alt="facebook-ads-image-1" />
+            <img className="w-full object-cover rounded-lg drop-shadow-xl" src={FAImage1} alt="facebook-ads-image-1" />
           </div>
           <div className="w-full lg:w-[80%] justify-self-center px-2">
-            <img className="w-full object-cover" src={FAImage2} alt="facebook-ads-image-1" />
+            <img className="w-full object-cover rounded-lg drop-shadow-xl" src={FAImage2} alt="facebook-ads-image-1" />
           </div>
           <div className="w-full lg:w-[80%] justify-self-center px-2">
-            <img className="w-full object-cover" src={FAImage3} alt="facebook-ads-image-1" />
+            <img className="w-full object-cover rounded-lg drop-shadow-xl" src={FAImage3} alt="facebook-ads-image-1" />
           </div>
           <div className="w-full lg:w-[80%] justify-self-center px-2">
-            <img className="w-full object-cover" src={FAImage4} alt="facebook-ads-image-1" />
+            <img className="w-full object-cover rounded-lg drop-shadow-xl" src={FAImage4} alt="facebook-ads-image-1" />
           </div>
         </div>
         <div className="my-10 w-full lg:w-[50%] justify-self-center px-2 space-y-4">
