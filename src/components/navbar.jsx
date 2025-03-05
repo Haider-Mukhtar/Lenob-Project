@@ -48,9 +48,9 @@ const Navbar = () => {
               <Link to="/contact">Contact</Link>
             </div>
           </div>
-          <div className="bg-myPrimary h-12 flex justify-center items-center rounded-full cursor-pointer px-6 border-2 border-myPrimary hover:bg-transparent transition-all duration-300 text-myWhite hover:text-myPrimary">
+          <Link to="/contact" className="bg-myPrimary h-12 flex justify-center items-center rounded-full cursor-pointer px-6 border-2 border-myPrimary hover:bg-transparent transition-all duration-300 text-myWhite hover:text-myPrimary">
             <p className="font-myFont font-bold">Contact Us</p>
-          </div>
+          </Link>
         </div>
         {/*Mobile*/}
         <div className="flex lg:hidden items-center justify-between px-3 h-[72px]">
@@ -91,9 +91,9 @@ const Navbar = () => {
               <Link to="/about-us">About Us</Link>
               <Link to="/privacy">Privacy</Link>
               <Link to="/contact">Contact</Link>
-                <div className="bg-myWhite h-12 flex justify-center items-center rounded-full px-6 hover:border-2 border-myBlack text-myPrimary hover:text-myBlack">
+                <Link to="/contact" className="bg-myWhite h-12 flex justify-center items-center rounded-full px-6 hover:border-2 border-myBlack text-myPrimary hover:text-myBlack">
                   <p className="font-myFont font-bold">Contact Us</p>
-                </div>
+                </Link>
               </div>
               </div>
               : null

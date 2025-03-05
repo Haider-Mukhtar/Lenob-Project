@@ -2,7 +2,7 @@ import { AiOutlineClose,AiOutlinePlus } from "react-icons/ai"
 import MaxWidthWrapper from "../max-width-wrapper"
 import HighlightedText from "../ui/highlighted-text"
 import { useState } from "react"
-import { faqData } from "../../lib/constants"
+import { b2bFAQsData } from "../../lib/constants"
 import LeftSideVerticalText from "../ui/left-side-vertical-text"
 
 const B2BFAQSection = () => {
@@ -16,7 +16,7 @@ const B2BFAQSection = () => {
             <HighlightedText text={"FAQs: Your Questions, Answered"} />
           </div>
           <div className="font-myFont text-base">
-            {faqData.map((faq, index) => (
+            {b2bFAQsData.map((faq, index) => (
               <div key={index} className="mb-4">
                 <button
                   onClick={() => setOpenIndex(openIndex === index ? -1 : index)}
