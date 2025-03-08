@@ -22,7 +22,7 @@ const B2BMessageSection = () => {
             <p className="mt-8">This isn’t wishful thinking—this is what we do.</p>
             <p className="mt-8 text-red-500">We specialize in transforming your ad spend into predictable, scalable pipelines of qualified leads.</p>
             <p className="mt-8">Using Google, Meta, and LinkedIn Ads, we connect you with the decision-makers who matter, ensuring your message is heard by those who are ready to act.</p>
-            <div className="mt-8 justify-self-center">
+            <div className="mt-8 justify-self-center w-[95%]">
             <HighlightedText text={"No more wasted efforts. No more dead ends."} />
             </div>
             <p className="mt-8">Partner with Lenob.co and experience a lead generation system that works as hard as you do.</p>
